@@ -1,0 +1,856 @@
+Messages:
+  Prefix: §6§lSUPERGUILDS §6➥§7
+  Char_Error: §7The text contains inappropriate characters.
+  WorldGuard_Error: §7There is under protection by WorldGuard.
+  Chunk_Error: §7There is another guild here.
+  Dont_Have_Gold_To_Create: §7You do not have enough gold ingot in your inventory
+    to create the guild. You must have §e{NUMBER}§7.
+  Created_Guild: §e{PLAYER}§7, created §b{GUILD} §7guild.
+  Land_Error: §7Your position is not safe.
+  Guild_Name_Length: §7This guild name is too long or too short.
+  That_Guild_Exists: §7There is such a guild.
+  Enter_Guild_Name: §7Enter the guild name.
+  You_Have_Guild: §7You already have a guild.
+  Remove_Confirm: §7Are you sure you want to delete the guild? If you sure, use this
+    command again.
+  Guild_Removed: §7The guild has been deleted.
+  No_Permission: §7You do not have permission for this.
+  You_Dont_Have_Guild: §7You do not have a guild.
+  You_Arent_Leader: §7You're not the leader of the guild.
+  Guild_Remove_Broadcast: §c{GUILD} §7has been disbanded.
+  Option_Disabled: §7This feature is disabled.
+  No_Rank: §7Your guild rank is not enough.
+  You_Dont_Have_This_Chunk: §7Your guild hasn't this chunk.
+  Done_Set_Home: §7The guild home is set.
+  Teleporting_Message: §7You will be teleported in §e{TIME} §7seconds.
+  Teleport_Cancel: §7The teleporting was canceled because you moved.
+  Teleport_Done: §7You are teleported successfully.
+  Already_Teleport: §7You are already teleporting right now.
+  Teleport_Starting: §7The teleporting has started, please do not move.
+  GUIPrefix: §8§l» §8
+  Guild_Management: Guild Management
+  Manage_Panel_2: §6You
+  Guild_Info: §6Guild Information
+  Guild_Info_Lore: '||§7Click to see the guild information.'
+  Guild_Store: §6Guild Storage
+  Guild_Store_Lore: '||§7Click to open guild storage.'
+  Claimed_Lands: §6Claimed Lands
+  Claimed_Lands_Lore: '||§7Click to see claims of your guild.'
+  Guild_Alchemy: §6Guild Alchemy
+  Guild_Alchemy_Lore: '||§7Click here to open alchemy menu.'
+  Check_Players: §6Player List
+  Check_Players_Lore: '||§7Click here to see the list of guild players.'
+  Guild_Buildings: §6Guild Buildings
+  Guild_Buildings_Lore: '||§7Click to see guild buildings.'
+  Guild_Info_Header: Guild Information
+  Guild_Info_1: §6Guild ID
+  Guild_Info_1_Lore: '||§eName:||§f{NAME}||||§eEmblem:||§f{EMBLEM}||||§eCurrent Leader:||§f{LEADER}'
+  Guild_Info_2: §6Guild Foundation
+  Guild_Info_2_Lore: '||§eDate Of Foundation:||§f{TIME}||||§eCreator:||§f{CREATOR}'
+  Guild_Info_3: §6Guild Status
+  Guild_Info_3_Lore: '||§eWar;||§7 → Kills: §f{KILLS}||§7 → Deaths: §f{DEATHS}||||§eGuild
+    Division:||§f{LEVEL}||||§eGuild Points:||§f{POINTS} ✪||||§eNumber of Players:||§f{PLAYERS}/{MAX}||||§eClaimed
+    Land:||§f{CLAIMED}'
+  Kick_Error_No_Guild: §7This player is not in the guild.
+  Kick_Error_No_Rank: §7Your guild rank is not enough to kick this player.
+  Kicked_Player: §c{KICKED}§7 kicked from your guild by §e{PLAYER}§7.
+  You_Kicked: §7You were kicked out from guild.
+  No_Kick_Yourself: §7You can't kick yourself.
+  Claim_Error: §7You already have this land.
+  No_Claim_Level: §7The guild that owns this land's division is greater than your
+    guild's division.
+  Attacking_You: §c{ATTACKER}§7 took your land at §e{LAND}§7.
+  Attacked_Chunk: §7Your guild took a land at §e{LAND} §7belongs §c{OWN}§7.
+  Chunk_Claimed: §7You claimed a land at §e{LAND}§7.
+  Chunk_Error_You: §7This land is not yours.
+  Chunk_Unclaimed: §7You unclaimed a land at §e{LAND}§7.
+  Romen_Num_1: I
+  Romen_Num_2: II
+  Romen_Num_3: III
+  Romen_Num_4: IV
+  Romen_Num_5: V
+  Romen_Num_6: VI
+  Romen_Num_7: VII
+  Romen_Num_8: IIX
+  Store_GUI: Guild Storage
+  Store_Status: '§7Available: §f{NUMBER}'
+  Help_Pages_1::Line_1: §e/guilds help §8- §7Opens help page.
+  Help_Pages_1::Line_2: §e/guilds create <guild name> §8- §7Creates a guild.
+  Help_Pages_1::Line_3: §e/guilds remove §8- §7Delete the current guild.
+  Help_Pages_1::Line_4: §e/guilds emblem §8- §7Make the guild emblem.
+  Help_Pages_1::Line_5: §e/guilds info §8- §7Shows the guild statistics.
+  Help_Pages_1::Line_6: §e/guilds leave §8- §7Leave your guild.
+  Help_Pages_1::Line_7: §e/guilds storage §8- §7Shows the guild storage.
+  Help_Pages_1::Line_8: §e/guilds claimname <name> §8- §7Set name of claim where you
+    at.
+  Help_Pages_2::Line_1: §e/guilds leader §8- §7Provites a player to leader rank.
+  Help_Pages_2::Line_2: §e/guilds invite <player> §8- §7Invites a player to guild.
+  Help_Pages_2::Line_3: §e/guilds claim §8- §7Claims where you are.
+  Help_Pages_2::Line_4: §e/guilds unclaim §8- §7Unclaims where you are.
+  Help_Pages_2::Line_5: §e/guilds rank §8- §7Changes players rank.
+  Help_Pages_2::Line_6: §e/guilds reload §8- §7Reloads plugin.
+  Help_Pages_2::Line_7: §e/guilds home §8- §7Teleports to your guild's home.
+  Help_Pages_3::Line_1: §e/guilds sethome §8- §7Sets your guild home.
+  Help_Pages_3::Line_2: §e/guilds war §8- §7War with another guilds.
+  Help_Pages_3::Line_3: §e/guilds version §8- §7Shows plugin's version.
+  Help_Pages_3::Line_4: §e/guilds buildings §8- §7Shows guild buildings.
+  Help_Pages_3::Line_5: §e/guilds showclaims §8- §7Shows guild's all claims.
+  Help_Pages_3::Line_6: §e/guilds alchemy §8- §7Shows your guild alchemy.
+  Help_Pages_3::Line_7: §e/guilds invites §8- §7Enable/Disable guild invites.
+  Help_Pages_3::Line_8: §e/guilds chat §8- §7Enable/Disable guild chat.
+  Next_Page: §8§m--------§r §7Use §6/sg help {NEXT} §7to see next page. §8§m-------
+  Invite_Player_Name: §7Enter the player name to be invited.
+  Cant_Invite_Yourself: §7You can't invite yourself.
+  Player_Closed_Invites: §7This player disabled invites.
+  Player_Has_Guild: §7This player has a guild.
+  Your_Guild_Is_Full: §7Your guild is full. You can upgrade Townhall for more player
+    slot.
+  Invite_Wait: §7You have to wait §e{TIME} §7to invite someone.
+  This_Guild_Is_Full: §7This guild is full.
+  Invite_Send: §7The guild invitation has sent to the player.
+  Invite_GUI: Invitation Card
+  InviteC_Accept: §6Accept and join to §e{GUILD}§6.
+  InviteC_Reject: §cReject and close the menu.
+  You_Reject: §7You reject the guild invitation.
+  You_Joined_Guild: §7You joined to the §e{GUILD} §7guild.
+  Player_Joined_Guild: §6{PLAYER} §7joined to the §e{GUILD} §7guild.
+  Disabled_Invites: §7You've disabled invitation cards.
+  Enabled_Invites: §7You've enabled invitation cards.
+  Enter_An_Integer: §7Enter an integer.
+  No_Storage: §7No storage for §f{NUMBER} {RESOURCE}§r§7. §7You can upgrade storage
+    to do this.
+  Player_Donated: '{RANK} {PLAYER}§7, donated §f{NUMBER} {RESOURCE}§r §7to guild storage.'
+  Leader_Leave: §7You're leader, leader can't leave from guild. You can disband the
+    guild using §e/g disband§7.
+  Player_Leave: '{RANK} {PLAYER}§7, left the guild.'
+  You_Leave: §7You've left from §c{GUILD}§7.
+  Language_Select: '§7Language selected: §a{LANG}'
+  Unknown_Command: Unknown command.
+  Locale_Error: Could not connect to web data for locale file.
+  Guild_Error_Upgrade: §7You are not in this guild any more.
+  Limit_Buildings: §7You've reached max level for this building.
+  Buildings_Broadcast_1: '§7Guild capacity increased: §a+{NUM}'
+  Buildings_Broadcast_2: §7Your guild will begin the wars with {ITEM}§7.
+  Buildings_Broadcast_3: '§7Guild storage increased: §a+500'
+  Buildings_Broadcast_4: §7Your guild can use next level of alchemy now.
+  Showing_Claims: §7You can see all of your guild claims now.  If you don't want to
+    see these you can re-join to the server.
+  No_Claims: §7Your guilds has no claims.
+  Show_Claim_Wait: §7You have to wait §e{TIME} §7to show all claims.
+  Status_Online: §aOnline
+  Status_Offline: §cOffline
+  Rank_Yourself: §7You cannot change your rank.
+  Rank_Not_Enough: §7Your rank is not enough for this action.
+  Player_Info_No_Guild: '||§7Player doesn''t have a guild.'
+  Player_Stats: Player Stats
+  Player_Info_Name_1: '§6Guild Information:'
+  Player_Info_Name_2: '§6Player Information:'
+  Player_Info_Name_3: '§6Other Information:'
+  No_Guild_Like_This: §7No guild was found in this name.
+  No_Player_Like_This: §7No player was found in this name.
+  Guild_Emblem_GUI: §6Guild Emblem
+  Guild_Emblem_Lore: '||§7Click to make guild emblem.'
+  Rank_Changed: §7Your rank has been changed to {RANK}§7.
+  Ranked_Player: §7{OLDRANKCHANGEP} {CHANGEP}§7's rank has been changed to {NEWRANKCHANGEP}
+    §7by {RANKPLAYER} {PLAYER}§7.
+  Rank_Wrong: §7You can only choose low-ranking ranks than your ranks.
+  You_Cant_Action: §7You can't change anything on §e{BUILD} §7zone.
+  Owned_By: §7This chunk is owned by §e{GUILD}§7 guild. You can't change anything.
+  Reloading_1: §7All files are reloading...
+  Reloading_2: §7All files are reloaded.
+  Emblem_Saved: §7Guild emblem has been saved.
+  Select_Color: §7You didn't select the color.
+  Select_Code: §7You didn't select the box.
+  Guild_Emblem_Changed: §7Your guild's emblem has been changed by §e{PLAYER}§7.
+  Create_Guild_Disabled_World: §7You can't create guild in your world.
+  Back_Header: §6Back
+  Menu_Alchemy_GUI: Guild Alchemy
+  Text_Feature: '§eFeature:'
+  Text_Price: '§ePrice:'
+  Text_Buy: §eClick here to buy this feature.
+  Alchemy_Menu_Lore_1: §8 → §7It gives 15 minutes strength to all guild members.
+  Alchemy_Menu_Lore_2: §8 → §7It summons horse for all guild members
+  Alchemy_Menu_Lore_3: §8 → §7It gives 15 minutes speed to all guild members.
+  Alchemy_Menu_Lore_4: §8 → §7It gives 15 minutes resistance to all guild members.
+  Alchemy_Type_1_Name_1: §6Level I Strength
+  Alchemy_Type_1_Name_2: §6Level II Strength
+  Alchemy_Type_1_Name_3: §6Level III Strength
+  Alchemy_Type_2_Name_1: §6Unarmed Horse
+  Alchemy_Type_2_Name_2: §6Iron Armored Horse
+  Alchemy_Type_2_Name_3: §6Diamond Armored Horse
+  Alchemy_Type_3_Name_1: §6Level I Speed
+  Alchemy_Type_3_Name_2: §6Level II Speed
+  Alchemy_Type_3_Name_3: §6Level III Speed
+  Alchemy_Type_4_Name_1: §6Level I Resistance
+  Alchemy_Type_4_Name_2: §6Level II Resistance
+  Alchemy_Type_4_Name_3: §6Level III Resistance
+  Bought_Alchemy_Guild: §e{GUILD} §7guild, bought §6{TYPE} §7from guild alchemy.
+  Bought_Alchemy_Own: §7{RANK} {PLAYER}§7, bought §6{TYPE} §7from guild alchemy.
+  Menu_War_GUI: Guild Wars
+  Menu_War_Name_1: §6Search Guild To Fight
+  Menu_War_Lore_1: §7Click here to find guild to fight.
+  Menu_War_Name_2: §6War Statistics
+  Menu_War_Name_3: §6Top Guilds
+  Menu_War_Lore_3: §7Click here to see top guilds.
+  Disabled_Chat: §7You disabled guild chat mode. Your messages can see by all players.
+  Enabled_Chat: §7You enabled guild chat mode. Your messages can see by only guild
+    members.
+  Guild_Chat: §7[GC]
+  Number_Online: §8(§a{PLAYER} §7online§8)
+  Claimed_Land: Claimed Land
+  Claimed_Land_Lore: '||§7Location: §f{LOC}||||§eClick to teleport to this claim.'
+  ClaimName_Usage: §7Use §e/sg claimname <name> §7for edit name of where you at chunk.
+  ClaimName_Changed: §7Name of claim located at §e{LOC} §7changed to §6{NAME} §7by
+    §9{BY}§7.
+  Arena_Created: '§7Arena created: §e{ARENA}'
+  Arena_Exists: §7There is already an arena in this name.
+  Enter_Arena_Name: §7Enter the arena name.
+  No_Arena: §7There is no such arena.
+  Arena_Removed: '§7Arena removed: §e{ARENA}'
+  Enter_Setspawn_Type: §7You must enter team type. (1 or 2)
+  Setspawn_Done: §eTeam-{TYPE}§7's spawnpoint of §a{ARENA} §7has been set.
+  Lobby_Done: §7The lobby has been set to where you at. Players will teleported here
+    after game end.
+  Restart_Kick_restart: §7You were kicked because this arena has been restarted.
+  Restart_Kick_error: §7You were kicked because this arena has been bugged.
+  Restart_Kick_time: §7You were kicked because this arena has been ended.
+  Enemy_War_Minimum: §7This guild has §e{ONLINE} §7online member(s). (Minimum is {MINIMUM})
+  You_War_Minimum: §7You have §e{ONLINE} §7online member(s). (Minimum is {MINIMUM})
+  Enemy_Guild_In_War: §7This guild is in the war.
+  Your_Guild_In_War: §7Your guild is in the war.
+  Cannot_War_Yourself: §7You can't make war with yourself.
+  War_Invite_Send: §7Your guild sent a war invitation to §c{GUILD} §7guild.
+  War_Other_Reject: §9{GUILD} §7rejected your war invitation.
+  War_You_Reject: §7You rejected §9{GUILD}§7's war invitation.
+  No_Available_Arena: §7No available arena found.
+  War_Starting_Timer: §9{GUILD1} §7vs. §c{GUILD2} §7will be started in §e{SECONDS}
+    §7second(s).
+  War_Started: §7The war of §9{GUILD1} §7vs. §c{GUILD2} §7is started. Good luck warriors!
+  War_End_Timer: §7War will be ended in §e{MINUTES} §7minute(s).
+  Game_Finished_Time: §7Time is over, no one won.
+  No_Command_War: §7You can't use commands while you're in war.
+  War_Win: §7The war of §9{GUILD1} §7vs. §c{GUILD2} §7has ended. §9{GUILD1} §7won
+    the war.
+  New_Division: §7Your guild's division has changed to §r{NEWDIVISION} §7from §r{OLDDIVISION}§7.
+  War_Points_Add: §7Your guild won the war against §c{GUILD} §7and gained §a+{POINTS}
+    ✪§7.
+  War_Points_Lose: §7Your guild lose the war against §9{GUILD} §7and lost §c-{POINTS}
+    ✪§7.
+  Arena_Debug: §7Arena §a{ARENA} §7has restarted.
+  No_Arena_Found: §7No arena found.
+  Arena_Guilds: '§7Arena Guilds: §f'
+  Arena_TimeLeft: '§7Time Left: §f'
+  Status_Text_0: §a§lWAITING
+  Status_Text_1: §e§lINGAME
+  Status_Text_2: §c§lCLOSED
+  Status_Text_3: §4§lRESTARTING
+  RankStar_Leader: '§b✯ '
+  RankStar_General: '§a⚝ '
+  RankStar_Captain: '§d★ '
+  RankStar_Member: ''
+  Claim_Limit: §7You can't claim more.
+  Death_Broadcast: §3[{VGUILD}] §9{VICTIM}§7 killed by §6[{AGUILD}] §e{ATTACKER} §4[-{GOLD}
+    Gold]
+  Death_Gold_Gain: Your guild gain §e+{GOLD} Gold §7because §7{RANK} {PLAYER}§7 killed
+    someone.
+  Death_Gold_Loss: Your guild loss §4-{GOLD} Gold §7because §7{RANK} {PLAYER}§7 died
+    by someone.
+  Buildings_Broadcast_TNT: §7TNTs won't explode in your claimed lands.
+  Click_To_Teleport: §7Click here to teleport.
+  Click_To_Select_Color: §fClick me to select this as your dye.
+  Click_To_Dye_Here: Click me to dye here.
+  Save_Emblem_Lore: §fClick me to save and apply emblem.
+  Reset_Emblem_Lore: §fClick me to clear your draft.
+  Use_Emblem_Lore: §fClick me to edit emblem of your guild.
+  Wilderness_Text: §2§l§nWilderness§r §2§l⚘
+  Wilderness_Msg_1: §7§oI love nature...
+  Wilderness_Msg_2: §7§oI feel like free...
+  Wilderness_Msg_3: §7§oI am a free man and I need my freedom.
+  Wilderness_Msg_4: §7§oThe secret to happiness is nature.
+  Home_Text: §a§l§nHome§r §a§l⌂
+  Home_Msg_1: §7§oHome sweet home...
+  Home_Msg_2: §7§oNothing is better than going home.
+  Home_Msg_3: §7You found what you need and return home.
+  Home_Msg_4: §7A man's house is his castle.
+  Other_Guild_Text: §4§l§n{GUILD}§r §4§l☠
+  Other_Guild_Msg_1: §7§oBe careful.
+  Other_Guild_Msg_2: §7Shh, they can hear us.
+  Other_Guild_Msg_3: §7An another guild here.
+  Other_Guild_Msg_4: §7To the war!
+  Emblem_Menu: §0§l  » GUILD EMBLEM
+  Save_Emblem_Button: §2§l[§2✓§2§l]§r
+  Reset_Emblem_Button: §4§l[§4✘§4§l]
+  Use_Emblem_Button: §0§l[§0✎§0§l]
+  Player_No_Guild: §7This player does not have a guild.
+  Menu_Donate_GUI: Put Resources To Here
+  Enter_MOTD: §7Enter the message of the day.
+  MOTD_Changed: §7Message of the Day has changed by §a{BY}§7.
+  MOTD_Removed: §7Message of the Day has removed by §a{BY}§7.
+  MOTD_Title: §f← §e§l§nMOTD§r §f→
+  MOTD_SubTitle: §7§o{MESSAGE}
+  MOTD_ActionBar: §fMessage of the Day by §a{BY}§f. §f({DATE})
+  Enter_Region_Name: §7Enter the WorldGuard's region name.
+  No_Region: §7No WorldGuard region founded in this name.
+  Region_Allowed: §7You allowed §a{REGION} §7WorldGuard region to give access to create
+    guilds on region.
+  Region_Disallowed: §7You disallowed §c{REGION} §7WorldGuard region to give access
+    to create guilds on region.
+  Tournaments_Name: Tournaments
+  Tournaments_Status_Off_Name: §4⚠
+  Tournaments_Status_Off_Lore: '||§7The Tournament is not active||§7at the moment
+    and try again later.'
+  Tournaments_In_Name: §6§nTournament Information
+  Tournaments_In_Lore: '||§7Waiting for an opponent...'
+  Tournaments_Opponent_Lore: '||§7Your opponent is §c{GUILD} §7guild.||§7You can check
+    stats of this||§7guild with §e/g info §7command.'
+  Tournaments_Join_Name: §6§nJoin the Tournament
+  Tournaments_Join_Lore: '||§7Click to join the Tournament.'
+  Tournaments_List: §6§nTournament Matches
+  Tournaments_Guild_List: §6§nTournament Guilds
+  Tournaments_List_Waiting: §7§o(waiting for guilds...)
+  Tournaments_Ingame_Lore: §8(§7§oin progress§8)
+  Tournaments_Waiting_Lore: §8(§7§owaiting§8)
+  Tournaments_Won_Lore: §8(§f{G}§8)
+  Tournaments_Eliminated_Lore: '||§7The tournament has begun||§7and you can''t join
+    at the moment.||§7See you soon in a new Tournament.'
+  Tournaments_Already_Enabled: §7The tournament is already enabled.
+  Tournament_Joins_Closed: §7The tournament matches has been set. Check it with tournament
+    menu.
+  Your_Guild_Already_Tournament: §7Your guild is already in the Tournament.
+  Tournament_Not_Active: §7The tournament is not active at the moment.
+  Cant_Join_Closed: §7Your guild can't join the Tournament at the moment.
+  Guild_Joined_Tournament: §a{GUILD} §7has joined to tournament. §8[§e{ALL} joined§8]
+  Tournament_Not_Enough: §7Tournament has closed because there were not enough teams
+    to participate in the Tournament.
+  You_Cant_War_Tournament: §7Sorry, your guild can't war while tournament is active.
+  Tournaments_You_Won_Waiting: '||§7Your guild won a battle so.||§7you''re waiting
+    for new match.'
+  Guild_Removed_Tournament: §7Your guild has been removed from tournament due to 'guild
+    count must be double'
+  Tournament_Won_Broadcast: §a{GUILD} §7won the Tournament and gained §a+{POINTS}
+    ✪§7.
+  Locale_GUI_Name: Language Select
+  Click_Select_Locale: '||§7Click to select this locale.'
+  Locale_en_US: §6English
+  Locale_es_ES: §6Español
+  Locale_de_DE: §6Deutsch
+  Locale_it_IT: §6Italiano
+  Locale_ru_RU: §6Руска
+  Locale_tr_TR: §6Türkçe
+  Allow_Or_Disallow: §7Use §a'/sgallow region allow <region>' §7to give access create
+    guilds on region. For delete this use §c'/sgadmin region disallow <region>'§7.
+    To check regions use §e'/sgadmin region list'§7.
+  No_Region_Found: §7There are no regions allowed.
+  Region_List: '          §a§nAllowed Region List'
+  Top_Guilds: Top Guilds
+  War_Top_GUI: §7Click to check top guilds list.
+  War_Death_0: §9{VICTIM} ({VGUILD}) §7has died and eliminated from war.
+  Locale_zh_CN: §6中文
+  Locale_vn_VN: §6Tiếng Việt
+  Locale_fr_FR: §6Français
+  Divisions_0: §8Bronze
+  Divisions_1: §7Silver
+  Divisions_2: §eGold
+  Divisions_3: §dCrystal
+  Divisions_4: §bMaster
+  Divisions_5: §cChampionship
+  Guild_Home_Menu_Name: §6Guild Home
+  Guild_Home_Menu_Lore: '||§7Click to teleport your guild''s home.'
+  Tournament_Cooldown: §7Matches will be set in §e{SECOND} §7second(s). §7Your guild
+    can join with '§e/g§7' command.
+  You_Need_More_Resource: §7You need more §f{AMOUNT} §7of {RESOURCE}§r §7to do this.
+  Enemy_Leader_Not_Online: §7Right now, no one has the permission of answer the invite
+    in this guild.
+  Menu_War_Lore_New: '§eGuild;||§7 → Division: §f{LEVEL}||§7 → Points: §f{POINTS}
+    ✪||§7 → Start Items: §f{ITEMS}||||§ePvP;||§7 → Kills: §f{KILLS}||§7 → Deaths:
+    §f{DEATHS}'
+  Claim_Name: §7§o(You can change this claim's name||§7§ousing §e/g claimname §7§ocommand.)
+  Resource_Donate_Lore: §7Click to donate resources.
+  SYNC_Done: §7SYNC for §a{FILE} §7file is done.
+  SYNC_Enter_File_Type: §7Enter the file to sync. (/sg sync <config/locale>)
+  Buildings_GUI: Guild Buildings
+  Building_Status_0: Ready to upgrade
+  Building_Status_1: Upgrading...
+  Building_Status_2: Waiting complete action...
+  Buildings_Lore: '||§eBuilding Level: §f{LEVEL}||§eStatus: §f{STATUS}||{TIMESHOW}||||§7Click
+    to see information page.'
+  Buildings_Time_Remaining: '||§eTime remaining: §f{TIME}'
+  Upgrade_Emblem_Button: §a§l【▲】
+  Quit_Emblem_Button: §4§l【⏎】
+  Timer_Emblem_Button: §c§l【⌛】
+  Done_Emblem_Button: §2§l【✔】
+  Max_Emblem_Button: §0§l【✕】
+  Upgrade_Emblem_Lore: §fClick to upgrade this building.
+  Quit_Emblem_Lore: §fClick to return to menu.
+  Done_Emblem_Lore: §fClick to complete upgrade of building.
+  Enter_Building_Type: §7Enter building's name.
+  Header_Build_Book: '§8§l  » Building Info:'
+  Book_Build_Name: '§8Build Name: §0'
+  Book_Build_Level: '§8Build Tier: §0'
+  Building_Upgrade: §7{RANK} {PLAYER}§7, upgraded {BUILD} §7to level §e{NUMBER}§7.
+  Building_Upgrade_Guild: §a{GUILD}§7, upgraded {BUILD} §7to level §e{NUMBER}§7.
+  Book_Required_Text: '§8Required:§f '
+  Book_Have_Text: '§8You Have:§f '
+  Alchemy_Menu_Price_1: ' §8 → §7Level I: §f{AMOUNT1}|| §8 → §7Level II: §f{AMOUNT2}||
+    §8 → §7Level III: §f{AMOUNT3}'
+  Alchemy_Menu_Price_2: ' §8 → §7Unarmed Horse: §f{AMOUNT1}|| §8 → §7Iron Armored
+    Horse: §f{AMOUNT2}|| §8 → §7Diamond Armored Horse: §f{AMOUNT3}'
+  Alchemy_Menu_Price_3: ' §8 → §7Level I: §f{AMOUNT1}|| §8 → §7Level II: §f{AMOUNT2}||
+    §8 → §7Level III: §f{AMOUNT3}'
+  Alchemy_Menu_Price_4: ' §8 → §7Level I: §f{AMOUNT1}|| §8 → §7Level II: §f{AMOUNT2}||
+    §8 → §7Level III: §f{AMOUNT3}'
+  Build_Max: §7This building has reached last level.
+  Build_Started: '{RANK} {PLAYER} §7has started build construction for §e{BUILD} §7to
+    tier §e{LEVEL}§7. It will be done in §a{TIME}§7.'
+  Build_Wait: §7Upgrade will be completed in §e{TIME}§7.
+  You_Cant_Edit_Here: §7You can't change prepared things on §e{BUILD} §7zone. You
+    only can place/break blocks like chests, furnaces.
+  You_Cant_Build_Here: §7You can't make buildings on §e{BUILD} §7zone.
+  You_Cant_Alchemy: §7You can't use §9Alchemy§7 because you need to make §9Alchemy
+    §7to §6Level I§7.
+  Land_Protection: §7System will create a base so please select empty land.
+  Creation_Point: Creation Point
+  Romen_Num_0: '0'
+  Building_Status_3: Max Level
+  Join_Status_Name_0: §c§lPrivate
+  Join_Status_Lore_0: §4§o'Only invited players can join to guild.'
+  Join_Status_Name_1: §a§lPublic
+  Join_Status_Lore_1: §2§o'People can join to guild without invite.'
+  ChangeJoinStatus_Lore: '||||§7Click here to change the condition.'
+  This_Guild_Is_Not_Public: §7This guild is not public, they must invite you.
+  Resource_Give_Usage: '§7Usage: §e/sgadmin resource <guild> <resource> <add/remove/set>
+    <amount>'
+  Resource_Give_Admin: §7You added §a{NUMBER} §7to §f{GUILD}§7's {RESOURCE}§7.
+  Resource_Remove_Admin: §7You removed §c{NUMBER} §7from §f{GUILD}§7's {RESOURCE}§7.
+  Resource_Set_Admin: §7You set §f{GUILD}§7's {RESOURCE} §7to §a{NUMBER}§7.
+  Disabled_ChatSpy: §7You've disabled guild chat spy.
+  Enabled_ChatSpy: §7You've enabled guild chat spy.
+  Holo_Message_Claim: '§e§l- {GUILD} HAS CLAIMED HERE -;§7Claimer: §f{PLAYER};§7Total
+    Chunks: §f{CHUNKS};'
+  Holo_Message_Build_New: '§6§l- {BUILD} BUILDING AREA -;§7Owner Guild: §f{GUILD};§7Finish
+    Date: §f{DATE};'
+  Help_Pages_4::Line_4: §e/guilds sentinels §8- §7Opens your guild's sentinels menu.
+  PageAPI_Header_0: Guilds List
+  PageAPI_Header_1: Claims List
+  PageAPI_Header_2: Guild Finder
+  PageAPI_Header_3: Guild Members
+  PageAPI_Header_4: Guild Relations
+  PageAPI_Header_5: Public Guilds
+  PageAPI_NoVariable_0: §c§nNo Guilds Found.
+  PageAPI_NoVariable_1: §c§nNo Claims Found.
+  PageAPI_NoVariable_2: §c§nNo Guilds Found To War.
+  PageAPI_NoVariable_3: §c§nNo Players Found.
+  PageAPI_NoVariable_4: §c§nNo Guild Relation Found.
+  PageAPI_NoVariable_5: §c§nNo Public Guilds Found To Join.
+  PageAPI_NextPage_Name: §aNext Page
+  PageAPI_PreviousPage_Name: §aPrevious Page
+  PageAPI_MainPage_Name: §aMain Page
+  Menu_PreviousMenu_Name: §cPrevious Menu
+  RankGUI_PermName_Disband: §f§nDisband Guild
+  RankGUI_PermName_Upgrade: §f§nUpgrade Guild Buildings
+  RankGUI_PermName_Alchemy: §f§nUse Guild Alchemy
+  RankGUI_PermName_Kick: §f§nKick Guild Members
+  RankGUI_PermName_Rank: §f§nChange Guild Members Permissions
+  RankGUI_PermName_Condition: §f§nChange Join Condition
+  RankGUI_PermName_Sethome: §f§nSet Guild Home
+  RankGUI_PermName_Claim: §f§nClaim / Unclaim / Claim Names
+  RankGUI_PermName_Emblem: §f§nGuild Emblem
+  RankGUI_PermName_Motd: §f§nMessage Of The Day
+  RankGUI_PermName_Invite: §f§nInvite Players
+  RankGUI_PermName_Ally: §f§nAlly / Truce / Enemy
+  RankGUI_PermName_War: §f§nDeclare Guild War
+  RankGUI_PermName_Donate: §f§nDonate Resource To Guild
+  RankGUI_Header: Rank Settings
+  RankGUI_CurrentRank: '||§7Current Rank: §f{RANK}||||§7Player Permissions:||'
+  RankGUI_UsePresetRank: '||§7Click to use this pre-set rank.'
+  Member_Information_Kick: '||||§7§nLEFT-CLICK with SHIFT to...||  §fkick player from
+    guild.'
+  Member_Information_Rank: '||||§7§nLEFT-CLICK to...||  §fchange player''s rank.'
+  Tournament_Started_Broadcast: §7The guild tournament has enabled! Join with '§e/g§7'
+    command.
+  Top_Calc_Time_Name: '§a§nTime Left to Refresh Top:'
+  War_Death_1_New: §f{ATTACKER} ({AGUILD}) §c⚔ §f{VICTIM} ({VGUILD}) §7[+{POINTS}
+    ☆]
+  War_Points_New: '§9{AGUILD}: {APOINTS} ☆ §7vs. §c{VGUILD}: {VPOINTS} ☆'
+  PlayerStats_1: '||§eGuild: §f{GUILD}||§eRank: §f{RANK}||§eRace: §f{RACE}||§eJoin
+    Date: §f{DATE}||§eWar;||§7 → Kills: §f{KILLS}||§7 → Deaths: §f{DEATHS}||||§eDonated
+    to this guild;||{DONATEINFO}'
+  PlayerStats_2: '||§ePlayer: §f{PLAYER}||§ePvP;||§7 → Kills: §f{KILLS}||§7 → Deaths:
+    §f{DEATHS}||§7 → KDA: §f{KDA}||§eDonated to all;||{DONATEINFO}'
+  PlayerStats_3: '||§eHealth: §f{HEALTH}/10||§eHunger: §f{HUNGER}/10||§eLocation:
+    §f{LOCATION}'
+  PlayerStats_4: '||§7Player is not online.||§eLast Seen: §f{SEEN}'
+  RaceSelectGUI_Header: Select A Race
+  RaceSelectGUI_Select: '||||§fClick here to select this race.'
+  RaceSelectGUI_Select_2: '||||§fClick here to change your race.'
+  RaceSelectGUI_Features: '§aRace Effects:'
+  RaceSelectGUI_Features_0: '||§7You won''t able to use||§7effects of your race.||||§fClick
+    here to take powers.'
+  RaceSelectGUI_Features_1: '||§7You are currently using||§7effects of your race.||||§fClick
+    here to disable powers.'
+  RaceSelectGUI_Features_2: '||§7You must select a race||§7to use effects of race.'
+  RaceSelectGUI_Info: '§aInformation:'
+  RaceSelectGUI_Info_1: '§7Your Race: §f{RACE}||§7Rights to change: §f{NUM}||||§7You
+    can''t create or join||§7guild without a race.'
+  Race_Left_No: §7You can't change your race anymore.
+  Race_Selected: §7Gods accepted §a{PLAYER}§7's request and made him §r{RACE}§7.
+  Select_Race: §7You need to select a race to do this. §6(/g race)
+  MemberInformation_Lore: '§e(Seen: §f{SEEN}§e)||||§eRank: §f{RANK}||§eRace: §f{RACE}||§eJoin
+    Date: §f{DATE}||§eWar;||§7 → Kills: §f{WARKILLS}||§7 → Deaths: §f{WARDEATHS}||§eDonated;||{DONATEINFO}||||§7§nRIGHT-CLICK
+    to...||  §fcheck player''s details.{CRANK}{CKICK}'
+  Race_Permission: §7You don't have permission to enable/disable effects of race.
+  Guild_Chat_Spy_Ops: GC SPY
+  Break_Claimed_Areas_Only: §7You only edit claimed zones by guilds.
+  TimeSpanText_Year: yr
+  TimeSpanText_Month: mo
+  TimeSpanText_Day: d
+  TimeSpanText_Hour: hr
+  TimeSpanText_Minute: min
+  TimeSpanText_Second: s
+  Enemy_War_Shield_New: §7This guild has shield for instant guild war. Their war shield
+    expires in §c{EXPIRE}§7.
+  War_Invite_Send_2_New: §7Good luck warriors! Your guild starts a guild war with
+    §c{GUILD} §7guild.
+  War_Invite_Send_3_New: §7Prepare right now! §c{GUILD} §7starts a guild war with
+    you.
+  War_Shield_Enable_Name: §aWar Shield Enabled
+  War_Shield_Enable_Lore: '||§7You lose a war and gain a §9war||§9shield §7for instant
+    guild wars.||||§7Other guilds can not declare war to you||§7while you have §9war
+    shield §7enabled.||||§9War Shield §7expires in §c{TIME}§7.'
+  War_Shield_Disable_Name: §cNo War Shield
+  War_Shield_Disable_Lore: '||§7You don''t have a §9war shield§7.||§7So any guild
+    can declare a war to you.||§7If you lose you will gain a §9war shield§7.'
+  Click_To_Info_New2: '||§7Leader: §f{LEADER}||§7Last Active: §f{LAST}||§7War Points:
+    §f{POINTS} ✪||§7War Wins: §f{WINS}||§7Division: §f{LEVEL}||§7Members: §f{PLAYERS}/{MAX}||§7Claimed:
+    §f{CLAIMED}||||{EMBLEM}||||§eClick to get more information.'
+  Click_To_War_New: '||§7Leader: §f{LEADER}||§7War Points: §f{POINTS} ✪||§7Division:
+    §f{LEVEL}||||{EMBLEM}||||§eClick to war with this guild.'
+  Click_To_Join: '||§7Leader: §f{LEADER}||§7War Points: §f{POINTS} ✪||§7Division:
+    §f{LEVEL}||||{EMBLEM}||||§eClick to join to this guild.'
+  RankGUI_PermName_Break: §f§nBreak Blocks at Guild Claimed Lands
+  RankGUI_PermName_Place: §f§nPlace Blocks at Guild Claimed Lands
+  Click_To_Join_New2: '||§7Leader: §f{LEADER}||§7Last Active: §f{LAST}||§7War Points:
+    §f{POINTS} ✪||§7War Wins: §f{WINS}||§7Division: §f{LEVEL}||§7Members: §f{PLAYERS}/{MAX}||§7Claimed:
+    §f{CLAIMED}||||{EMBLEM}||||§eClick to join this guild.'
+  War_Death_2_New: §c☠ §f{VICTIM} ({VGUILD}) §7[+{POINTS} ☆]
+  War_Death_3: §a♜ §a§lMATCH POINT!§r §a♜
+  War_Start_1: §2♜§r §2§l§nGUILD WARS§r §2♜
+  War_Left: §c{PLAYER} ({PLAYERGUILD}) §7left from war.
+  War_Shield_GUI_Lore_1: §a(War Shield Enabled)
+  War_Shield_GUI_Lore_2: §c(No War Shield)
+  No_Guild_Perm: §7You can't do this with your permissions.
+  WarShield_Give_Usage: '§7Usage: §e/sgadmin warshield <guild name> <days (number)>§7,
+    example: §6/sgadmin warshield Spigot 3'
+  WarShield_Set_Admin: §7You added §a{NUMBER} §7days of war protection to §b{GUILD}.
+  Land_Protection_2: §7Ground must be fully solid. (16x16)
+  PageAPI_Header_21: 'Sort: No Shield'
+  PageAPI_Header_22: 'Sort: Online'
+  PageAPI_Header_23: 'Sort: All'
+  PageAPI_NoVariable_21: §c§nNo Guilds Without War Shield Found.
+  PageAPI_NoVariable_22: §c§nNo Online Guilds Found.
+  Attack_GuildMembers: §cYou can't attack your guildmates!
+  Wipe_Confirm: §7Are you sure to wipe §4{GUILDS} guilds §7inactive for §c{NUMBER}
+    days§7? If you sure, use this command again.
+  Wipe_Error: §7You can't wipe guilds under §c3 days §7inactivity
+  Wipe_Happen: §7Wiping inactive for §c{DAYS} days§7 guilds...
+  Wipe_NoData: §7No guild found inactive for this day long.
+  Wipe_Done: §7Guild wipe is done, §a{TOTAL} §7inactive guilds wiped.
+  Wipe_Usage: '§aUsage: §7/g wipe <inactive days count>'
+  Language_Selecting: §7Selecting this language, please wait...
+  RaceInfo_Name_0: §fNo Race
+  No_Perm_Race: §7You don't have permission to be this race.
+  Friends_MenuItemName: §6Your Friends
+  Friends_MenuItemLore: '||§7Click to see your friends.'
+  FriendsInvitedPlayer: §7You sent a friend request to the player.
+  FriendsInviteJSON: §9{PLAYER} §7has sent a friend request to you.
+  FriendsYouHaveReachedMax: §7You have reached max friends limit.
+  FriendsNotInvited: §7This player didn't send a friend request to you.
+  FriendAdded: §a{PLAYER} §7has accepted your friend request.
+  FriendAddedYou: §7You accepted §a{PLAYER}§7's friend request.
+  FriendReject: §c{PLAYER} §7has rejected your friend request.
+  FriendRejectYou: §7You rejected §c{PLAYER}§7's friend request.
+  FriendJSONText: '                §a§l[ACCEPT §a✓§a§l]§r'
+  FriendJSONText2: '                    §c§l[REJECT §c✘§c§l]'
+  FriendClosedRequests: §7This player has closed invitations.
+  PlayerIsNotOnline: §7This player is not online now.
+  FriendsYouAlready: §7You are already friends.
+  FriendsNo: §7You are not friends with this player.
+  FriendRemoved: §7You are not friends with §c{PLAYER} §7now.
+  EnterPlayerName: §7Please enter the player's name
+  NoYourself: §7You can't do this to yourself.
+  PageAPI_Header_6: Your Friends
+  PageAPI_NoVariable_6: §c§nYou don't have any friends.
+  Click_To_Friend: '||§7Status: §f{STATUS}||§7Guild: §f{GUILD}||§7First Add: §f{FIRST}||§7Last
+    Login: §f{LASTLOGIN}||||§7§nRIGHT-CLICK to...||  §fcheck friend''s stats.{GLORE}||||§7§nLEFT-CLICK
+    with SHIFT to...||  §fremove friend from list.'
+  Click_To_InviteGuild: '||||§7§nRIGHT-CLICK with SHIFT to...||  §finvite friend to
+    your guild.'
+  GuildSelectGUI_Header: Select A Way
+  GuildSelectGUIName_1: §6Join A Guild
+  GuildSelectGUIName_2: §6Get Help About Guilds
+  GuildSelectGUILore_1: '||§7Click to join one of public guilds.'
+  GuildSelectGUILore_2: '||§7Click to get help about creating guild.'
+  WarShield_SetRemove_Admin: §7You removed §c{NUMBER} §7days of war protection to
+    §b{GUILD}.
+  Resource_Fill_Admin: §7You filled §b{GUILD} §7guild's all resources.
+  Instant_Build_Usage: '§eUsage: /sgadmin buildinstant <guild> <building>'
+  Instant_Build_Must_Start: §7This guild must start building construction first.
+  Instant_Build_Okay: §7Done! This guild can finish the building construction now
+    without waiting.
+  Friends_Make_Some_Friends: '||§f§o/friends add <player> §7§oto add friends.'
+  Connected_Chunks: §7Your claims must be connected with each other.
+  Tournament_Disabled: §7The Guild Tournament has been disabled.
+  RaceRightsAdmin_1: '§7Usage: §e/sgadmin setracerights <player> <number>'
+  RaceRightsAdmin_2: §7You set §a{PLAYER}§7's race change rights to §e{NUMBER}§7.
+  Done_Set_Location: '{RANK} {PLAYER} §7has changed location of §e{BUILD} §7building.'
+  Buildings_Locations_Lore: '||§eBuilding Level: §f{LEVEL}||§eStatus: §f{STATUS}||||§7Click
+    to define location of||§7this building as your position.'
+  Building_Location_Max_1: §7You need to build this building before changing location
+    of it.
+  Building_Location_Header: Change Locations
+  GuildJoin_Wait: §7You have to wait §e{TIME} §7to join a new guild.
+  GuildRankHelper_1: §7⇧ Pre-set Ranks
+  GuildRankHelper_2: §7⇩ Permissions
+  RankGUI_ChangePermission_1: '||§7Click to add this permission.'
+  RankGUI_ChangePermission_2: '||§7Click to remove this permission.'
+  PageAPI_Header_51: 'Sort: Online'
+  PageAPI_NoVariable_51: §c§nNo Online Public Guilds Found.
+  BuildAdminToggle_1: §7The staff team §ccannot §7build/break in claimed zones now.
+  BuildAdminToggle_2: §7The staff team §acan §7build/break in claimed zones now.
+  You_ForceJoined_Guild: §7You force joined to the §e{GUILD} §7guild. You have all
+    leader permissions.
+  WaitToRaceAgain: §7You need to wait §c{TIME} §7to change your race again.
+  You_ResetClaim_Guild: §7You have deleted §6{NUMBER}§7 claims of §e{GUILD} §7guild.
+    {GOLD}
+  You_ResetClaim_Guild_2: §e+{GOLD} §7Gold resource has been added.
+  No_Guild_Invite: §7This guild didn't invite you.
+  Guild_Invite_Time_Expired: §7The invitation time is expired. They need to invite
+    you again.
+  InviteBook_Header: '   §0§l§nGuild Invitation'
+  InviteBook_Text1: '  §8✉ → §0'
+  InviteBook_Subtext1: §6{GUILD} §7guild sent you a join invitation.
+  InviteBook_Subtext2: §7They have §f{MEMBERS}/{MAX} §7members.
+  InviteBook_Subtext3: §eClick to get more information.
+  InviteBook_Logo_Accept: §2§l[§2✔§2§l]§r
+  InviteBook_Logo_Reject: §4§l[§4✘§4§l]
+  InviteBook_Logo_Invites: §0§l[§0✂§0§l]
+  InviteBook_LogoText_Accept: §7Click to §2accept §7this invitation.
+  InviteBook_LogoText_Reject: §7Click to §creject §7this invitation.
+  InviteBook_LogoText_Invites: §7Click to §4disable §7all invitations.
+  Top_Refresh_Okay: §7You have refreshed top guilds.
+  Click_To_RefreshTop: '||||§eClick to refresh top board.'
+  Buildings_Broadcast_5: '§7Max claim limit increased: §a+{NUM}'
+  Sentinels_ItemName: §6Guild Sentinels
+  Sentinels_ItemLore: '||§7Guild sentinels are NPCs who guards||§7and attacks enemies
+    with you.||§7You can buy them or upgrade them.||||§7Click to see guild sentinels.'
+  RelationGUI_Type_Ally: Ally Invitation
+  RelationGUI_Type_Truce: Truce Invitation
+  RelationGUI_Accept_Ally: §fAccept and be §2Ally §fwith §e{GUILD}§f.
+  RelationGUI_Accept_Truce: §fAccept and sign §ea Truce §fwith §e{GUILD}§f.
+  RelationGUI_Accept_Lore_Ally: '||§7Allies can''t attack each other.||§7and can build
+    and open||§7containers in their territory.'
+  RelationGUI_Accept_Lore_Truce: '||§7Friendly fire is blocked||§7for members of truced
+    guilds.'
+  RelationGUI_Add_Ally: §f{GUILD} §7and §f{OTHER} §7become §2§lALLIES§7!
+  RelationGUI_Remove_Ally: §f{GUILD} §7and §f{OTHER} §7are not longer §2§lALLIES§7!
+  RelationGUI_Add_Truce: §f{GUILD} §7and §f{OTHER} §7signed a §6§lTRUCE§7!
+  RelationGUI_Remove_Truce: §f{GUILD} §7and §f{OTHER} §7ignore their §6§lTRUCE§7!
+  RelationGUI_Add_Enemy: §f{GUILD} §7and §f{OTHER} §7become §c§lENEMIES§7!
+  RelationGUI_Remove_Enemy: §f{GUILD} §7and §f{OTHER} §7become §e§lNEUTRAL§7!
+  RelationGUI_Add_Ally_2: §7(Allies can build in their territory, open containers
+    and more.)
+  RelationGUI_Add_Truce_2: §7(Friendly fire is blocked for members of truced guilds.)
+  RelationGUI_Add_Enemy_2: §7(Enemy guilds can fight in every zone.)
+  RelationGUI_Reject_Message: §9{GUILD} §7rejected your invitation.
+  RelationGUI_Reject_Message_2: §7You rejected §9{GUILD}§7's invitation.
+  Already_Ally: §7This guild is already your ally.
+  Already_Truce: §7You already signed a truce with this guild.
+  Already_Enemy: §7This guild is already your enemy.
+  Already_Neutral: §7Your guild is already neutral with this guild.
+  Wait_Relation: §7You need to wait §a{TIME} §7to make neutral/ally/truce/enemy.
+  Cannot_War_Relation: §7You cannot fight with your allies/truced guilds.
+  Relation_Yourself: §7You can't make relationship with yourself.
+  Sent_Ally_Request: §7You sent an ally request to §e{GUILD}§7.
+  Sent_Truce_Request: §7You sent an ally request to §e{GUILD}§7.
+  Relation_TypeName_Ally: §2Ally
+  Relation_TypeName_Truce: §eTruce
+  Relation_TypeName_Enemy: §4Enemy
+  Relation_TypeName_Neutral: §fNeutral
+  Relation_GUI_Header: Guild Relationships
+  Relation_GUI_Lore: '§7Relation: §r{TYPE}||§7Date: §e{DATE}||§7Added By: §e{BY}'
+  Relation_GUI_Lore_2: '||||§7§oClick to edit guild relationship.'
+  Guild_Relations_Name: §6Guild Relationships
+  Guild_Relations_Lore: '||§7Click to check your guild''s relations.'
+  Guild_RelationsEdit_Name: 'Relations: {GUILD}'
+  Guild_RelationsEdit_Lore: '||§7Click to check your guild''s relations.'
+  Relations_Neutral: '||§7You are §fneutral §7with this guild.'
+  Relations_Current: '||§d§nCurrent Relationship'
+  Help_Pages_4::Line_1: §e/guilds ally/truce/enemy/neutral <guild> §8- §7Sets relationship
+    with a guild.
+  Help_Pages_4::Line_2: §e/guilds relations §8- §7Shows your guild's relations.
+  Wait_Relationship: §7You need to wait §c{T} §7to edit relationship.
+  RankGUI_PermName_Sentinel: §f§nAccess Guild Sentinels
+  SentinelGUI_SentinelRespawn: §eClick to respawn the sentinel.
+  SentinelGUI_SentinelRespawnWait: §7Wait §c{T} §7for respawn the sentinel.
+  SentinelGUI_SentinelName_0: §cNo Sentinel
+  SentinelGUI_SentinelLore_No: '||§7You don''t have any sentinels to active.||§7Buy
+    §osentinels §7to make your guild stonger.'
+  SentinelGUI_SentinelName_1: '§eDead: §f{NPC}'
+  SentinelGUI_SentinelLore_1: '||§7Your guild sentinel is dead or away.||||{EXTRA}'
+  SentinelGUI_SentinelName_2: '§aAlive: §f{NPC}'
+  SentinelGUI_SentinelLore_Alive: '§8{LOC}||||§7Level: §f{LEVEL}||§7Progress: {PROGRESS}||§7HP:
+    §c{HP} ❤||§7Summoner: §f{S}{ALTLORE}||||§7§nRIGHT-CLICK to...||  §fteleport the
+    sentinel to you.'
+  Sentinels_NPC_Lore: '||§f§nResource Costs:|| §fℓ Iron: §7{R1}|| §e⊂ Gold: §7{R2}||
+    §b∑ Diamond: §7{R3}||||§c❤ Health: §f{S1} §8§m-§r §e⚔ Attack:§f {S2}||§2⩌ Armor:
+    §f{S3} §8§m-§r §3♺ Respawn: §f{S4}s||||{LORE}||||§7§nRIGHT-CLICK to...||  §fcheck
+    unit and buy.'
+  No_NPC_Found: §7No defined Sentinel found.
+  SentinelGUI_SentinelLore_Stats: '§7§nSentinel Stats:|||| §c❤ Max Health: §f{S1}||
+    §e⚔ Damage: §f{S2}|| §2⩌ Armor: §f{S3}|| §7♺ Respawn: §f{S4}s'
+  SentinelGUI_SentinelLore_List: '||§7Level: §f{LEVEL}||§7Progress: {PROGRESS}||§7Bought
+    By: §f{S}{ALTLORE}||||§7§nRIGHT-CLICK to...||  §fuse this sentinel.'
+  SentinelGUI_SentinelUpgrade: '||||§7§nLEFT-CLICK to...||  §fupgrade the sentinel.'
+  You_Have_This_Sentinel: §7You already have this sentinel.
+  SentinelNPC_Name: '{STAR} {NPC}'
+  SentinelStar_1: §7✩§r
+  SentinelStar_2: §f§l✰ ✰§r
+  SentinelStar_3: §6§l✪ ✪ ✪§r
+  SentinelNPC_SystemError_1: §7Error, system couldn't create the NPC! (Show this message
+    to server admins.)
+  SentinelGUI_Header: Guild Sentinel
+  SentinelShopGUI_Header: Sentinel Shop
+  SentinelGUI_InventoryName: §6Sentinel Army
+  SentinelGUI_InventoryLore: '||§7Click to see your all sentinels.'
+  SentinelGUI_ShopName: §6Sentinel Shop
+  SentinelGUI_ShopLore: '||§7Click to see other sentinels.'
+  You_Dont_Have_Sentinels: §7You don't have any sentinels. You can buy them from shop.
+  SentinelGUI_ArmyHeader: Sentinels Army
+  SentinelNPC_SystemError_2: System couldn't find the NPC!
+  SentinelGUI_SentinelTPWait: §7Wait §c{T} §7for teleporting the sentinel to you.
+  SentinelGUI_Max_Level: §5Maximum Level
+  Cant_Edit_Nexus: §7You cannot edit guild nexus.
+  Nexus_Holo_Info: 'ItemStack:BOOK;§8§l§m--------------------;§6☀ §7Guild: §6{GUILD};§d☽
+    §7Division: §f{DIVISION};§a⚡ §7Owned Lands: §f{LANDS};§4❤ §7Nexus Health: §f{HP};§8§l§m--------------------'
+  Guild_Nexus_Alert_1: §c{PLAYER} ({GUILD}) §7is attacking to your §fguild nexus§7.
+  Guild_Nexus_Alert_2: §7Defend your §fguild nexus §7right now!
+  Nexus_ItemName: '§4❤ Nexus Health: §f{HP}/{MAX}'
+  Nexus_ItemLore: '||§7The Nexus is in your §3Townhall §7building.||||§7If §fHP of
+    The Nexus §7goes §c§nunder zero§7,§7||§7and you don''t have §6a nexus shield§7,||§7your
+    guild will lose §4-%{AMOUNT}§7 of guild resouces.||||§7(If your guild is not active
+    for §f{DAYS} days§7,||§7your guild will be disbanded.)||||§f{STATUS}'
+  Guild_Nexus_No_Shield: §c§nYou don't have a nexus shield!
+  Guild_Nexus_Shield_Active: §7You are protected from raid until:||§a{DATE}
+  Guild_Nexus_Dead_Alert_2: §7Your guild nexus has broken!
+  Guild_Nexus_Dead_Alert: §c§nYou lost some of your resources!§r§c (/guild storage)
+  Guild_Nexus_Raid_Resources_Gain: §7You raided §a{GUILD} §7guild and gained §f{LIST}§7.
+  Guild_Nexus_Raid_Resources_Lose: §7You've been raided by §c{GUILD} §7and lost §f{LIST}§7.
+  Guild_Nexus_Gain_Alert: §7You raided §a{GUILD} §7guild nexus and gained resources!
+  Guild_Nexus_Gain_Alert_2: §7Nexus raid is successfully!
+  Guild_Nexus_Has_Shield: §7This guild has a nexus shield. (Expires in §f{DATE}§7.)
+  Raiding_No_Land: §7Your guild is not raiding a guild.
+  Raiding_Starting: §e§lRAID STARTING!
+  Raiding_Ends_Soon_1: §7Raid ends in §e{SECONDS}§7s. Defend your land!
+  Raiding_Ends_Soon_2: §7Raid ends in §e{SECONDS}§7s. Teleport to raid land with §a/g
+    raid§7.
+  Raiding_End_Title: §2§lRAID DONE!
+  Raiding_Cant_Break: §7You cannot break chests while raiding.
+  Raiding_Cant_Place: §7You cannot place TNTs while raiding.
+  Raiding_Now_Enemy: §7You can't war with this guild because they're in raiding.
+  Raiding_Now_You: §7You can't war with this guild because you're in raiding.
+  Raiding_No_Guild: §7You're not raiding right now. Use §e/g war §7to raid guild.
+  Raiding_Started_1: §6§lPROTECT THE LAND!
+  Raiding_Started_2: §5§lRAID THE LAND!
+  Guild_Chunks_Header: §0§l  » NEARLY LANDS
+  Guild_Chunks_Teleport: Click here to teleport to this land.
+  Guild_Chunks_You: You
+  Guild_Chunks_Owned: Land owner is {GUILD} guild.
+  Guild_Chunks_Claim: Click here to claim this land.
+  Guild_Chunks_Desc: '{LINE}{LINE}   §2█§0 Owned, §4█ §0Enemy{LINE}   §6█ §0Truced,
+    §3█ §0Ally'
+  Chunks_Map_Name: §6Nearly Lands
+  Chunks_Map_Lore: '||§7Click to see lands map.'
+  War_Invite_Send_Chunk: §7Your guild sent a war invitation for a land to §c{GUILD}
+    §7guild.
+  War_Invite_Send_2_New_Chunk: §7Good luck warriors! Your guild starts a guild war
+    with §c{GUILD} §7guild. If you win the war, you'll capture a land.
+  War_Invite_Send_3_New_Chunk: §7Prepare right now! §c{GUILD} §7starts a guild war
+    with you for land. If you lose the war, you'll lose a land.
+  WarInviteGUI_Header: War Invitation
+  WarInviteGUI_Selection_1_Name: §aAccept
+  WarInviteGUI_Selection_1_Lore: '||§7Accept the war invitation and||§7fight against
+    §c{GUILD} §7guild.'
+  WarInviteGUI_Selection_2_Name: §cReject
+  WarInviteGUI_Selection_2_Lore: '||§7Decline the war invitation and||§7close this
+    menu.'
+  WarInviteGUI_Selection_3_Name: '§6Target Land:'
+  WarInviteGUI_Selection_3_Lore: '||§7They are in your land and trying||§7to capture
+    land at:||§f{LOCATION}||||§7If you win, they''ll lose §3x2 war points§7,||§7if
+    you lose, they will takeover §9this land§7.'
+  Error_1746: §7No available arena or this guild doesn't exists.
+  Chunk_Unclaimed_Forced: §7You've been defeated against §c{GUILD} and you've lost
+    the land at §f{LAND}§7.
+  Guild_Management_SeePlayerInfo: '||§fClick to see player stats.'
+  BossBar_Text: '§e⊙ Time: §f{TIME} §9➙ {GUILD1}: §f{PLY1}/{MAX} ☆ §c➙ {GUILD2}: §f{PLY2}/{MAX}
+    ☆'
+  Resource_Sand: §e§nSand
+  Resource_Unicode_Sand: ♒
+  Resource_Color_Sand: §e
+  Resource_Clay: §3§nClay
+  Resource_Unicode_Clay: ♑
+  Resource_Color_Clay: §3
+  Resource_Brick: §c§nBrick
+  Resource_Unicode_Brick: ✚
+  Resource_Color_Brick: §c
+  Resource_Stone: §7§nStone
+  Resource_Iron: §f§nIron
+  Resource_Gold: §e§nGold
+  Resource_Diamond: §b§nDiamond
+  Resource_Unicode_Stone: ⚒
+  Resource_Unicode_Iron: ℓ
+  Resource_Unicode_Gold: ⊂
+  Resource_Unicode_Diamond: ∑
+  Resource_Color_Stone: §7
+  Resource_Color_Iron: §f
+  Resource_Color_Gold: §e
+  Resource_Color_Diamond: §b
+  Buildings_Name_Townhall: §6Townhall
+  Buildings_Name_Barrack: §6Barrack
+  Buildings_Name_Storage: §6Storage
+  Buildings_Name_Alchemy: §6Alchemy
+  Building_Desc_Townhall: Townhall increases your max-member limit of your guild.
+  Building_Desc_Barrack: Barracks equips you with better items on guild wars.
+  Building_Desc_Storage: Storage holds resources of the guild, upgrade it to get more
+    capacity.
+  Building_Desc_Alchemy: Alchemy gives the opportunity to reach to more effective
+    effects.
+  Alchemy_Type_1_Name_0: §6Strength
+  Alchemy_Type_2_Name_0: §6Horse
+  Alchemy_Type_3_Name_0: §6Speed
+  Alchemy_Type_4_Name_0: §6Resistance
+  Below_Guild_Chunks: §7Look at a direction, not below.
+  Build_Resource_Required_Text: '§a§nRequired:'
+  SentinelGUI_SentinelDespawn: '||||§7§nLEFT-CLICK with SHIFT to...||  §fdespawn the
+    sentinel.'
+  Book_Build_Requires: §8Build Requires:§0
+  BG_Intro_Book_1: Welcome, adventurer, to §4§lBlade & Guilds§0.
+  BG_Intro_Book_2: '{NL}{NL}{NL}{NL}Before beginning the game you must create your
+    past. These changes can be undone later.{NL}{NL}{NL}{NL}{NL}'
+  BG_Intro_Book_3: You were born years ago, in a land far away.{NL}   §nYour father
+    was...{NL}
+  BG_Intro_Book_4: '{NL}{NL}As a boy growing out of childhood, you took to the streets,
+    doing whatever you must to survive. Begging, thieving and working for gangs to
+    earn your bread.{NL}{NL}{NL}{NL}'
+  BG_Intro_Book_5: Then, as a young adult, life changed as it always does.{NL}    §nYou
+    became...{NL}
+  BG_Intro_Book_6: '{NL}{NL}{NL}Now, you are ready to be ruler of all guilds.{NL}What
+    do you want to do now?{NL}{NL}'
+  BG_Intro_Book_Sel_Name_1: ▶ §lSee Public Guilds§r.
+  BG_Intro_Book_Sel_Name_2: ▶ §lNevermind§r.
+  BG_Intro_Book_Finish: §7Good luck with your challenging story.
+  BG_Intro_Book_List_1: '  ▶ a(n) §0§l{N}§r.'
+  BG_Intro_Book_List_2: '   ▶ a(n) §0§l{N}§r.'
+  BG_Intro_Book_Button_1: '       §8Continue ▶'
+  BG_No_Perm_Kit: §7You don't have permission to select this kit.
+  BG_Kit_Selected_Already: §7You cannot choose another kit.
+  BG_Kit_Selected: §7You inventory has been updated.
