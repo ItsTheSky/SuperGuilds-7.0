@@ -1,0 +1,524 @@
+Messages:
+  Prefix: §6§lSUPERGUILDS §6➥§7
+  Char_Error: §7Văn bản chứa các ký tự không thích hợp.
+  WorldGuard_Error: §7Có sự bảo vệ của WorldGuard.
+  Chunk_Error: §7Có một guild ở đây.
+  Dont_Have_Gold_To_Create: §7Bạn không có đủ vàng trong túi đồ. Để tạo guild. Bạn
+    phải có §e{NUMBER}§7.
+  Created_Guild: §e{PLAYER}§7, Đã tạo §7Guild §b{GUILD} .
+  Land_Error: §7Vị trí của bạn không an toàn.
+  Guild_Name_Length: §7Tên Guild này quá dài hoặc quá ngắn.
+  That_Guild_Exists: §7Có một guild như vậy.
+  Enter_Guild_Name: §7Nhập tên guilds.
+  You_Have_Guild: §7Bạn đã có guild.
+  Chunk_Middle: §7Vui lòng đứng ở block kim cương và thử lại.
+  Remove_Confirm: §7Bạn có chắc chắn muốn xóa guild không? Nếu bạn chắc chắn, sử dụng
+    lệnh này một lần nữa.
+  Guild_Removed: §7Guild đã bị xóa.
+  No_Permission: §7Bạn không được phép làm điều này.
+  You_Dont_Have_Guild: §7Bạn không có Guild.
+  You_Arent_Leader: §7Bạn không phải là người lãnh đạo của guild.
+  Guild_Remove_Broadcast: §c{GUILD} §7Đã giải tán.
+  Option_Disabled: §7Tính năng này bị tắt.
+  No_Rank: §7Bạn chỉ là thành viên bình thường.
+  You_Dont_Have_This_Chunk: §7Guild của bạn không có vùng này.
+  Done_Set_Home: §7TGuild home được thiết lập.
+  Teleporting_Message: §7Dịch chuyển sau §e{TIME} §7giây.
+  Teleport_Cancel: §7Teleporting đã bị hủy, bạn đã di chuyển ?
+  Teleport_Done: §7Dịch chuyển thành công.
+  Already_Teleport: §7Đã sẵn sãng dich chuyển.
+  Teleport_Starting: §7Teleport đã bắt đầu, không di chuyển.
+  GUIPrefix: §a§l§4§l
+  Guild_Management: Quản lý Guild
+  Manage_Panel_1: §6Hoạt động của Guild
+  Manage_Panel_2: '§6Thông Tin:'
+  Manage_Panel_3: §6Hoạt động chiến Guilds
+  Manage_Panel_2_Lore: '||§eNgười chơi: §f{NAME}||||§eTrạng thái: §f{STATUS}||||§eRời
+    mạng lúc: §f{SEEN}||||§eChức vụ: §f{RANK}||||§eNgày tham gia: §f{DATE}||||§eGuild
+    chiến;||§7 → Giết: §f{WARKILLS}||§7 → Tử vong: §f{WARDEATHS}||||§eĐóng góp;||§7
+    → Vàng: §f{DGOLD}||§7 → Kim cương: §f{DMAGIC}'
+  Rank_Leader: §bChủ Guild
+  Rank_General: §aPhó Guild
+  Rank_Captain: §dĐội Trưởng
+  Rank_Member: §8Thành viên
+  Guild_Info: §6Thông tin Guilds
+  Guild_Info_Lore: '||§7Bấm để xem thông tin guild.'
+  Guild_Store: §6Quỹ Guild
+  Guild_Store_Lore: '||§7Bấm để đóng góp .'
+  Claimed_Lands: §6Đất đã mua
+  Claimed_Lands_Lore: '||§7Bấm để xem đất của guild bạn.'
+  Guild_Alchemy: §6Buff Guild
+  Guild_Alchemy_Lore: '||§7Bấm vào đây để nhận buff Guild.'
+  Check_Players: §6Kiểm tra thông tin
+  Check_Players_Lore: '||§7Bấm vào đây để xem danh sách các thành viên của guild.'
+  Guild_Buildings: §6Nâng Cấp Guild
+  Guild_Buildings_Lore: '||§7Bấm để xem cấp độ của Guild.'
+  Guild_Info_Header: Thông tin Guild
+  Guild_Info_1: §6Huy Hiệu
+  Guild_Info_1_Lore: '||§eTên:||§f{NAME}||||§eHuy Hiệu:||§f{EMBLEM}||||§eChủ Guild:||§f{LEADER}'
+  Guild_Info_2: §6Thành lập Guild
+  Guild_Info_2_Lore: '||§eNgày thành lập:||§f{TIME}||||§eNgười tạo:||§f{CREATOR}'
+  Guild_Info_3: §6Trạng thái Guild
+  Guild_Info_3_Lore: '||§eGuild chiến:||§7 → Giết chết: §f{KILLS}||§7 → Tử vong: §f{DEATHS}||||§eXếp
+    Hạng:||§f{LEVEL}||||§eDanh vọng Guilds:||§f{POINTS} ✪||||§eThành Viên:||§f{PLAYERS}/{MAX}||||§eVùng
+    đất đã chiếm:||§f{CLAIMED}'
+  Guild_Header_Kick: Sa thải thành viên
+  Guild_Kick_Lore: '||§eCấp bậc: §f{RANK}||||§7Bấm để sa thải người chơi từ guild.'
+  Kick_Error_No_Guild: §7Người chơi này không thuộc guild.
+  Kick_Error_No_Rank: §7Cấp bậc trong guild của bạn không đủ để sa thải thành viên
+    này.
+  Kicked_Player: §c{KICKED}§7 Đã sa thải §e{PLAYER}§7.
+  You_Kicked: §7Bạn đã bị đuổi khỏi guild.
+  No_Kick_Yourself: §7Bạn không thể đuổi chính mình.
+  Guild_Header_List: Thành viên Guild
+  Claim_Error: §7Bạn đã có đất này.
+  No_Gold_Guild: §7Guild của bạn không đủ vàng.
+  No_Claim_Level: §7Guild sở hữu vùng đất này lớn hơn phân chia guild của bạn.
+  Attacking_You: §c{ATTACKER}§7 Chiếm đất của bạn tại §e{LAND}§7.
+  Attacked_Chunk: §4GUILD§7 đã chiếm đất tại §e{LAND} §7thuộc §c{OWN}§7.
+  Chunk_Claimed: §4GUILD§7 đã mua đất tại §e{LAND}§7.
+  Chunk_Error_You: §7Đất này không phải của Guild bạn.
+  Chunk_Unclaimed: §4{PLAYER}§7 đã bán đất tại §e{LAND}§7.
+  Buildings_GUI: Nâng Cấp Guild
+  Buildings_Name_Townhall: §6Giới hạn thành viên
+  Buildings_Name_Barrack: §6Lực chiến
+  Buildings_Name_Storage: §6Kho đóng góp
+  Buildings_Name_Alchemy: §6Buff hiệu ứng
+  Buildings_Upgrade: §aBấm để nâng cấp.
+  Buildings_Lore_0: §9§nQuyền lợi
+  Buildings_Lore_Townhall: §7 → Tăng giới hạn thành viên của guild.
+  Buildings_Lore_Barrack: §7 → Bắt đầu cuộc chiến với các item mạnh hơn.
+  Buildings_Lore_Storage: §7 → Tăng kho lưu trữ của quỹ Guild.
+  Buildings_Lore_Alchemy: §7 → Nhận các hiệu ứng mạnh mẽ hơn.
+  Buildings_Level: '§eCấp độ hiện tại: §f{LEVEL}'
+  Romen_Num_1: I
+  Romen_Num_2: II
+  Romen_Num_3: III
+  Romen_Num_4: IV
+  Romen_Num_5: V
+  Romen_Num_6: VI
+  Romen_Num_7: VII
+  Romen_Num_8: IIX
+  Store_GUI: Kho đóng góp
+  Store_Name_Gold: §e§nVàng
+  Store_Color_1: §e
+  Store_Status: '§7Còn trống: §f{NUMBER}'
+  Donate_Lore_Gold: §7Bấm để đóng góp vàng.
+  Donate_Lore_Magic: §7Bấm để đóng góp kim cương.
+  Help_Pages_1::Line_1: '    §4§l- Việt Hóa Bởi: §a§ltuantungbn §4§l-'
+  Help_Pages_1::Line_2: §e/g thanhlap <Tên> §8- §7Tạo guild.
+  Help_Pages_1::Line_3: §e/g giaitan §8- §7Xóa guild hiện tại.
+  Help_Pages_1::Line_4: §e/g bieutuong §8- §7Tạo biểu tượng guild.
+  Help_Pages_1::Line_5: §e/g thongtin §8- §7Hiện thông tin Guild.
+  Help_Pages_1::Line_6: §e/g thoat §8- §7Rời khỏi guild của bạn.
+  Help_Pages_1::Line_7: §e/g kho §8- §7Hiện kho lưu trữ  của guild.
+  Help_Pages_1::Line_8: '§e§lHãy liên hệ:§e<§4§lHelper§e> §a§ltuantungbn §etrong game
+    để được hỗ trợ. '
+  Help_Pages_2::Line_1: §e/g thanhvien §8- §7Hiện tất cả thành viên Guild.
+  Help_Pages_2::Line_2: §e/g moi <Tên> §8- §7Mời người chơi vào guild của bạn.
+  Help_Pages_2::Line_3: §e/g muadat §8- §7Mua vùng đất nơi bạn đang đứng.
+  Help_Pages_2::Line_4: §e/g xoadat §8- §7Bỏ vùng đất nơi bạn đang đứng.
+  Help_Pages_2::Line_5: §e/g quanly §8- §7Thay đổi cấp bậc thành viên.
+  Help_Pages_2::Line_6: §e/g thongtin §8- §7Hiện thông tin Guild.
+  Help_Pages_2::Line_7: §e/g home §8- §7Di chuyển đến guild home của bạn.
+  Help_Pages_2::Line_8: §e/g doiten <name> §8- §7Đặt tên vùng đất nơi bạn đứng.
+  Help_Pages_3::Line_1: §e/g sethome §8- §7Đặt guild home ở đây.
+  Help_Pages_3::Line_2: §e/g war (Tên) §8- §7Khiêu chiến với guild khác.
+  Help_Pages_3::Line_3: §e/g sathai §8- §7Sa thải thành viên.
+  Help_Pages_3::Line_4: §e/g nangcap §8- §7Nâng cấp guild.
+  Help_Pages_3::Line_5: §e/g dachiem §8- §7Vùng đất Guild đã chiếm.
+  Help_Pages_3::Line_6: §e/g buff §8- §7Buff của Guild.
+  Help_Pages_3::Line_7: §e/g tuchoi §8- §7Bật/tắt lời mời gia nhập.
+  Help_Pages_3::Line_8: §e/g c §8- §7Bật/tắt chat guild.
+  Next_Page: §8§m--------§r §7Sử dụng §6/g huongdan {NEXT} §7để đến trang kế tiếp.
+    §8§m-------
+  Invite_Player_Name: §7Nhập tên người muốn mời.
+  Cant_Invite_Yourself: §7Không thể tự mời mình.
+  Player_Closed_Invites: §7Người chơi này đã từ chối lời mời.
+  Player_Has_Guild: §7Người chơi đã có guild.
+  Your_Guild_Is_Full: §7Guild đã đầy. §4/g nangcap §7để thêm nhiều thành viên hơn.
+  Invite_Wait: §7Bạn phải đợi §e{TIME} §7cho lời mời tiếp theo.
+  This_Guild_Is_Full: §7Guild đã đầy.
+  Invite_Send: §7Đã gửi lời mời đến người chơi.
+  Invite_GUI: Lời mời tham gia Guild
+  InviteC_Accept: §aChấp nhận, tham gia §6§l{GUILD}
+  InviteC_Reject: §cTừ chối.
+  You_Reject: §7Bạn từ chối lời mời của {GUILD}.
+  You_Joined_Guild: §7Bạn đã tham gia §e{GUILD} .
+  Player_Joined_Guild: §6{PLAYER} §7Đã gia nhập §e{GUILD} .
+  Disabled_Invites: §7Bạn đã từ chối lời mời.
+  Enabled_Invites: §7Bạn đã chấp nhận lời mời.
+  Donate_Usage: §7Bạn có thể đóng góp cho Guild bằng cách sử dụng §e/g donggop <vang/kimcuong>
+    (số lượng)§7.
+  Enter_An_Integer: §7Nhập số.
+  No_Storage: §7Không còn chỗ trống để đóng góp thêm §f{NUMBER} {RESOURCE}§r§7. §7Bạn
+    phải §4/g nangcap §7.
+  Player_Donated: '{RANK} {PLAYER}§7, đóng góp §f{NUMBER} {RESOURCE}§r §7vào quỹ Guild.'
+  You_Donated: §7Bạn đã đóng góp §f{NUMBER} {RESOURCE}§r §7vào quỹ Guild.
+  Donations_0: §7Khoản đóng góp phải lớn hơn không.
+  Leader_Leave: §7Chủ Guilds không thể rời Guild. Bạn có thể giải tán {GUILD} bằng
+    cách sử dụng §e/g giaitan§7.
+  Player_Leave: '{RANK} {PLAYER}§7, đã rời khỏi {GUILD}.'
+  You_Leave: §7Bạn đã rời khỏi §c{GUILD}§7.
+  Language_GUI: ngôn ngữ
+  Language_Lore: '||§7Bấm để chọn ngôn ngữ.'
+  Language_Select: '§7Ngôn ngữ đã chọn: §a{LANG}'
+  Unknown_Command: Lệnh không tồn tại.
+  Locale_Error: Could not connect to web data for locale file.
+  Enter_Language: nhập ngôn ngữ.
+  Guild_Error_Upgrade: §7Bạn không ở {GUILD} nữa.
+  Buildings_Required_Lore_0: §b§nChi phí nâng cấp;
+  Buildings_Required_Lore_1: '§7 → {GOLD}: §f{GNEED}||§7 → {MAGIC}: §f{MNEED}'
+  No_Magic_Guild: §7Chưa đủ kim cương.
+  Limit_Buildings: §7Đã đạt mức tối đa.
+  Building_Upgrade: §7{RANK} {PLAYER}§7, đã nâng cấp {BUILD} §7tới cấp độ §e{NUMBER}§7.
+  Buildings_Broadcast_1: '§7Số lượng thành viên Guild tăng lên: §a+{NUM}'
+  Buildings_Broadcast_2: §7Guild của bạn sẽ bắt đầu cuộc chiến với {ITEM}§7.
+  Buildings_Broadcast_3: '§7Quỹ lữu trữ Guild tăng lên: §a+500'
+  Buildings_Broadcast_4: §7Bây giờ Guild của bạn có thể sử dụng cấp độ tiếp theo của
+    Buff guild.
+  Showing_Claims: §7Bạn đang xem tất cả những vùng đất guild của bạn đã chiếm.
+  No_Claims: §7Guild chưa mua vùng này.
+  Show_Claim_Wait: §7Bạn phải đợi §e{TIME} §7để hiển thị tất cả các vùng đất bạn đã
+    chiếm.
+  Change_Rank: '||§7Bấm để thay đổi cấp bậc thành viên.'
+  Status_Online: §aOnline
+  Status_Offline: §cOffline
+  Rank_Yourself: §7Bạn không thể thay đổi của chính bạn.
+  Rank_Not_Enough: §7Cấp bậc của bạn không có quyền để thực hiện điều này.
+  Guild_Rank_Lore: '||§7Cấp bậc hiện tại: §f{RANK}'
+  Guild_Header_Rank: Thay đổi quyền
+  Select_GUI: ''
+  Player_Info_No_Guild: '||§7Người chơi không có guild.'
+  Player_Stats: Thông Tin
+  Player_Info_Name_1: '§6Thông tin Guild:'
+  Player_Info_Name_2: '§6Thông tin người chơi:'
+  Player_Info_Name_3: '§6Tất cả thông tin:'
+  Player_Info_1: '||§eGuild: §f{GUILD}||||§eCấp bậc: §f{RANK}||||§eTham gia ngày:
+    §f{DATE}||||§eChiến đấu||§7 → Giết chết: §f{KILLS}||§7 → Tử vong: §f{DEATHS}||||§eĐóng
+    góp vào quỹ;||§7 → Vàng: §f{DGOLD}||§7 → Kim cương: §f{DMAGIC}'
+  Player_Info_2: '||§eNgười chơi: §f{PLAYER}||||§eWar-Guild:||§7 → Giết chết: §f{KILLS}||§7
+    → Tử vong: §f{DEATHS}||§7 → KDA: §f{KDA}||||§eĐóng góp vào quỹ:||§7 → Vàng: §f{DGOLD}||§7
+    → Kim cương: §f{DMAGIC}'
+  Player_Info_3: '||§eMáu: §f{HEALTH}/10||||§eĐói: §f{HUNGER}/10||||§eVị trí: §f{LOCATION}'
+  No_Guild_Like_This: §7Không tìm thấy Guild nào với tên này.
+  No_Player_Like_This: §7Không tìm thấy người chơi nào với tên này.
+  Guild_Emblem_GUI: §6Biểu tương Guild
+  Guild_Emblem_Lore: '||§7Bấm để tạo biểu tượng guild.'
+  See_Stats: '||§7Bấm để xem thống kê của người chơi.'
+  Rank_Changed: §7Cấp bậc của bạn trong Guild đã thay đổi tới {RANK}§7.
+  Ranked_Player: §7{OLDRANKCHANGEP} {CHANGEP}§7's Cấp bậc đã được thay đổi thành {NEWRANKCHANGEP}
+    §7bởi {RANKPLAYER} {PLAYER}§7.
+  Rank_Wrong: §7Bạn chỉ có thể chọn cấp bậc thấp hơn cấp bậc của bạn.
+  Player_Info_4: '||§7Người chơi không online.||||§eRời mạng lúc: §f{SEEN}'
+  You_Cant_Unclaim: §7Bạn không thể hủy Claim ở đây vì khu vực này là của §e{BUILD}
+    §7bạn.
+  You_Cant_Action: §7Bạn không thể thay đổi bất cứ điều gì trên khu §e{BUILD} §7này.
+  Owned_By: '§7Vùng này thuộc §e{GUILD}§7. Bạn không thể thay đổi bất cứ điều gì,
+    sử dụng /g chien để chiếm '
+  Reloading_1: §7Đang thay đổi cấu hình ...
+  Reloading_2: §7Tất cả các tệp đã được tải lại.
+  Version: §eChế độ Guild {VERSION} §7việt hóa bởi §btuantungbn§.
+  Emblem_Saved: §7Biểu tượng Guild đã được lưu.
+  Select_Color: §7Bạn đã không chọn màu.
+  Select_Code: §7Bạn đã không chọn mã.
+  Guild_Emblem_Changed: §7Biểu tượng Guild của bạn đã được thay đổi bởi §e{PLAYER}§7.
+  Create_Guild_Disabled_World: §7Bạn không thể tạo guild trong thế giới này.
+  Divisions_0: §8Đồng
+  Divisions_1: §7Bạc
+  Divisions_2: §evàng
+  Divisions_3: §dPha lê
+  Divisions_4: §bLãnh đạo
+  Divisions_5: §cBá chủ
+  Chat_Addon_Click_To_Stats: §7Bấm để xem thông tin người chơi.
+  Back_Header: §6Trở lại
+  SYNC_Done: §7SYNC for §a{FILE} §7file is done.
+  SYNC_Load_Error: §7Couldn't load §c{FILE} §7file.
+  SYNC_Delete_Failed: §7Couln't delete/restore file §c{FILE}§7.
+  SYNC_Enter_File: §7Enter the file to sync. (locale or config)
+  Menu_Alchemy_GUI: Buff Guild
+  Text_Feature: '§eBuff:'
+  Text_Price: '§eGiá:'
+  Text_Buy: §eBấm để lấy Buff.
+  Alchemy_Menu_Lore_1: §8 → §715 phút tăng sức mạnh cho tất cả thành viên.
+  Alchemy_Menu_Lore_2: §8 → §7Giáp Ngựa cho tất cả thành viên
+  Alchemy_Menu_Lore_3: §8 → §715 phút tăng tốc độ cho tất cả thành viên.
+  Alchemy_Menu_Lore_4: §8 → §715 phút phòng thủ.
+  Alchemy_Menu_Price_1: ' §8 → §7cấp I: §f{MAGIC1} Kim cương|| §8 → §7Cấp II: §f{MAGIC2}
+    Kim cương|| §8 → §7Cấp III: §f{MAGIC3} Kim cương'
+  Alchemy_Menu_Price_2: ' §8 → §7Giáp Ngựa: §f{MAGIC1} Kim cương|| §8 → §7Giáp ngựa
+    Sắt: §f{MAGIC2} Kim cương|| §8 → §7Giáp ngựa kim cương: §f{MAGIC3} Kim cương'
+  Alchemy_Menu_Price_3: ' §8 → §7Cấp I: §f{MAGIC1} Kim cương|| §8 → §7Cấp II: §f{MAGIC2}
+    Kim cương|| §8 → §7Cấp III: §f{MAGIC3} Kim cương'
+  Alchemy_Menu_Price_4: ' §8 → §7Cấp I: §f{MAGIC1} Kim cương|| §8 → §7Cấp II: §f{MAGIC2}
+    Kim cương|| §8 → §7Cấp III: §f{MAGIC3} Kim Cương'
+  Alchemy_Type_1_Name_1: §6Sức mạnh cấp I
+  Alchemy_Type_1_Name_2: §6Sức mạnh cấp II
+  Alchemy_Type_1_Name_3: §6Sức mạnh cấp III
+  Alchemy_Type_2_Name_1: §6Giáp ngựa
+  Alchemy_Type_2_Name_2: §6Giáp ngựa sắt
+  Alchemy_Type_2_Name_3: §6Giáp ngựa kim cương
+  Alchemy_Type_3_Name_1: §6Speed I
+  Alchemy_Type_3_Name_2: §6Speed II
+  Alchemy_Type_3_Name_3: §6Speed III
+  Alchemy_Type_4_Name_1: §6Phòng thủ Cấp I
+  Alchemy_Type_4_Name_2: §6Phòng thủ Cấp II
+  Alchemy_Type_4_Name_3: §6Phòng thủ Cấp III
+  Bought_Alchemy_Guild: §e{GUILD} Đã ban tặng §6{TYPE} §7từ Buff Guild.
+  Bought_Alchemy_Own: §7{RANK} {PLAYER}§7, Nhận §6{TYPE} §7từ Buff Guild.
+  Barrack_Upgrade_Item_1: §7Trang bị Da
+  Barrack_Upgrade_Item_2: §eTrang bị Vàng
+  Barrack_Upgrade_Item_3: §8Trang bị Xích
+  Barrack_Upgrade_Item_4: §fTrang bị Sắt
+  Barrack_Upgrade_Item_5: §bTrang bị Kim Cương
+  Menu_War_GUI: Guild Chiến
+  Menu_War_Name_1: §6War-Guild
+  Menu_War_Lore_1: §7Bấm vào đây để bất đầu thi đấu xếp hạng Guild.
+  Menu_War_Name_2: §6Thống kê War-Guild
+  Menu_War_Lore_2: '§eGuild:||§7 → Xếp Hạng: §f{LEVEL}||§7 → Danh vọng: §f{POINTS}
+    ✪||§7 → Trang bị chọn: §f{ITEMS}||||§ePvP;||§7 → Giết chết: §f{KILLS}||§7 → Tử
+    vong: §f{DEATHS}||||§eXếp hạng đã giết;||§7 → {RANK} {TOP}§8: §f{NUM} người'
+  Menu_War_Name_3: §6Top Guilds
+  Menu_War_Lore_3: §7Bấm vào đây để xem các guild hàng đầu.
+  Disabled_Chat: §7Bạn vô hiệu hóa chat guild. Tin nhắn của bạn có thể được xem bởi
+    tất cả người chơi.
+  Enabled_Chat: §7Bạn đã kích hoạt chat guild. Thông điệp của bạn chỉ có thể được
+    xem bởi các thành viên của guild.
+  Guild_Chat: §7[§a§l☠§7]
+  Number_Online: §8(§a{PLAYER} §7online§8)
+  Text_Month: tháng(s)
+  Text_Day: ngày(s)
+  Text_Hour: giờ(s)
+  Text_Minute: phút(s)
+  Text_Second: giây(s)
+  No_Variable_List_0: §7Không có Guild.
+  Header_0: Danh sách Guild
+  Header_1: Danh sách vùng đã chiếm
+  Forward_Header: '§6Phía trước '
+  Claimed_Land: Vùng đã Chiếm
+  Claimed_Land_Lore: '||§7Tọa Độ:§f{LOC}||||§eBấm để di chuyển.'
+  ClaimName_Usage: '§7Sử dụng: §e/s doiten <name> §7để chỉnh sửa tên của vùng nơi
+    bạn đứng.'
+  ClaimName_Changed: §7Tên của vùng đã chiếm §e{LOC} §7 thay đổi thành §6{NAME} §7bởi
+    §9{BY}§7.
+  No_Item_Gold: §7Bạn không có §e{NUMBER} vàng(s) §7để đóng góp.
+  Arena_Created: '§7Arena đã được tạo: §e{ARENA}'
+  Arena_Exists: §7Trùng tên.
+  Enter_Arena_Name: §7Nhập tên Arena.
+  No_Arena: §7Không có Arena.
+  Arena_Removed: '§7 Đã xóa: §e{ARENA}'
+  Enter_Setspawn_Type: §7Bạn phải nhập tên Danh vọng Spawn . (1 hoặc 2)
+  Setspawn_Done: §eGuild-{TYPE}§7's đã vào Spawn của §a{ARENA}, §7{ARENA} đã được
+    chuẩn bị.
+  Lobby_Done: §7Lobby đã được đặt ở nơi này. Người chơi sẽ được chuyển đến đây sau
+    trận đấu.
+  Restart_Kick_restart: §7Bạn bị kick vì cuộc chiến này đã được khởi động lại.
+  Restart_Kick_error: §7Bạn bị kick vì cuộc chiến này đã bị lộ thông tin.
+  Restart_Kick_time: §7Bạn bị kick vì cuộc chiến này đã kết thúc.
+  Enemy_War_Minimum: §7Guild bạn có §e{ONLINE} §7thành viên(s). (thấp nhất là {MINIMUM})
+  You_War_Minimum: §7Bạn có §e{ONLINE} §7thành viên(s). (thấp nhất là {MINIMUM})
+  Enemy_Leader_Not_Online: §7Guild Chủ của guild này không online.
+  Enemy_Guild_In_War: §7Guild này đang trong Arena.
+  Your_Guild_In_War: §7Guild của bạn đang trong Arena.
+  Cannot_War_Yourself: §7Bạn không thể khiêu chiến với Guild bạn.
+  War_Invite_Send: §7Guild của bạn đã khiêu chiến với §c{GUILD} .
+  War_Invite_GUI: Lời mời WAR-Guild
+  War_InviteC_Accept: §6Chấp nhận và WAR với §c{GUILD}§6.
+  War_InviteC_Reject: §cTừ chối và đóng Menu.
+  War_Other_Reject: §9{GUILD} §7Đã từ chối lời mời của bạn.
+  War_You_Reject: §7Bạn đã đồng ý §9{GUILD}§7's tham gia cuộc chiến.
+  No_Available_Arena: §7Không tìm thấy Arena.
+  War_Starting_Timer: §9{GUILD1} §7với. §c{GUILD2} §7sẽ bắt đầu sau §e{SECONDS} §7giây(s).
+  War_Started: §7Cuộc chiến giữa §9{GUILD1} §7với. §c{GUILD2} §7đã bắt đầu. Chúc may
+    mắn!
+  War_Starting: §7Lời mời được chấp nhận, hãy chuẩn bị cho cuộc chiến!
+  War_End_Timer: §7Cuộc chiến sẽ kết thúc sau §e{MINUTES} §7phút(s).
+  Game_Finished_Time: §7Cuộc chiến đã kết thúc, không Guild nào dành thắng lợi.
+  No_Command_War: §7Bạn không thể sử dụng lệnh trong khi bạn đang ở trong chiến trường.
+  War_Death_1: §9{VICTIM} ({VGUILD}) §7đã bị giết bởi §c{ATTACKER} ({AGUILD}) §7và
+    bị loại khỏi cuộc chiến.
+  War_Win: §7Cuộc chiến giữa §9{GUILD1} §7với. §c{GUILD2} §7đã kết thúc. §9{GUILD1}
+    §7đã dành chiến thắng.
+  New_Division: §7Xếp Hạng của Guild bạn đã được thay đổi thành §r{NEWDIVISION} §7từ
+    §r{OLDDIVISION}§7.
+  War_Points_Add: §7Guild của bạn đã dành thắng lợi vẻ vang trong cuộc chiến chống
+    lại §c{GUILD} §7và được §a+{POINTS} ✪§7.
+  War_Points_Lose: §7Guild của bạn thua trong cuộc chiến chống lại §9{GUILD} §7và
+    mất §c-{POINTS} ✪§7.
+  Arena_Debug: §7ARENA §a{ARENA} §7Đã mở lại.
+  No_Arena_Found: §7Không tìm thấy Arena.
+  Arena_Guilds: '§7 ARENA: §f'
+  Arena_TimeLeft: '§7Thời gian còn: §f'
+  Status_Text_0: §a§lĐANG CHỜ
+  Status_Text_1: §e§lĐÃ VÀO
+  Status_Text_2: §c§lĐÃ ĐÓNG
+  Status_Text_3: §4§lĐANG BẮT ĐẦU LẠI
+  House_Protection: §7sẽ xây cho bạn 1 căn cứ tại đây. Hãy chọn vùng đất trống.
+  RankStar_Leader: §b§n|Chủ Guild|§4§l
+  RankStar_General: §a§n|Phó Guild|§6§l
+  RankStar_Captain: §cĐội trưởng §3
+  RankStar_Member: §2Thành Viên
+  No_Name_Guild: §7Không thể sử dụng tên guild này.
+  Claim_Limit: §7Claim đã đạt mức tối đa.
+  Teleport_Spawn_1: §c{ATTACKER}§7 đã trục xuất bạn khỏi Guild.
+  Teleport_Spawn_2: §7Bạn đã trục xuất §c{VICTIM}§7 khỏi guild.
+  No_Market_Guild: §7Guild này không có khu mua bán .
+  Done_Set_Market: §7Đã thiết lập vị trí khu mua bán.
+  Teleport_Market: §7Đã dịch chuyển tới §a{GUILD}§7.
+  Visit_Market: §9{PLAYER} §7Đã vào khu mua bán của Guild bạn.
+  Done_Remove_Market: §7Khu mua bán đã bị xóa bỏ.
+  Already_Have_Market: §7Bạn đã có khu mua bán.
+  Death_Broadcast: §3[{VGUILD}] §9{VICTIM}§7 bị giết bởi §6[{AGUILD}] §e{ATTACKER}
+    §4[-{GOLD} vàng]
+  Death_Gold_Gain: §7Guild của bạn được §e+{GOLD} vàng §7vì §7{RANK} {PLAYER}§7 đã
+    giết 1 ai đó.
+  Death_Gold_Loss: §7Guild của bạn bị §4-{GOLD} vàng §7vì §7{RANK} {PLAYER}§7 đã bị
+    giết bởi ai đó.
+  Buildings_Broadcast_TNT: §7TNT sẽ không phát nổ trong vùng đất đã chiếm của bạn.
+  Buildings_Lore_TNT: §7 → TNT sẽ phát nổ trong vùng đất đã chiếm của bạn.
+  Guild_Info_4: §6Guild Market
+  Text_Status: '§7Trạng thái:'
+  Text_On: §fMở
+  Text_Off: §fĐóng
+  Click_To_Teleport: §7Bấm để di chuyển.
+  Click_To_Select_Color: §fBấm vào để chọn mầu của bạn.
+  Click_To_Dye_Here: Bấm vào để chuyển mầu ở đây.
+  Save_Emblem_Lore: §fBấm vào để lưu và áp dụng biểu tượng.
+  Reset_Emblem_Lore: §fBấm vào đây để xóa dự thảo của bạn.
+  Use_Emblem_Lore: §fBấm vào đây để chỉnh sửa biểu tượng guild của bạn.
+  Wilderness_Text: '§2§lKHU ĐẤT HOANG§ '
+  Wilderness_Msg_1: §7§oCoi chừng bị thông
+  Wilderness_Msg_2: §7§oCoi chừng bị thông
+  Wilderness_Msg_3: §7§oCoi chừng bị thông.
+  Wilderness_Msg_4: §7§oCoi chừng bị thông
+  Home_Text: §a§lHome§r §a§l⌂
+  Home_Msg_1: §7§oHome...
+  Home_Msg_2: §7§oNothing is better than going home.
+  Home_Msg_3: §7You found what you need and return home.
+  Home_Msg_4: §7A man's house is his castle.
+  Other_Guild_Text: §4§l§n{GUILD}§r §4§l☠
+  Other_Guild_Msg_1: §7§oHãy cẩn thận.
+  Other_Guild_Msg_2: §7Ahh, Họ có thể giết bạn.
+  Other_Guild_Msg_3: §7Guild khác ở đây.
+  Other_Guild_Msg_4: §7/g war để thử sức!
+  Emblem_Menu: §0§l  » Biểu tượng Guild
+  Save_Emblem_Button: §2§l[§2✓§2§l]§r
+  Reset_Emblem_Button: §4§l[§4✘§4§l]
+  Use_Emblem_Button: §0§l[§0✎§0§l]
+  Click_To_War: '||§7Chủ Guild: §f{LEADER}||||§7Xếp Hạng: §f{LEVEL}||||§eClick để
+    chiến.'
+  Header_2: Tìm thấy Guild
+  No_Variable_List_2: §7Không Guild nào chiến.
+  Score_Prefix: §7§6§lWar-Guild
+  Score_Msg_9: '§b    '
+  Score_Msg_8: '§fThời gian: §e{TIME} Phút'
+  Score_Msg_7: '§aTấn Công '
+  Score_Msg_6: '§9§n§l{GUILD1}:'
+  Score_Msg_5: '§f{PLY1}/{MAX1}  '
+  Score_Msg_4: '§2Phòng Thủ  '
+  Score_Msg_3: '§c§n§l{GUILD2}:'
+  Score_Msg_2: '§f{PLY2}/{MAX2} '
+  Score_Msg_1: '§1 '
+  Player_No_Guild: §7Người chơi không có Guilds.
+  Menu_Donate_GUI: Vàng, kim cương
+  No_Item_Magic: §7Bạn không có §9{NUMBER} Kim cương(s) §7để đóng góp.
+  Store_Name_Magic: §b§nKim cương
+  Store_Color_2: §b
+  Donate_Must_Be_Gold_Magic: §7Đóng góp chỉ chấp nhận duy nhất §e§nVàng§r§7 hoặc §b§nKim
+    cương§r§7.
+  Cant_Attack_Member: §7Bạn không thể đánh người cùng Guild.
+  Enter_MOTD: §7Nhập thông báo hôm nay.
+  MOTD_Changed: §7Thông báo hôm nay đã thay đổi bởi §a{BY}§7.
+  MOTD_Removed: §7Thông báo hôm nay đã xóa bởi §a{BY}§7.
+  MOTD_Title: §f← §e§l§nThông Báo§r §f→
+  MOTD_SubTitle: §7§o{MESSAGE}
+  MOTD_ActionBar: §fThông báo hôm nay được thay đổi bởi §a{BY}§f. §f({DATE})
+  Enter_Region_Name: §7Nhập vùng WorldGuard's cần bảo vệ.
+  No_Region: §7Không có khu vực WorldGuard được bảo vệ theo tên này.
+  Region_Allowed: §7Bạn đã cho phép §a{REGION} §7WorldGuard chấp nhận để tạo Guild
+    trên khu vực này.
+  Region_Disallowed: §7Bạn cho không cho pép §c{REGION} §7WorldGuard không chấp nhận
+    để tạo Guild trên khu vực này .
+  Already_Ally: §7Guild này đã là đồng minh của bạn.
+  Wait_Ally: §7Phải đợi §a{TIME} §7để thêm/bớt đồng minh.
+  Added_Ally: §a{GUILD} §7guild và §9{ALLY} §7guild bây giờ đã là đồng minh.
+  Ally_GUI: Lời mời liên minh
+  Ally_InviteC_Accept: §6Chấp nhận và liên minh với §e{GUILD}§6.
+  Ally_InviteC_Lore: '||§7Đồng minh không thể cắn lẫn nhau :D.'
+  Ally_Other_Reject: §9{GUILD} §7Từ chối liên minh.
+  Ally_You_Reject: §7Đã từ chối liên minh với §9{GUILD}§7's.
+  No_Ally: §7Guild này không có trong danh sách đồng minh của bạn.
+  Removed_Ally: §a{GUILD} §7guild và §c{ENEMY} §7guild từ giờ gặp là chém.
+  Cannot_War_Allies: §7Bạn không thể chiến đấu với guild của đồng minh.
+  Cannot_Claim_Allies: §7Đất của đồng minh, không thể chiếm.
+  Allies_GUI: Danh sách khôi liên minh
+  Allies_Lore: '||§7Ngày: §e{DATE}||§7Thêm bởi: §e{BY}||||§7§oSử dụng §c§o''/g enemy
+    {GUILD}'' §7§ođể xóa đồng minh.'
+  No_Allies: §7Guild của bạn không có đồng đội.
+  Ally_Yourself: §7Không thể tạo liên minh với chính mình.
+  Help_Pages_4::Line_1: §e/g lienminh <Tên> §8- §7Thêm guild đồng minh của bạn.
+  Help_Pages_4::Line_2: §e/g doidich <Tên> §8- §7Loại bỏ guild từ danh sách đồng minh.
+  Help_Pages_4::Line_3: §e/g dongminh §8- §7Tất cả đồng minh của G.
+  Help_Pages_4::Line_4: §e/g giaitan §8- §7Xóa Guild của bạn.
+  Updated_Locale: '§7Locale file has been updated. (Old: {OLD} - New: {NEW})'
+  Updated_Locale_Replace: §7Added §6{NEW} §7new messages to locale file.
+  Tournaments_Name: Giải Đấu
+  Tournaments_Status_Off_Name: §4⚠
+  Tournaments_Status_Off_Lore: '||§7Giải đấu Chưa Mở||§7hãy trở lại sau.'
+  Tournaments_In_Name: §aThông tin giải
+  Tournaments_In_Lore: '||§7Đang chờ đối thủ...'
+  Tournaments_Opponent_Lore: '||§7Đối thủ của bạn là §7guild{GUILD}.||§7Bạn có thể
+    kiểm tra thống kê về điều này||§7với lệnh §e/g info.'
+  Tournaments_Join_Name: §aTham gia giải đấu
+  Tournaments_Join_Lore: '||§7Bấm để tham gia giải đấu.'
+  Tournaments_List: §aGiải đấu kết hợp
+  Tournaments_Guild_List: §aGiải đấu Guild
+  Tournaments_List_Waiting: '||§7Đang chờ đối thủ...'
+  Tournaments_Player_List: §aDanh sách người chơi
+  Tournaments_Player_List_Lore: '||§7Bấm để xem người chơi trong đội.'
+  Tournaments_Ingame_Lore: §8(§7§Đang vào§8)
+  Tournaments_Waiting_Lore: §8(§7§oĐang chờ§8)
+  Tournaments_Won_Lore: §8(§f{G}§8)
+  Tournaments_Eliminated_Lore: '||§7Giải đấu bắt đầu||§7 bạn không thể tham gia tại
+    thời điểm này.||§7Hẹn gặp bạn trong một giải đấu mới.'
+  Tournaments_Already_Enabled: §7Giải đấu đã mở.
+  Tournament_Started: §7Giải đấu đã mở! Tham gia với lệnh §e/tournament.
+  Tournament_Joins_Closed: §7Các trận đấu giải đấu đã được thiết lập. kiểm tra nó
+    với tournament menu.
+  Tournament_Cooldown: §7Bảng đấu sẽ được tạo trong §e{SECOND} §7second(s). §e(/tournament
+    để tham gia)
+  Your_Guild_Already_Tournament: §7Guild của bạn đã tham gia giải đấu.
+  Tournament_Not_Active: §7Giải đấu không hoạt động tại thời điểm này.
+  Cant_Join_Closed: §7Guild của bạn không thể gia nhập giải đấu vào lúc này.
+  Tournament_Player_List: Thành viên online
+  Tournament_Player_Status_Lore: '||§eCấp bậc: §f{RANK}||§eWar Kills: §f{KILLS}||§eWar
+    Deaths: §f{DEATHS}'
+  Guild_Joined_Tournament: §a{GUILD} §7đã tham gia giải đấu. §8[§e{ALL} Guild đã tham
+    gia§8]
+  Tournament_Not_Enough: §7Giải đấu đã kết thúc vì không có đủ đội để tham gia giải
+    đấu.
+  You_Cant_War_Tournament: §7Xin lỗi, guild của bạn không thể War-Guild trong khi
+    giải đấu đang hoạt động.
+  Tournaments_You_Won_Waiting: '||§7Guild của bạn đã chiến thắng trận đấu.||§7đang
+    chờ trận đấu mới.'
+  Guild_Removed_Tournament: §7Guild của bạn đã được gỡ bỏ khỏi giải đấu do 'guild
+    count phải là double'
+  Tournament_Won_Broadcast: §a{GUILD} §7Vô địch và có được §a+{POINTS} ✪§7.
+  Manage_Panel_Tournament: §6Giải đấu Guild
+  Locale_GUI_Name: Chọ ngôn ngữ
+  Click_Select_Locale: '||§7bấm để chọn ngôn ngữ.'
+  Locale_en_US: §6English (United States)
+  Locale_es_ES: §6Español
+  Locale_de_DE: §6Deutsch
+  Locale_it_IT: §6Italiano
+  Locale_ru_RU: §6Руска
+  Locale_tr_TR: §6Türkçe
+  Allow_Or_Disallow: §7sử dụng §a'/sgallow region allow <region>' §7to give access
+    create guilds on region. For delete this use §c'/sgadmin region disallow <region>'§7.
+    To check regions use §e'/sgadmin region list'§7.
+  No_Region_Found: §7Không có khu vực được phép.
+  Region_List: '          §a§nDanh sách vùng được phép'
+  Top_Guilds: Top Guilds
+  Click_To_Info: '||§7Chủ Guild: §f{LEADER}||§7Điểm War-Guild: §f{POINTS} ✪||§7Xếp
+    hạng: §f{LEVEL}||||§eBấm để xem thông tin của guild này.'
+  War_Top_GUI: §7Bấm để kiểm tra danh sách 10 guild hàng đầu.
