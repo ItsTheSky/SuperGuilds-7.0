@@ -1,0 +1,306 @@
+Messages:
+  Prefix: §6§lSUPERGUILDS §6➥§7
+  Char_Error: §7El texto tiene carácteres inapropiados.
+  WorldGuard_Error: §7Este lugar esta bajo una protección.
+  Chunk_Error: §7Hay un gremio establecido aquí.
+  Dont_Have_Gold_To_Create: §7No tienes suficiente oro para crear tu gremio.
+  Created_Guild: §e{PLAYER}§7, ha creado el gremio §b{GUILD}§7.
+  Land_Error: §7Esta posición no es segura.
+  Guild_Name_Length: §7El nombre del gremio es muy largo o muy corto.
+  That_Guild_Exists: §7Este gremio ya existe.
+  Enter_Guild_Name: §7Introduce un nombre a tu gremio.
+  You_Have_Guild: §7Solo puedes tener un gremio.
+  Chunk_Middle: §7Es necesario ponerte en el centro del área marcada.
+  Remove_Confirm: §7¿Estás seguro de borrar el gremio? Repite el comando si estás
+    seguro..
+  Guild_Removed: §7El gremio ha sido borrado con éxito.
+  No_Permission: §7No tienes permiso.
+  You_Dont_Have_Guild: §7No tienes ningún gremio, prueba con §e/g create
+  You_Arent_Leader: §7No eres el rey del gremio.
+  Guild_Remove_Broadcast: §c{GUILD} §7ha sido eliminado.
+  Option_Disabled: §7Pronto implementaremos esta opción.
+  No_Rank: §7No tienes suficiente rango de gremio.
+  You_Dont_Have_This_Chunk: §7Tu gremio no tiene este chunk.
+  Done_Set_Home: §7Se ha puesto el punto de hogar correctamente.
+  Teleporting_Message: §7Serás teletransportado en §e{TIME} §7segundos.
+  Teleport_Cancel: §7La teletransportación ha sido cancelada, ¡no te muevas!
+  Teleport_Done: §7Te has teletransportado correctamente.
+  Already_Teleport: §7Ya te estás teletransportando.
+  Teleport_Starting: §7La teletransportación ha comenzado, no te muevas.
+  GUIPrefix: §8§l» §8
+  Guild_Management: Gestión del gremio
+  Manage_Panel_1: §6Operaciones del gremio
+  Manage_Panel_2: '§6ID:'
+  Manage_Panel_3: §6Operaciones de guerra
+  Manage_Panel_2_Lore: '||§eJugador: §f{NAME}||||§eEstado: §f{STATUS}||||§eUlt. Visto:
+    §f{SEEN}||||§eRango: §f{RANK}||||§eParticipación: §f{DATE}||||§eGuerra;||§7 →
+    Bajas: §f{WARKILLS}||§7 → Muertes: §f{WARDEATHS}||||§eDonaciones;||§7 → Oro: §f{DGOLD}||§7
+    → Magia: §f{DMAGIC}'
+  Rank_Leader: §bLider §3★★★§b
+  Rank_General: §aGeneral §2★★§a
+  Rank_Captain: §dCapitan §5★§d
+  Rank_Member: §8Miembro
+  Guild_Info: §6Información del gremio
+  Guild_Info_Lore: '||§7Click para ver la información del gremio.'
+  Guild_Store: §6Tienda del gremio
+  Guild_Store_Lore: '||§7Click para ver la tienda del gremio.'
+  Claimed_Lands: §6Claimed Lands
+  Claimed_Lands_Lore: '||§7Click to see claims of your guild.'
+  Guild_Alchemy: §6Alquimia del Gremio
+  Guild_Alchemy_Lore: '||§7Click para ver la abrir el menú alquimia.'
+  Check_Players: §6Lista de jugaores
+  Check_Players_Lore: '||§7Click para ver la lista de jugadores del gremio'
+  Guild_Buildings: §6Construcciones del gremio
+  Guild_Buildings_Lore: '||§7Click para ver las construcciones del gremio.'
+  Guild_Info_Header: Información del gremio
+  Guild_Info_1: §6ID del gremio
+  Guild_Info_1_Lore: '||§eJugador: §f{NAME}||||§eEmblema:||§f{EMBLEM}||||§eLider actual:||§f{LEADER}'
+  Guild_Info_2: §6Fundación del gremio
+  Guild_Info_2_Lore: '||§eSe ha fundado en:||§f{TIME}||||§eCreador:||§f{CREATOR}'
+  Guild_Info_3: §6Estado del gremio
+  Guild_Info_3_Lore: '||§eGuerra;||§7 → Bajas: §f{KILLS}||§7 → Muertes: §f{DEATHS}||||§eDivisión
+    del gremio:||§f{LEVEL}||||§eJugadores:||§f{PLAYERS}/{MAX}||||§eTerreno claimeado:||§f{CLAIMED}'
+  Guild_Header_Kick: Expulsar a jugadores
+  Guild_Kick_Lore: '||§eRango: §f{RANK}||||§7Click para expulsar a este jugador'
+  Kick_Error_No_Guild: §7El jugador no está en el gremio.
+  Kick_Error_No_Rank: §7Tu rango no te permite expulsar a este miembro.
+  Kicked_Player: §c{KICKED}§7 ha sido expulsado del gremio por §e{PLAYER}§7.
+  You_Kicked: §7Has sido expulsado del gremio.
+  No_Kick_Yourself: §7¡Noob! No puedes expulsarte a ti mismo.
+  Guild_Header_List: Miembros del gremio
+  Claim_Error: §7Ya has obtenido este terreno.
+  No_Gold_Guild: §7Tu gremio no tiene oro suficiente.
+  No_Claim_Level: §7El gremio que posee la división de este terreno es mayor que la
+    división de tu gremio.
+  Attacking_You: §c{ATTACKER}§7 ha capturado el terreno §e{LAND}§7.
+  Attacked_Chunk: §7Su gremio ha capturado el terreno §e{LAND} §7perteneciente a §c{OWN}§7.
+  Chunk_Claimed: §7Has claimeado §e{LAND}§7.
+  Chunk_Error_You: §7Este terreno no es tuyo.
+  Chunk_Unclaimed: §7Has unclaimeado §e{LAND}§7.
+  Buildings_GUI: Construcciones del gremio
+  Buildings_Upgrade: §aClick para mejorar esto
+  Buildings_Lore_0: §9§nCuando sea mejorado;
+  Buildings_Level: '§eNivel de construcción: §f{LEVEL}'
+  Romen_Num_1: I
+  Romen_Num_2: II
+  Romen_Num_3: III
+  Romen_Num_4: IV
+  Romen_Num_5: V
+  Romen_Num_6: VI
+  Romen_Num_7: VII
+  Romen_Num_8: IIX
+  Store_GUI: Almacenamiento del gremio
+  Store_Name_Gold: §e§nRecursos de oro
+  Store_Name_Magic: §9§nRecursos de magia
+  Store_Color_1: §e
+  Store_Color_2: §9
+  Store_Status: '§7Disponible: §f{NUMBER}'
+  Help_Pages_1::Line_1: §e/guilds help §8- §7Abre esta página.
+  Help_Pages_1::Line_2: §e/guilds create <nombre del gremio> §8- §7Crea tu gremio.
+  Help_Pages_1::Line_3: §e/guilds remove §8- §7Elimina tu gremio.
+  Help_Pages_1::Line_4: §e/guilds emblem §8- §7Dibuja tu emblema
+  Help_Pages_1::Line_5: §e/guilds info §8- §7Muestra las estadísticas.
+  Help_Pages_1::Line_6: §e/guilds leave §8- §7Abandona el gremio.
+  Help_Pages_1::Line_7: §e/guilds store §8- §7Muestra el almacen del gremio.
+  Help_Pages_1::Line_8: §e/guilds claimname <name> §8- §7Set name of claim where you
+    at.
+  Help_Pages_2::Line_1: §e/guilds leader §8- §7Convierte a un jugador en el nuevo
+    líder.
+  Help_Pages_2::Line_2: §e/guilds invite <player> §8- §7Invita a un jugador al gremio.
+  Help_Pages_2::Line_3: §e/guilds claim §8- §7Claimea donde te encuentres.
+  Help_Pages_2::Line_4: §e/guilds unclaim §8- §7Unclaimea donde te encuentres.
+  Help_Pages_2::Line_5: §e/guilds rank §8- §7Cambia el rango al jugador.
+  Help_Pages_2::Line_6: §e/guilds reload §8- §7Recarga la configuración.
+  Help_Pages_2::Line_7: §e/guilds home §8- §7Te lleva a el hogar del gremio.
+  Help_Pages_3::Line_1: §e/guilds sethome §8- §7Pon el hogar del gremio.
+  Help_Pages_3::Line_2: §e/guilds war §8- §7Guerra con otros gremios.
+  Help_Pages_3::Line_3: §e/guilds version §8- §7Muestra la versión de gremios.
+  Help_Pages_3::Line_4: §e/guilds buildings §8- §7Muestra las construcciones del gremio.
+  Help_Pages_3::Line_5: §e/guilds showclaims §8- §7Shows guild's all claims.
+  Help_Pages_3::Line_6: §e/guilds alchemy §8- §7Muestra la alquímia del gremio.
+  Help_Pages_3::Line_7: §e/guilds invites §8- §7Enable/Disable guild invites.
+  Help_Pages_3::Line_8: §e/guilds chat §8- §7Enables/Disables guild chat.
+  Next_Page: §8§m--------§r §7Usa §6/sg help {NEXT} §7para ver la siguiente página.
+    §8§m-------
+  Invite_Player_Name: §7Introduce el nombre del jugador que quieras invitar.
+  Cant_Invite_Yourself: §7¡Noob! No puedes invitarte a ti mismo.
+  Player_Closed_Invites: §7Este jugador tiene desactivado las peticiones.
+  Player_Has_Guild: §7Este jugador está en un gremio
+  Your_Guild_Is_Full: §7Tu gremio esta completo, mejora el ayuntamiento para obtener
+    más capacidad
+  Invite_Wait: §7You have to wait §e{TIME} §7to invite someone.
+  This_Guild_Is_Full: §7Este gremio está completo.
+  Invite_Send: §7La invitación ha sido mandada al jugador.
+  Invite_GUI: Carta de invitación
+  InviteC_Accept: §6Aceptar y unirse al gremio §e{GUILD}§6.
+  InviteC_Reject: §cRechazar y cerrar este menu.
+  You_Reject: §7Has rechazado la invitación.
+  You_Joined_Guild: §7Te has unido al gremio §e{GUILD}§7.
+  Player_Joined_Guild: §6{PLAYER} §7se ha unido al gremio §e{GUILD}§7.
+  Disabled_Invites: §7Has desactivado las invitaciones a gremios.
+  Enabled_Invites: §7Has activado las invitaciones de gremios.
+  Donate_Usage: §7Puedes donar poniendo §e/g donate <gold/magic> <number>§7.
+  Donate_Must_Be_Gold_Magic: §7Las donaciones solo pueden ser de §e§noro§r§7 o §e§nmagia§r§7.
+  Enter_An_Integer: §7Introduce un número entero.
+  No_Storage: §7No queda espacio para §f{NUMBER} {RESOURCE}§r§7. §7Necesitas subir
+    de nivel el almacenamiento.
+  Player_Donated: '{RANK} {PLAYER}§7, ha donado §f{NUMBER} {RESOURCE}§r §7al almacenamiento
+    del gremio.'
+  You_Donated: §7Has donado §f{NUMBER} {RESOURCE}§r §7al almacenamiento del gremio.
+  Donations_0: §7Las donaciones deben de ser mayores a 0
+  Leader_Leave: §7Eres el líder, nombra a otro con §e/g rank§7 o borra el gremio con
+    §e/g disband§7.
+  Player_Leave: '{RANK} {PLAYER}§7, ha abandonado el gremio.'
+  You_Leave: §7Has abandonado el gremio §c{GUILD}§7.
+  Language_GUI: Idioma
+  Language_Lore: '||§7Click para seleccionar este idioma'
+  Language_Select: '§7Idioma seleccionado: §a{LANG}'
+  Unknown_Command: No se encuentra ese comando.
+  Locale_Error: No se puede conectar con la web
+  Enter_Language: Introduce un idioma.
+  Guild_Error_Upgrade: §7Ya no perteneces a este gremio.
+  Buildings_Required_Lore_0: §b§nCoste de la mejora;
+  Buildings_Required_Lore_1: '§7 → {GOLD}: §f{GNEED}||§7 → {MAGIC}: §f{MNEED}'
+  No_Magic_Guild: §7Tu gremio no tiene magia suficiente.
+  Limit_Buildings: §7Has alcanzado el nivel máximo.
+  Building_Upgrade: §7{RANK} {PLAYER}§7, ha mejorado {BUILD} §7al nivel §e{NUMBER}§7.
+  Buildings_Broadcast_1: '§7Capacidad de jugadores incrementada en: §a+4'
+  Buildings_Broadcast_2: §7Tu gremio puede empezar la guerra con {ITEM}§7.
+  Buildings_Broadcast_3: '§7Almacenamiento mejorado en: §a+500'
+  Buildings_Broadcast_4: §7Tu gremio puede usar el siguiente nivel de alquímia.
+  Showing_Claims: §7Ahora puedes ver todos tus claims del gremio. Si no quieres ver
+    estos puedes salir y entrar de gremios
+  No_Claims: §7Tu gremio no tiene claims..
+  Show_Claim_Wait: §7You have to wait §e{TIME} §7to show all claims.
+  Change_Rank: '||§7Click para cambiar el rango al jugador.'
+  Status_Online: §aEn línea
+  Status_Offline: §cDesconectado
+  Rank_Yourself: §7No puedes cambiarte el rango.
+  Rank_Not_Enough: §7Tu rango no tiene el sufiente poder para esto.
+  Guild_Rank_Lore: '||§7Rango actual: §f{RANK}'
+  Guild_Header_Rank: Cambiar rango
+  Select_GUI: Lista de tipos
+  Player_Info_No_Guild: '||§7El jugador no esta en un gremio.'
+  Player_Stats: Estadísticas del jugador
+  Player_Info_Name_1: '§6Información del gremio:'
+  Player_Info_Name_2: '§6Información del jugador:'
+  Player_Info_Name_3: '§6Otra información:'
+  Player_Info_1: '||§egremio: §f{GUILD}||||§eRango: §f{RANK}||||§eSe ha unido en:
+    §f{DATE}||||§eGuerra;||§7 → Bajas: §f{KILLS}||§7 → Muertes: §f{DEATHS}||||§eHa
+    donado al gremio;||§7 → Oro: §f{DGOLD}||§7 → Magia: §f{DMAGIC}'
+  Player_Info_2: '||§eJugador: §f{PLAYER}||||§ePvP;||§7 → Bajas: §f{KILLS}||§7 → Muertes:
+    §f{DEATHS}||§7 → KDA: §f{KDA}||||§eDonaciones en total;||§7 → Oro: §f{DGOLD}||§7
+    → Magia: §f{DMAGIC}'
+  Player_Info_3: '||§eVida: §f{HEALTH}/10||||§eHambre: §f{HUNGER}/10||||§eLocalización:
+    §f{LOCATION}'
+  No_Guild_Like_This: §7No se ha encontrado el gremio con ese nombre.
+  No_Player_Like_This: §7No se ha encontrado al jugador con ese nombre.
+  Guild_Emblem_GUI: §6Emblema del gremio
+  Guild_Emblem_Lore: '||§7Click para dibujar tu emblema.'
+  See_Stats: '||§7Click para ver las estadísticas del jugador.'
+  Rank_Changed: §7Tu rango ha cambiado a {RANK}§7.
+  Ranked_Player: §7{OLDRANKCHANGEP} {CHANGEP}§7 ha sido cambiado a {NEWRANKCHANGEP}
+    §7por {RANKPLAYER} {PLAYER}§7.
+  Rank_Wrong: §7Solo puedes elegir rangos menores al tuyo.
+  Player_Info_4: '||§7El jugador esta desconectado||||§eUltima conexión: §f{SEEN}'
+  You_Cant_Unclaim: §7No puedes unclaimear aquí, es la zona del §e{BUILD}§7.
+  You_Cant_Action: §7No puedes cambiar nada en la zona del §e{BUILD}§7.
+  Owned_By: §7Este chunk esta claimeado por el gremio §e{GUILD}§7. No puedes cambiar
+    nada.
+  Reloading_1: §7Recargando archivos...
+  Reloading_2: §7Archivos recargados.
+  Version: §eSUPER GREMIOS {VERSION} §7by §bREPUBLICANSENSEI§7.
+  Emblem_Menu: '                   §8§l» §7§lgremios EMBLEMA'
+  Emblem_Saved: §7El emblema ha sido cambiado
+  Color_Select: 'Selección de color:'
+  Save_Emblem_Button: '                §a§l[GUARDAR §a✓§a§l]§r'
+  Reset_Emblem_Button: '                    §c§l[REINICIAR §c✘§c§l]'
+  Use_Guild_Button: '                      §7§l[EDITAR EMBLEMA §7✎§7§l]'
+  Select_Color: §7No puedes seleccionar ese color.
+  Select_Code: §7No puedes seleccionar ese cuadro.
+  Guild_Emblem_Changed: §7El emblema del gremio ha sido cambiado por §e{PLAYER}§7.
+  Create_Guild_Disabled_World: §7No puedes crear un gremio en este mundo, contacta
+    rápidamente con un administrador.
+  Divisions_0: §8Bronce
+  Divisions_1: §7Plata
+  Divisions_2: §eOro
+  Divisions_3: §dCristal
+  Divisions_4: §bMaestría
+  Divisions_5: §cCampeonato
+  Chat_Addon_Click_To_Stats: §7Haga clic para ver el perfil del jugador.
+  Back_Header: §6Atrás
+  SYNC_Done: §7La sincronización de §a{FILE} §7ha sido exitosa.
+  SYNC_Load_Error: §7No se puede cargar el archivo §c{FILE}
+  SYNC_Delete_Failed: §7No se puede eliminar o restaurar el archivo §c{FILE}§7.
+  SYNC_Enter_File: §7Escribe la carpeta a sincronizar (locale o config)
+  Menu_Alchemy_GUI: Alquimia del gremio
+  Text_Feature: '§eCaracterísticas:'
+  Text_Price: '§ePrecio:'
+  Text_Buy: §eClick para comprar esta característica
+  Alchemy_Menu_Lore_1: §8 → §7Otorga 15 minutos de fuerza a todos los miembros del
+    gremio
+  Alchemy_Menu_Lore_2: §8 → §7Invoca un caballo para todos los miembros del gremio
+  Alchemy_Menu_Lore_3: §8 → §7Otorga 15 minutos de velocidad a todos los miembros
+    del gremio
+  Alchemy_Menu_Lore_4: §8 → §7Otorga 15 minutos de resistencia a todos los miembros
+    del gremio
+  Alchemy_Menu_Price_1: ' §8 → §7Nivel I: §f{MAGIC1} magia|| §8 → §7Nivel II: §f{MAGIC2}
+    magia|| §8 → §7Nivel III: §f{MAGIC3} magia'
+  Alchemy_Menu_Price_2: ' §8 → §7Caballo desarmado: §f{MAGIC1} magia|| §8 → §7Caballo
+    de hierro: §f{MAGIC2} magia|| §8 → §7Caballo de diamante: §f{MAGIC3} magia'
+  Alchemy_Menu_Price_3: ' §8 → §7Nivel I: §f{MAGIC1} magia|| §8 → §7Nivel II: §f{MAGIC2}
+    magia|| §8 → §7Nivel III: §f{MAGIC3} magia'
+  Alchemy_Menu_Price_4: ' §8 → §7Nivel I: §f{MAGIC1} magia|| §8 → §7Nivel II: §f{MAGIC2}
+    magia|| §8 → §7Nivel III: §f{MAGIC3} magia'
+  Alchemy_Type_1_Name_1: §6Nivel I Fuerza
+  Alchemy_Type_1_Name_2: §6Nivel II Fuerza
+  Alchemy_Type_1_Name_3: §6Nivel III Fuerza
+  Alchemy_Type_2_Name_1: §6Caballo desarmado
+  Alchemy_Type_2_Name_2: §6Caballo de hierro
+  Alchemy_Type_2_Name_3: §6Caballo de diamante
+  Alchemy_Type_3_Name_1: §6Nivel I Velocidad
+  Alchemy_Type_3_Name_2: §6Nivel II Velocidad
+  Alchemy_Type_3_Name_3: §6Nivel III Velocidad
+  Alchemy_Type_4_Name_1: §6Nivel I Resistencia
+  Alchemy_Type_4_Name_2: §6Nivel II Resistencia
+  Alchemy_Type_4_Name_3: §6Nivel III Resistencia
+  Bought_Alchemy_Guild: §7El gremio §6{GUILD} §7,ha comprado §6{TYPE} §7de la alquimia
+    del gremio.
+  Bought_Alchemy_Own: §7{RANK} {PLAYER}§7 ha comprado §6{TYPE} §7de la alquimia del
+    gremio.
+  Barrack_Upgrade_Item_1: §7Conjunto de cuero
+  Barrack_Upgrade_Item_2: §eConjunto de oro
+  Barrack_Upgrade_Item_3: §8Conjunto de malla
+  Barrack_Upgrade_Item_4: §fConjunto de hierro
+  Barrack_Upgrade_Item_5: §bConjunto de diamante
+  Menu_War_GUI: Guerra de gremios
+  Menu_War_Name_1: §6Buscar un gremio de guerra
+  Menu_War_Lore_1: §7Click para buscar un gremio con el que luchar.
+  Menu_War_Name_2: §6Estadisticas de guerra
+  Menu_War_Lore_2: '§eGremio;||§7 → División: §f{LEVEL}||§7 → Puntos: §f{POINTS} ✪||§7
+    → Items de inicio: §f{ITEMS}||||§ePvP;||§7 → Bajas: §f{KILLS}||§7 → Muertes: §f{DEATHS}||||§eTop
+    bajas;||§7 → {RANK} {TOP}§8: §f{NUM} bajas'
+  Menu_War_Name_3: §6Top Gremios
+  Menu_War_Lore_3: §7Click para ver el TOP gremios
+  Disabled_Chat: §7Has desactivado el chat del gremio, todos los jugadores te leeran.
+  Enabled_Chat: §7Has activado el chat del gremio, solo los miembros podrán leerlo.
+  Guild_Chat: §7[GC]
+  Number_Online: §8(§a{PLAYER} §7 en línea§8)
+  Text_Month: mes(es)
+  Text_Day: dia(s)
+  Text_Hour: hora(s)
+  Text_Minute: minuto(s)
+  Text_Second: segudo(s)
+  No_Variable_List_0: §7No se han encontrado gremios.
+  Header_0: Lista de gremios
+  Header_1: Lista de claimeos
+  Forward_Header: §6Forward ➙
+  Claimed_Land: Terreno claimeado
+  Claimed_Land_Lore: '||§7Localización: §f{LOC}||||§eClick para teletransportarte
+    al terreno.'
+  Click_To_Info: '||§7Lider: §f{LEADER}||||§7División: §f{LEVEL}||||§eClick para ver
+    la información del gremio'
+  ClaimName_Usage: §7Usa §e/sg claimname <name> §7para editar el nombre del terreno
+    (chunk)
+  ClaimName_Changed: §7El nombre del terreno §e{LOC} §7ha sido cambiado a §6{NAME}
+    §7por §9{BY}§7.
