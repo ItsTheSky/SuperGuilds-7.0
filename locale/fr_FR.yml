@@ -1,0 +1,477 @@
+Messages:
+  Prefix: §6§lSUPERGUILDS §6➥§7
+  Char_Error: §7Ce texte contient des caractères inappropriés.
+  WorldGuard_Error: §7Il y a une protection WorldGuard ici.
+  Chunk_Error: §7Il y a une autre Guilde ici.
+  Dont_Have_Gold_To_Create: §7Vous n'avez pas assez de lingots d'or dans votre inventaire
+    pour créer la Guilde. Vous devez en avoir §e{NUMBER}§7.
+  Created_Guild: §e{PLAYER}§7, crée la guilde §b{GUILD}.
+  Land_Error: §7Votre position n'est pas fiable.
+  Guild_Name_Length: §7Ce nom de guilde est trop long ou trop court.
+  That_Guild_Exists: §7Cette guilde existe déjà.
+  Enter_Guild_Name: §7Entrez un nom de guilde.
+  You_Have_Guild: §7Vous avez déjà une guilde.
+  Chunk_Middle: §7Placez-vous au milieu de la zone et essayez à nouveau.
+  Remove_Confirm: §7Voulez-vous vraiment effacer votre guilde? Si vous êtes sûr tapez
+    la commande à nouveau.
+  Guild_Removed: §7La guilde a été effacée.
+  No_Permission: §7Vous n'avez pas la permission.
+  You_Dont_Have_Guild: §7Vous n'avez pas de guilde.
+  You_Arent_Leader: §7Vous n'êtes pas le leader de la guilde.
+  Guild_Remove_Broadcast: §c{GUILD} §7a été supprimée.
+  Option_Disabled: §7Cette fonction est désactivée.
+  No_Rank: §7Votre rang de guilde n'est pas suffisant.
+  You_Dont_Have_This_Chunk: §7Votre guilde ne possède pas ce chunk.
+  Done_Set_Home: §7Votre home de guilde a été défini.
+  Teleporting_Message: §7Vous serez téléporté dans §e{TIME} §7secondes.
+  Teleport_Cancel: §7Vous avez bougé et la téléportation a été annulée.
+  Teleport_Done: §7Vous avez été téléporté avec succès.
+  Already_Teleport: §7Vous êtes déjà en cours de téléportation.
+  Teleport_Starting: §7Début de la téléportation, ne bougez pas.
+  GUIPrefix: §8§l» §8
+  Guild_Management: Gestion de guilde
+  Manage_Panel_1: §6Opérations de guilde
+  Manage_Panel_2: '§6ID:'
+  Manage_Panel_3: §6Opérations de guerre
+  Manage_Panel_2_Lore: '||§eJoueurs: §f{NAME}||||§eStatus: §f{STATUS}||||§eDernière
+    connexion: §f{SEEN}||||§eRang: §f{RANK}||||§eDate de création: §f{DATE}||||§eGuerre;||§7
+    → Kills: §f{WARKILLS}||§7 → Décès: §f{WARDEATHS}||||§eDons;||§7 → Or: §f{DGOLD}||§7
+    → Magic: §f{DMAGIC}'
+  Rank_Leader: §bLeader §3★★★§b
+  Rank_General: §aGénéral §2★★§a
+  Rank_Captain: §dCapitaine §5★§d
+  Rank_Member: §8Membre
+  Guild_Info: §6Information de Guilde
+  Guild_Info_Lore: '||§7Cliquez pour voir les informations de guilde.'
+  Guild_Store: §6Stock de guilde
+  Guild_Store_Lore: '||§7Cliquez pour ouvrir le stock de guilde.'
+  Claimed_Lands: §6Lands claims
+  Claimed_Lands_Lore: '||§7Cliquez pour voir les claims de guilde.'
+  Guild_Alchemy: §6Alchimie de guilde
+  Guild_Alchemy_Lore: '||§7Cliquez pour ouvrir le menu d''alchimie.'
+  Check_Players: §6Liste des joueurs
+  Check_Players_Lore: '||§7Cliquez pour voir la liste des joueurs.'
+  Guild_Buildings: §6Buildings de guilde
+  Guild_Buildings_Lore: '||§7Cliquez pour voir les buildings de guilde.'
+  Guild_Info_Header: Information de guilde
+  Guild_Info_1: §6Guild ID
+  Guild_Info_1_Lore: '||§eNom:||§f{NAME}||||§eEmblème:||§f{EMBLEM}||||§eLeader:||§f{LEADER}'
+  Guild_Info_2: §6Création de guilde
+  Guild_Info_2_Lore: '||§eDate de Création:||§f{TIME}||||§eCréateur:||§f{CREATOR}'
+  Guild_Info_3: §6Status de guilde
+  Guild_Info_3_Lore: '||§eGuerre;||§7 → Kills: §f{KILLS}||§7 → Décès: §f{DEATHS}||||§eDivision:||§f{LEVEL}||||§ePoints:||§f{POINTS}
+    ✪||||§eNombre de joueurs:||§f{PLAYERS}/{MAX}||||§eClaims:||§f{CLAIMED}'
+  Guild_Header_Kick: Kickez Joueurs
+  Guild_Kick_Lore: '||§eRang: §f{RANK}||||§7Cliquez pour kicker un joueur de la guilde.'
+  Kick_Error_No_Guild: §7Ce joueur n'est pas dans la guilde.
+  Kick_Error_No_Rank: §7Vous ne pouvez pas kicker ce joueur.
+  Kicked_Player: §c{KICKED}§7 kick de la guilde par §e{PLAYER}§7.
+  You_Kicked: §7Vous avez été kick de la guilde.
+  No_Kick_Yourself: §7Vous ne pouvez pas vous kicker vous même.
+  Guild_Header_List: Membres de guilde
+  Claim_Error: §7Vous possédez déjà ces terres.
+  No_Gold_Guild: §7Votre guilde n'a pas assez d'or.
+  No_Claim_Level: §7La division de la guilde qui possède cette terre est plus grande
+    que la votre.
+  Attacking_You: §c{ATTACKER}§7 capture votre terre à §e{LAND}§7.
+  Attacked_Chunk: §7Votre guilde capture une terre à §e{LAND} §7appartenant à §c{OWN}§7.
+  Chunk_Claimed: §7Vous protégez une terre ici §e{LAND}§7.
+  Chunk_Error_You: §7Cette terre est la votre.
+  Chunk_Unclaimed: §7Vous retirez la protection de la terre située §e{LAND}§7.
+  Buildings_GUI: Batiment de guilde
+  Buildings_Name_Townhall: §6Mairie
+  Buildings_Name_Barrack: §6Caserne
+  Buildings_Name_Storage: §6Stockage
+  Buildings_Name_Alchemy: §6Alchimie
+  Buildings_Upgrade: §aCliquer pour améliorer le batiment.
+  Buildings_Lore_0: §9§nquand mis à jour;
+  Buildings_Lore_Townhall: §7 → Augmenter la limite de joueur de la guilde.
+  Buildings_Lore_Barrack: §7 → Commencer la guerre avec plus de pouvoir d'items.
+  Buildings_Lore_Storage: §7 → Augmenter la capacité de stockage.
+  Buildings_Lore_Alchemy: §7 → Obtenir des effets plus puissants.
+  Buildings_Level: '§eNiveau de contruction: §f{LEVEL}'
+  Romen_Num_1: '1'
+  Romen_Num_2: '2'
+  Romen_Num_3: '3'
+  Romen_Num_4: '4'
+  Romen_Num_5: '5'
+  Romen_Num_6: '6'
+  Romen_Num_7: '7'
+  Romen_Num_8: '8'
+  Store_GUI: Stockage de guilde
+  Store_Name_Gold: §e§nSource d'or
+  Store_Color_1: §e
+  Store_Status: '§7Disponible: §f{NUMBER}'
+  Donate_Lore_Gold: §7Cliquez pour donner de la ressource en or.
+  Donate_Lore_Magic: §7Cliquez pour donner de la ressource en magie (diamant).
+  Help_Pages_1::Line_1: §e/guilds help §8- §7Ouvrir la page d'aide.
+  Help_Pages_1::Line_2: §e/guilds create <guild name> §8- §7Créer une guilde.
+  Help_Pages_1::Line_3: §e/guilds remove §8- §7Supprimer la guilde.
+  Help_Pages_1::Line_4: §e/guilds emblem §8- §7Fabriquer l'emblême de la guilde.
+  Help_Pages_1::Line_5: §e/guilds info §8- §7Voir les statistiques de la guilde.
+  Help_Pages_1::Line_6: §e/guilds leave §8- §7Quitter votre guilde.
+  Help_Pages_1::Line_7: §e/guilds storage §8- §7Voir le stock de la guilde.
+  Help_Pages_1::Line_8: §e/guilds claimname <name> §8- §7Définissez le nom du claim.
+  Help_Pages_2::Line_1: §e/guilds leader §8- §7Promouvoir un joueur au rang de leader.
+  Help_Pages_2::Line_2: §e/guilds invite <player> §8- §7Inviter un joueur dans la
+    guilde.
+  Help_Pages_2::Line_3: §e/guilds claim §8- §7Protèger la zone dans laquelle vous
+    êtes.
+  Help_Pages_2::Line_4: §e/guilds unclaim §8- §7Retirer la protection de la zone dans
+    laquelle vous êtes.
+  Help_Pages_2::Line_5: §e/guilds rank §8- §7Changer le rang du joueur.
+  Help_Pages_2::Line_6: §e/guilds reload §8- §7Reloads plugin.
+  Help_Pages_2::Line_7: §e/guilds home §8- §7Téléporte au home de la guilde.
+  Help_Pages_3::Line_1: §e/guilds sethome §8- §7Définir le home de la guilde.
+  Help_Pages_3::Line_2: §e/guilds war §8- §7Entrer en guerre avec une autre guilde.
+  Help_Pages_3::Line_3: §e/guilds version §8- §7Voir la version du plugin.
+  Help_Pages_3::Line_4: §e/guilds buildings §8- §7Voir les batiments de guilde.
+  Help_Pages_3::Line_5: §e/guilds showclaims §8- §7Voir toutes les zones protègées
+    par les guildes.
+  Help_Pages_3::Line_6: §e/guilds alchemy §8- §7Afficher votre alchimie de guilde.
+  Help_Pages_3::Line_7: §e/guilds invites §8- §7Activer/desactiver les invitations
+    de guilde.
+  Help_Pages_3::Line_8: §e/guilds chat §8- §7Activer/desactiver le chat de guilde.
+  Next_Page: §8§m--------§r §7Utilisez §6/sg help {NEXT} §7pour voir la page suivante.
+    §8§m-------
+  Invite_Player_Name: §7Entrez le nom du joueur à inviter
+  Cant_Invite_Yourself: §7Vous ne pouvez vous inviter vous même.
+  Player_Closed_Invites: §7Le joueur a refusé l'invitation.
+  Player_Has_Guild: §7Le joueur est déjà dans une guilde.
+  Your_Guild_Is_Full: §7Votre guilde est pleine. Vous pouvez mettre à niveau votre
+    Mairie pour avoir plus d'emplacements de joueurs.
+  Invite_Wait: §7Vous devez attendre §e{TIME} §7pour inviter quelqu'un.
+  This_Guild_Is_Full: §7Cette guilde est complète
+  Invite_Send: §7L'invitation de guilde a été envoyée au joueur.
+  Invite_GUI: Carte d'invitation
+  InviteC_Accept: §6Accepter et joindre la guilde §e{GUILD}§6.
+  InviteC_Reject: §cRejeter et fermer le menu.
+  You_Reject: §7Vous avez rejeté l'invitation de guilde.
+  You_Joined_Guild: §7Vous rejoignez la guilde §e{GUILD}.
+  Player_Joined_Guild: §6{PLAYER} §7rejoins la guilde §e{GUILD} .
+  Disabled_Invites: §7Vous avez désactivé les invitations de guilde.
+  Enabled_Invites: §7Vous avez activé les invitations de guilde.
+  Donate_Usage: §7Vous pouvez donner de l'argent via la commande §e/g donate <gold/magic>
+    <number>§7.
+  Enter_An_Integer: §7Entrer un nombre entier.
+  No_Storage: §7Pas de capacité pour stoquer §f{NUMBER} {RESOURCE}§r§7. §7Vous devez
+    mettre à niveau la capacité de stockage.
+  Player_Donated: '{RANK} {PLAYER}§7, donné §f{NUMBER} {RESOURCE}§r §7pour le stockage
+    de guilde.'
+  You_Donated: §7Vous donnez §f{NUMBER} {RESOURCE}§r §7pour le stockage de guilde.
+  Donations_0: §7Les dons doivent être supérieurs à zéro.
+  Leader_Leave: §7Vous êtes leader, le leader ne peut pas quitter la guilde. Vous
+    pouvez dissoudre la guilde en utilisant §e/g disband§7.
+  Player_Leave: '{RANK} {PLAYER}§7, quitte la guilde.'
+  You_Leave: §7Vous êtes parti de §c{GUILD}§7.
+  Language_GUI: Langage
+  Language_Lore: '||§7Cliquez pour selectionner le langage.'
+  Language_Select: '§7Langage selectionner: §a{LANG}'
+  Unknown_Command: Commande introuvable.
+  Locale_Error: Could not connect to web data for locale file.
+  Enter_Language: Entrer le langage.
+  Guild_Error_Upgrade: §7vous n'êtes plus dans cette guilde.
+  Buildings_Required_Lore_0: §b§nCoût de mise à niveau;
+  Buildings_Required_Lore_1: '§7 → {GOLD}: §f{GNEED}||§7 → {MAGIC}: §f{MNEED}'
+  No_Magic_Guild: §7Votre guilde n'a pas assez de magie (diamant).
+  Limit_Buildings: §7Vous avez atteint le niveau maximum pour ce bâtiment.
+  Building_Upgrade: §7{RANK} {PLAYER}§7, mis à niveau {BUILD} §7au level §e{NUMBER}§7.
+  Buildings_Broadcast_1: '§7Capacité de guilde augmentée: §a+{NUM}'
+  Buildings_Broadcast_2: §7Votre guilde commencera les guerres avec {ITEM}§7.
+  Buildings_Broadcast_3: '§7Stockage de guilde augmentée: §a+500'
+  Buildings_Broadcast_4: §7votre guilde peut utiliser le prochain niveau d'alchimie
+    maintenant.
+  Showing_Claims: §7Vous pouvez voir tous vos territoires de guilde maintenant. Si
+    vous ne voulez pas les voir, vous pouvez vous reconnecter au serveur.
+  No_Claims: §7Votre guilde n'a pas de territoire.
+  Show_Claim_Wait: §7Vous devez attendre §e{TIME} §7pour afficher tout vos territoires.
+  Change_Rank: '||§7Cliquez pour changer le rang du joueur.'
+  Status_Online: §aEn ligne
+  Status_Offline: §cHors ligne
+  Rank_Yourself: §7Vous ne pouvez pas changer votre rang.
+  Rank_Not_Enough: §7Votre rang n'est pas suffisant pour cette action.
+  Guild_Rank_Lore: '||§7Votre rang: §f{RANK}'
+  Guild_Header_Rank: Changez le rang
+  Select_GUI: Type de liste
+  Player_Info_No_Guild: '||§7Le joueur n''a pas de guilde.'
+  Player_Stats: Stats joueurs
+  Player_Info_Name_1: '§6Information de guilde:'
+  Player_Info_Name_2: '§6Information du joueur:'
+  Player_Info_Name_3: '§6Autre information:'
+  Player_Info_1: '||§eGuilde: §f{GUILD}||||§eRang: §f{RANK}||||§eRejoins le: §f{DATE}||||§eGuerre;||§7
+    → Tués: §f{KILLS}||§7 → Décès: §f{DEATHS}||||§eDonation à la guilde;||§7 → Or:
+    §f{DGOLD}||§7 → Magie: §f{DMAGIC}'
+  Player_Info_2: '||§eJoueur: §f{PLAYER}||||§ePvP;||§7 → Tués: §f{KILLS}||§7 → Décès:
+    §f{DEATHS}||§7 → KDA: §f{KDA}||||§eLes dons;||§7 → Or: §f{DGOLD}||§7 → Magie:
+    §f{DMAGIC}'
+  Player_Info_3: '||§eVie: §f{HEALTH}/10||||§eFaim: §f{HUNGER}/10||||§eLocalisation:
+    §f{LOCATION}'
+  No_Guild_Like_This: §7Pas de guilde trouvé avec ce nom.
+  No_Player_Like_This: §7Pas de joueur trouvé avec ce nom.
+  Guild_Emblem_GUI: §6Emblème de guilde
+  Guild_Emblem_Lore: '||§7Cliquez pour fabriquer l''emblème de guilde.'
+  See_Stats: '||§7Cliquez pour voir les informations joueur.'
+  Rank_Changed: §7Votre rang change pour {RANK}§7.
+  Ranked_Player: §7{OLDRANKCHANGEP} {CHANGEP}§7le rang a été changé en {NEWRANKCHANGEP}
+    §7par {RANKPLAYER} {PLAYER}§7.
+  Rank_Wrong: §7Vous ne pouvez choisir que des rangs inférieurs à vos rangs.
+  Player_Info_4: '||§7Le joueur n''est pas en ligne.||||§eDernière connexion: §f{SEEN}'
+  You_Cant_Unclaim: §7Vous ne pouvez pas retirer votre territoire car §e{BUILD} §7n'est
+    pas à vous.
+  You_Cant_Action: §7Vous ne pouvez rien changer sur §e{BUILD} §7zone.
+  Owned_By: §7Ce chunk appartient à §e{GUILD}§7 guilde. Vous ne pouvez rien changer
+    ici.
+  Reloading_1: §7Tout les fichiers sont rechargés...
+  Reloading_2: §7Tous les fichiers sont rechargés.
+  Version: §eSUPER GUILDE {VERSION} §7par §bRepublicanSensei§7.
+  Emblem_Saved: §7L'emblême de guilde a été sauvé.
+  Select_Color: §7Vous ne pouvez pas selectionner cette couleur.
+  Select_Code: §7Vous ne pouvez pas selectionner cette boite.
+  Guild_Emblem_Changed: §7L'emblème de votre guilde a été modifié par §e{PLAYER}§7.
+  Create_Guild_Disabled_World: §7Vous ne pouvez pas créer de guilde dans ce monde.
+  Divisions_0: §8Bronze
+  Divisions_1: §7Argent
+  Divisions_2: §eOr
+  Divisions_3: §dCrystal
+  Divisions_4: §bMaître
+  Divisions_5: §cChampion
+  Chat_Addon_Click_To_Stats: §7Cliquez ici pour voir les statistiques du joueur.
+  Back_Header: §6Retour
+  SYNC_Done: §7SYNC pour le fichier §a{FILE} §7complété.
+  SYNC_Load_Error: §7Impossible de charger le fichier §c{FILE}.
+  SYNC_Delete_Failed: §7Impossible de supprimer/restaurer le fichier §c{FILE}§7.
+  SYNC_Enter_File: §7Entrez le fichier à synchroniser. (locale ou config)
+  Menu_Alchemy_GUI: Alchimie de guilde
+  Text_Feature: '§eFonctionnalité:'
+  Text_Price: '§ePrix:'
+  Text_Buy: §eCliquez ici pour acheter la fonctionnalité.
+  Alchemy_Menu_Lore_1: §8 → §7Octroit 15 minutes de force à tous les membres de la
+    guilde.
+  Alchemy_Menu_Lore_2: §8 → §7Invoquer un cheval pour tous les membres de la guilde
+  Alchemy_Menu_Lore_3: §8 → §7Octroit 15 minutes de vitesse à tous les membres de
+    la guilde.
+  Alchemy_Menu_Lore_4: §8 → §7Octroit 15 minutes de résistance à tous les membres
+    de la guilde.
+  Alchemy_Menu_Price_1: ' §8 → §7Niveau 1: §f{MAGIC1} magie|| §8 → §7Niveau 2: §f{MAGIC2}
+    magie|| §8 → §7Niveau 3: §f{MAGIC3} magie'
+  Alchemy_Menu_Price_2: ' §8 → §7Cheval non armé: §f{MAGIC1} magie|| §8 → §7Armure
+    en fer pour cheval: §f{MAGIC2} magie|| §8 → §7Armure en diamant pour cheval: §f{MAGIC3}
+    magie'
+  Alchemy_Menu_Price_3: ' §8 → §7Niveau 1: §f{MAGIC1} magie|| §8 → §7Niveau 2: §f{MAGIC2}
+    magie|| §8 → §7Niveau 3: §f{MAGIC3} magie'
+  Alchemy_Menu_Price_4: ' §8 → §7Niveau 1: §f{MAGIC1} magie|| §8 → §7Niveau 2: §f{MAGIC2}
+    magie|| §8 → §7Niveau 3: §f{MAGIC3} magie'
+  Alchemy_Type_1_Name_1: §6Force niveau 1
+  Alchemy_Type_1_Name_2: §6Force niveau 2
+  Alchemy_Type_1_Name_3: §6Force niveau 3
+  Alchemy_Type_2_Name_1: §6Cheval non armée
+  Alchemy_Type_2_Name_2: §6Armure en fer pour cheval
+  Alchemy_Type_2_Name_3: §6Armure en diamant pour cheval
+  Alchemy_Type_3_Name_1: §6Vitesse niveau 1
+  Alchemy_Type_3_Name_2: §6Vitesse niveau 2
+  Alchemy_Type_3_Name_3: §6Vitesse niveau 3
+  Alchemy_Type_4_Name_1: §6Resistance niveau 1
+  Alchemy_Type_4_Name_2: §6Resistance niveau 2
+  Alchemy_Type_4_Name_3: §6Resistance niveau 3
+  Bought_Alchemy_Guild: §e{GUILD} §7achète §6{TYPE} §7à partir de l'alchimie de guilde.
+  Bought_Alchemy_Own: §7{RANK} {PLAYER}§7, achète §6{TYPE} §7à partir de l'alchimie
+    de guilde
+  Barrack_Upgrade_Item_1: §7Ensemble en cuir
+  Barrack_Upgrade_Item_2: §eEnsemble en or
+  Barrack_Upgrade_Item_3: §8Ensemble de maille
+  Barrack_Upgrade_Item_4: §fEnsemble en fer
+  Barrack_Upgrade_Item_5: §bEnsemble en diamant
+  Menu_War_GUI: Guerres de guilde
+  Menu_War_Name_1: §6Rechercher une Guilde à combattre
+  Menu_War_Lore_1: §7Cliquez ici pour trouver une Guilde à combattre.
+  Menu_War_Name_2: §6Statistiques de guerre
+  Menu_War_Lore_2: '§eGuilde;||§7 → Division: §f{LEVEL}||§7 → Points: §f{POINTS} ✪||§7
+    → Items de départ: §f{ITEMS}||||§ePvP;||§7 → Tués: §f{KILLS}||§7 → Décès: §f{DEATHS}||||§eTop
+    tueurs;||§7 → {RANK} {TOP}§8: §f{NUM} tués'
+  Menu_War_Name_3: §6Top Guildes
+  Menu_War_Lore_3: §7Cliquez ici pour voir le top des guildes.
+  Disabled_Chat: §7Vous avez désactivé le chat de guilde. Tout les joueurs peuvent
+    voir vos messages
+  Enabled_Chat: §7Vous avez activé le chat de guilde. Seuls les joueurs de votre guilde
+    peuvent voir vos messages
+  Guild_Chat: §7[CG]
+  Number_Online: §8(§a{PLAYER} §7en ligne§8)
+  Text_Month: mois
+  Text_Day: jour(s)
+  Text_Hour: heure(s)
+  Text_Minute: minute(s)
+  Text_Second: seconde(s)
+  No_Variable_List_0: §7Pas de guilde.
+  Header_0: Liste des guildes
+  Header_1: Liste des territoires
+  Forward_Header: §6Récompenses ➙
+  Claimed_Land: Territoire revendiqué
+  Claimed_Land_Lore: '||§7Localisation: §f{LOC}||||§eCliquez pour être téléporter
+    au territoire.'
+  Click_To_Info: '||§7Chef: §f{LEADER}||||§7Division: §f{LEVEL}||||§eCliquez ici pour
+    voir les informations guilde.'
+  ClaimName_Usage: §7Utilisez §e/sg claimname <name> §7pour modifier le nom de votre
+    territoire.
+  ClaimName_Changed: §7Nom du territoire situé à §e{LOC} §7changer pour §6{NAME} §7par
+    §9{BY}§7.
+  No_Item_Gold: §7Vous n'avez pas §e{NUMBER} lingots d'or §7à donner.
+  Arena_Created: '§7Arène créée: §e{ARENA}'
+  Arena_Exists: §7Il y a déjà une arène avec ce nom.
+  Enter_Arena_Name: §7Entrer le nom de l'arène.
+  No_Arena: §7Cette arène n'existe pas.
+  Arena_Removed: '§7Arène supprimée: §e{ARENA}'
+  Enter_Setspawn_Type: §7Vous devez entrer le type d'équipe (1 or 2)
+  Setspawn_Done: §eTeam-{TYPE}§7's point de spawn §a{ARENA} §7est ajouté.
+  Lobby_Done: §7Le loby a été crée ici. Les joueurs seront téléportés ici à la fin
+    de la partie.
+  Restart_Kick_restart: §7Vous avez été éjecté car l'arène à redémarré.
+  Restart_Kick_error: §7Vous avez été éjecté car l'arène à buggé.
+  Restart_Kick_time: §7Vous avez été éjecté car c'est la fin du jeu.
+  Enemy_War_Minimum: §7Cette guilde a §e{ONLINE} §7membre(s) en ligne. (Minimum est
+    {MINIMUM})
+  You_War_Minimum: §7Vous avez §e{ONLINE} §7membre(s) en ligne. (Minimum est {MINIMUM})
+  Enemy_Leader_Not_Online: §7Le leader de la guilde n'est pas en ligne.
+  Enemy_Guild_In_War: §7Cette guilde est en guerre.
+  Your_Guild_In_War: §7Votre guilde est en guerre.
+  Cannot_War_Yourself: §7Vous ne pouvez pas faire la guerre avec vous-même.
+  War_Invite_Send: §7Votre guilde a envoyé une invitation de guerre à §c{GUILD} §7guilde.
+  War_Invite_GUI: Invitation de guerre
+  War_InviteC_Accept: §6Accepter et faire la guerre avec §c{GUILD}§6.
+  War_InviteC_Reject: §cRejeter et fermer le menu.
+  War_Other_Reject: §9{GUILD} §7a rejeté votre invitation de guerre.
+  War_You_Reject: §7Vous avez rejeté l'invitation de guerre de §9{GUILD}§7.
+  No_Available_Arena: §7Aucune arène disponible trouvée.
+  War_Starting_Timer: §9{GUILD1} §7vs. §c{GUILD2} §7commencera dans §e{SECONDS} §7second(s).
+  War_Started: §7La guerre entre §9{GUILD1} §7et §c{GUILD2} §7a commencé. Bonne chance
+    guerriers!
+  War_Starting: §7Invitation de guerre acceptée, préparez vous pour la guerre!
+  War_End_Timer: §7La guerre se termine dans §e{MINUTES} §7minute(s).
+  Game_Finished_Time: §7La guerre est terminée, personne n'a gagné.
+  No_Command_War: §7Vous ne pouvez pas utiliser cette commande durant la guerre.
+  War_Death_1: §9{VICTIM} ({VGUILD}) §7tué par §c{ATTACKER} ({AGUILD}) §7et est éliminée
+    de la guerre.
+  War_Win: §7La guerre entre §9{GUILD1} §7et §c{GUILD2} §7est terminée. §9{GUILD1}
+    §7a gagné la guerre.
+  New_Division: §7La division de votre guilde a changé de §r{OLDDIVISION} §7à §r{NEWDIVISION}§7.
+  War_Points_Add: §7Votre guilde a gagné la guerre contre §c{GUILD} §7et gagne §a+{POINTS}
+    ✪§7.
+  War_Points_Lose: §7Votre guilde a perdu la guerre contre §9{GUILD} §7et perd §c-{POINTS}
+    ✪§7.
+  Arena_Debug: §7Arène §a{ARENA} §7redémarrée.
+  No_Arena_Found: §7Pas d'arène trouvée.
+  Arena_Guilds: '§7Arène de guilde: §f'
+  Arena_TimeLeft: '§7Temps restant: §f'
+  Status_Text_0: §a§lEn attente
+  Status_Text_1: §e§lEn jeux
+  Status_Text_2: §c§lTerminée
+  Status_Text_3: §4§lRedémarrage
+  House_Protection: §7Le système créera une base lorsque vous créerez la guilde, veuillez
+    donc sélectionner un terrain vide.
+  RankStar_Leader: '§b✯ '
+  RankStar_General: '§a⚝ '
+  RankStar_Captain: '§d★ '
+  RankStar_Member: ''
+  No_Name_Guild: §7Vous ne pouvez pas utiliser ce nom de guilde.
+  Claim_Limit: §7Vous ne pouvez pas avoir plus de territoire.
+  Teleport_Spawn_1: §c{ATTACKER}§7 vous a chassé du territoire.
+  Teleport_Spawn_2: §7Vous avez chassé §c{VICTIM}§7 du territoire.
+  No_Market_Guild: §7Cette guilde n'a pas de marché de guilde.
+  Done_Set_Market: Vous avez défini l'emplacement du marché de guilde.
+  Teleport_Market: §7Vous avez été téléporté à§a{GUILD}§7.
+  Visit_Market: §9{PLAYER} §7visite votre marché de guilde.
+  Done_Remove_Market: §7Votre marché de guilde est supprimé.
+  Already_Have_Market: §7Vous avez déjà un marché de guilde.
+  Death_Broadcast: §3[{VGUILD}] §9{VICTIM}§7 tué par §6[{AGUILD}] §e{ATTACKER} §4[-{GOLD}
+    Gold]
+  Death_Gold_Gain: Votre guilde gagne §e+{GOLD} Or §7parce que §7{RANK} {PLAYER}§7
+    a tué quelqu'un.
+  Death_Gold_Loss: Votre guilde perd §4-{GOLD} Or §7parce que §7{RANK} {PLAYER}§7
+    a été tué par quelqu'un.
+  Buildings_Broadcast_TNT: §7Les TNT n'exploseront pas dans vos territoires.
+  Buildings_Lore_TNT: §7 → TNT n'explosera pas dans vos territoires.
+  Guild_Info_4: §6Marché de guilde
+  Text_Status: '§7Statuts:'
+  Text_On: §fOuvert
+  Text_Off: §fFermé
+  Click_To_Teleport: §7Cliquez ici pour vous téléporter.
+  Click_To_Select_Color: §fCliquez moi pour sélectionner votre colorant.
+  Click_To_Dye_Here: Cliquez moi pour teindre ici.
+  Save_Emblem_Lore: §fCliquez moi pour enregistrer et appliquer l'emblème.
+  Reset_Emblem_Lore: §fCliquez moi pour effacer votre brouillon.
+  Use_Emblem_Lore: §fCliquez moi pour éditer l'emblème de votre guilde.
+  Wilderness_Text: §2§l§nRégion sauvage§r §2§l⚘
+  Wilderness_Msg_1: §7§oJ'aime la nature...
+  Wilderness_Msg_2: §7§oJ'adore être libre...
+  Wilderness_Msg_3: §7§oJe suis un homme libre et j'ai besoin de ma liberté.
+  Wilderness_Msg_4: §7§oLe secret du bonheur est la nature.
+  Home_Text: §a§l§nMaison§r §a§l⌂
+  Home_Msg_1: §7§oLa douceur du foyer...
+  Home_Msg_2: §7§oRien n'est mieux que de rentrer à la maison.
+  Home_Msg_3: §7Vous avez trouvé ce dont vous avez besoin et retournez chez vous.
+  Home_Msg_4: §7La maison d'un homme est son château.
+  Other_Guild_Text: §4§l§n{GUILD}§r §4§l☠
+  Other_Guild_Msg_1: §7§oFaites attention.
+  Other_Guild_Msg_2: §7Shh, ils peuvent nous entendre.
+  Other_Guild_Msg_3: §7Une autre guilde ici.
+  Other_Guild_Msg_4: §7À la guerre!
+  Emblem_Menu: §0§l  » EMBLEME DE GUILDE
+  Save_Emblem_Button: §2§l[§2✓§2§l]§r
+  Reset_Emblem_Button: §4§l[§4✘§4§l]
+  Use_Emblem_Button: §0§l[§0✎§0§l]
+  Click_To_War: '||§7Chef: §f{LEADER}||||§7Division: §f{LEVEL}||||§eCliquez pour faire
+    la guerre avec cette guilde.'
+  Header_2: Recherche de Guilde
+  No_Variable_List_2: §7Aucune guilde en guerre.
+  Score_Prefix: §7§6§lGUILDES
+  Score_Msg_9: '§b    '
+  Score_Msg_8: '§fTEMPS: §e{TIME} min(s)'
+  Score_Msg_7: '§a     '
+  Score_Msg_6: '§9§n{GUILD1}:'
+  Score_Msg_5: '§f{PLY1}/{MAX1}  '
+  Score_Msg_4: '§2  '
+  Score_Msg_3: '§c§n{GUILD2}:'
+  Score_Msg_2: '§f{PLY2}/{MAX2} '
+  Score_Msg_1: '§1 '
+  Player_No_Guild: §7Ce joueur n'a pas de guilde.
+  Menu_Donate_GUI: Placez ressources ici
+  No_Item_Magic: §7Vous n'avez pas §9{NUMBER} diamant(s) §7a donner.
+  Store_Name_Magic: §b§nRessource magique
+  Store_Color_2: §b
+  Donate_Must_Be_Gold_Magic: §7Les dons ne peuvent être que §e§ngold§r§7 ou §b§nmagic§r§7.
+  Cant_Attack_Member: §7Vous ne pouvez pas attaquer vos compagnons de guilde.
+  Enter_MOTD: §7Saisir un message du jour.
+  MOTD_Changed: §7Message du jour modifié par §a{BY}§7.
+  MOTD_Removed: §7Message du jour supprimé par §a{BY}§7.
+  MOTD_Title: §f← §e§l§nMOTD§r §f→
+  MOTD_SubTitle: §7§o{MESSAGE}
+  MOTD_ActionBar: §fMessage du jour par §a{BY}§f. §f({DATE})
+  Enter_Region_Name: §7Entrez un nom de région Worldguard.
+  No_Region: §7Pas de région WorldGuard de ce nom.
+  Allow_Or_Disallow: §7Utilisez '/sgallow region allow <region>' pour donner les droits
+    de créer une guilde sur cette région. Pour effacer '/sg region disallow <region>'
+  Region_Allowed: §7Vous autorisez la région §a{REGION} §7a donner accès à la création
+    de guildes.
+  Region_Disallowed: §7Vous refuser à la région §c{REGION} §7le droit à la création
+    de guildes.
+  Already_Ally: §7Cette guilde est déjà dans votre alliée.
+  Wait_Ally: §7Vous devez attendre §a{TIME} §7pour ajouter/supprimer un allié.
+  Added_Ally: §a{GUILD} §7et §9{ALLY} §7sont désormais alliés.
+  Ally_GUI: Invitation d'Alliance
+  Ally_InviteC_Accept: §6Accepter et devenir l'allié de §e{GUILD}§6.
+  Ally_InviteC_Lore: '||§7Les alliés ne peuvent s''attaquer entre eux.'
+  Ally_Other_Reject: §9{GUILD} §7refuse votre invitation d'alliance.
+  Ally_You_Reject: §7Vous refusez l'invitation d'alliance de la guilde §9{GUILD}§7.
+  No_Ally: §7Cette guilde n'est pas dans votre liste d'alliés.
+  Removed_Ally: §a{GUILD} §7et §c{ENEMY} §7ne sont plus alliés.
+  Cannot_War_Allies: §7Vous ne pouvez pas combattre vos alliés.
+  Cannot_Claim_Allies: §7Cette terre appartient à votre allié. Vous ne pouvez pas
+    claim.
+  Allies_GUI: Liste d'Alliés
+  Allies_Lore: '||§7Date: §e{DATE}||§7Ajouté par: §e{BY}||||§7§oUtilisez §c§o''/g
+    enemy {GUILD}'' §7§opour supprimer.'
+  No_Allies: §7Votre guilde n'a pas alliés.
+  Ally_Yourself: §7Vous ne pouvez pas faire d'alliance avec vous même.
+  Help_Pages_4::Line_1: §e/guilds ally <guild> §8- §7Définir une guilde comme un allié.
+  Help_Pages_4::Line_2: §e/guilds enemy <guild> §8- §7Retirer une guilde de votre
+    liste d'alliés.
+  Help_Pages_4::Line_3: §e/guilds allies §8- §7Voir les alliés.
