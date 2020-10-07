@@ -3,10 +3,10 @@ Messages:
   Char_Error: §7Le texte contient des caractères inappropriés.
   WorldGuard_Error: §7Il est sous la protection de WorldGuard.
   Chunk_Error: §7Il y a une autre guilde ici.
-  Dont_Have_Gold_To_Create: §7Vous n&#39;avez pas assez de lingots d&#39;or dans votre
+  Dont_Have_Gold_To_Create: §7Vous n'avez pas assez de lingots d'or dans votre
     inventaire pour créer la guilde. Vous devez avoir §e {NUMBER} §7.
   Created_Guild: §E {PLAYER} §7, créé §b {GUILD} §7guild.
-  Land_Error: §7 Votre position n&#39;est pas sûre.
+  Land_Error: §7 Votre position n'est pas sûre.
   Guild_Name_Length: §7 Ce nom de guilde est trop long ou trop court.
   That_Guild_Exists: §7Il existe une telle guilde.
   Enter_Guild_Name: §7Saisissez le nom de la guilde.
@@ -15,13 +15,13 @@ Messages:
   Remove_Confirm: §7Etes-vous sûr de vouloir supprimer la guilde? Si vous êtes sûr,
     utilisez à nouveau cette commande
   Guild_Removed: §7La guilde a été supprimée.
-  No_Permission: §7Vous n&#39;avez pas la permission pour cela.
-  You_Dont_Have_Guild: §7Vous n&#39;avez pas de guilde.
-  You_Arent_Leader: §7Vous n&#39;êtes pas le chef de la guilde.
+  No_Permission: §7Vous n'avez pas la permission pour cela.
+  You_Dont_Have_Guild: §7Vous n'avez pas de guilde.
+  You_Arent_Leader: §7Vous n'êtes pas le chef de la guilde.
   Guild_Remove_Broadcast: §C {GUILD} §7a été dissous.
   Option_Disabled: §7Cette fonction est désactivée.
   No_Rank: §7 Votre rang de guilde ne suffit pas.
-  You_Dont_Have_This_Chunk: §7Votre guilde n&#39;a pas ce morceau.
+  You_Dont_Have_This_Chunk: §7Votre guilde n'a pas ce morceau.
   Done_Set_Home: §7La maison de la guilde est définie.
   Teleporting_Message: §7Vous serez téléporté dans §e {TIME} §7seconds.
   Teleport_Cancel: §7La téléportation a été annulée car vous avez déménagé.
@@ -67,7 +67,7 @@ Messages:
   Guild_Header_Kick: Kickez Joueurs
   Guild_Kick_Lore: '||§eRang: §f{RANK}||||§7Cliquez pour kicker un joueur de la guilde.'
   Kick_Error_No_Guild: §7Ce joueur ne fait pas partie de la guilde.
-  Kick_Error_No_Rank: §7 Votre rang de guilde n&#39;est pas suffisant pour expulser
+  Kick_Error_No_Rank: §7 Votre rang de guilde n'est pas suffisant pour expulser
     ce joueur.
   Kicked_Player: §C {KICKED} §7 expulsé de votre guilde par §e {JOUEUR} §7.
   You_Kicked: §7Vous avez été expulsé de la guilde.
@@ -81,8 +81,8 @@ Messages:
   Attacked_Chunk: §7Votre guilde a pris un terrain à §e {LAND} §7belongs §c {OWN}
     §7.
   Chunk_Claimed: §7Vous avez réclamé un terrain au §e {LAND} §7.
-  Chunk_Error_You: §7Cette terre n&#39;est pas la vôtre.
-  Chunk_Unclaimed: §7Vous n&#39;avez pas réclamé un terrain à §e {LAND} §7.
+  Chunk_Error_You: §7Cette terre n'est pas la vôtre.
+  Chunk_Unclaimed: §7Vous n'avez pas réclamé un terrain à §e {LAND} §7.
   Buildings_GUI: Bâtiments de guilde
   Buildings_Name_Townhall: §6 Mairie
   Buildings_Name_Barrack: §6Barrack
@@ -109,17 +109,17 @@ Messages:
   Store_Status: '§7 Disponible: §f {NUMBER}'
   Donate_Lore_Gold: §7Cliquez pour donner de la ressource en or.
   Donate_Lore_Magic: §7Cliquez pour donner de la ressource en magie (diamant).
-  Help_Pages_1::Line_1: Aide §e / guilds §8- §7Ouvre la page d&#39;aide.
-  Help_Pages_1::Line_2: §E / guildes créent<guild name> §8- §7Crée une guilde.
+  Help_Pages_1::Line_1: Aide §e / guilds §8- §7Ouvre la page d'aide.
+  Help_Pages_1::Line_2: §E / guildes créent §8- §7Crée une guilde.
   Help_Pages_1::Line_3: §E / guildes supprimer §8- §7Supprimer la guilde actuelle.
-  Help_Pages_1::Line_4: §E / emblème de guildes §8- §7Faire l&#39;emblème de guilde.
+  Help_Pages_1::Line_4: §E / emblème de guildes §8- §7Faire l'emblème de guilde.
   Help_Pages_1::Line_5: §E / info guildes §8- §7 Affiche les statistiques de guilde.
   Help_Pages_1::Line_6: §E / les guildes quittent §8- §7 Quitte votre guilde.
   Help_Pages_1::Line_7: §E / stockage des guildes §8- §7 Affiche le stockage des guildes.
-  Help_Pages_1::Line_8: §E / guildes réclame le nom<name> §8- §7Définir le nom de
+  Help_Pages_1::Line_8: §E / guildes réclame le nom §8- §7Définir le nom de
     la créance où vous êtes.
   Help_Pages_2::Line_1: §E / chef de guilde §8- §7 Donne à un joueur le rang de leader.
-  Help_Pages_2::Line_2: §E / guildes invitent<player> §8- §7Invite un joueur à devenir
+  Help_Pages_2::Line_2: §E / guildes invitent §8- §7Invite un joueur à devenir
     guilde.
   Help_Pages_2::Line_3: §E / réclamation des guildes §8- §7 réclamations où vous êtes.
   Help_Pages_2::Line_4: §E / les guildes ne réclament pas §8- §7 Ne réclame pas où
@@ -141,27 +141,27 @@ Messages:
     invitations de guilde.
   Help_Pages_3::Line_8: §E / chat de guilde §8- §7 Activer / désactiver le chat de
     guilde.
-  Next_Page: §8§m -------- §r §7Utiliser l&#39;aide §6 / sg {SUIVANT} §7pour voir
+  Next_Page: §8§m -------- §r §7Utiliser l'aide §6 / sg {SUIVANT} §7pour voir
     la page suivante. §8§m -------
   Invite_Player_Name: §7Saisissez le nom du joueur à inviter.
   Cant_Invite_Yourself: §7Vous ne pouvez pas vous inviter vous-même.
   Player_Closed_Invites: §7Ce lecteur désactivé invite.
   Player_Has_Guild: §7Ce joueur a une guilde.
   Your_Guild_Is_Full: §7Votre guilde est pleine. Vous pouvez mettre à niveau Townhall
-    pour plus d&#39;emplacements de joueur.
-  Invite_Wait: §7Vous devez attendre §e {TIME} §7 pour inviter quelqu&#39;un.
+    pour plus d'emplacements de joueur.
+  Invite_Wait: §7Vous devez attendre §e {TIME} §7 pour inviter quelqu'un.
   This_Guild_Is_Full: §7Cette guilde est complète.
-  Invite_Send: §7L&#39;invitation de guilde a été envoyée au joueur.
+  Invite_Send: §7L'invitation de guilde a été envoyée au joueur.
   Invite_GUI: Carte d'invitation
   InviteC_Accept: §6Accepter et rejoindre §e {GUILD} §6.
   InviteC_Reject: §CRejeter et fermer le menu.
-  You_Reject: §7Vous rejetez l&#39;invitation de guilde.
+  You_Reject: §7Vous rejetez l'invitation de guilde.
   You_Joined_Guild: §7Vous avez rejoint la §e {GUILD} §7guild.
   Player_Joined_Guild: §6 {JOUEUR} §7 joint au §e {GUILD} §7guild.
-  Disabled_Invites: §7Vous avez désactivé les cartes d&#39;invitation.
-  Enabled_Invites: §7Vous avez activé les cartes d&#39;invitation.
-  Donate_Usage: §7Vous pouvez donner de l'argent via la commande §e/g donate <gold/magic>
-    <number>§7.
+  Disabled_Invites: §7Vous avez désactivé les cartes d'invitation.
+  Enabled_Invites: §7Vous avez activé les cartes d'invitation.
+  Donate_Usage: §7Vous pouvez donner de l'argent via la commande §e/g donate 
+    §7.
   Enter_An_Integer: §7Saisissez un entier.
   No_Storage: §7Pas de stockage pour §f {NUMBER} {RESSOURCE} §r§7. §7 Vous pouvez
     mettre à niveau le stockage pour ce faire.
@@ -180,7 +180,7 @@ Messages:
   Locale_Error: Impossible de se connecter aux données Web pour le fichier de paramètres
     régionaux.
   Enter_Language: Entrer le langage.
-  Guild_Error_Upgrade: §7Vous n&#39;êtes plus dans cette guilde
+  Guild_Error_Upgrade: §7Vous n'êtes plus dans cette guilde
   Buildings_Required_Lore_0: §b§nCoût de mise à niveau;
   Buildings_Required_Lore_1: '§7 → {GOLD}: §f{GNEED}||§7 → {MAGIC}: §f{MNEED}'
   No_Magic_Guild: §7Votre guilde n'a pas assez de magie (diamant).
@@ -190,21 +190,21 @@ Messages:
   Buildings_Broadcast_1: '§7 Capacité de la guilde augmentée: §a {NUM}'
   Buildings_Broadcast_2: §7Votre guilde commencera les guerres avec {ITEM} §7.
   Buildings_Broadcast_3: '§7 Stockage de guilde augmenté: §a 500'
-  Buildings_Broadcast_4: §7 Votre guilde peut utiliser le niveau d&#39;alchimie suivant
+  Buildings_Broadcast_4: §7 Votre guilde peut utiliser le niveau d'alchimie suivant
     maintenant
   Showing_Claims: §7Vous pouvez voir toutes vos revendications de guilde maintenant.
     Si vous ne voulez pas les voir, vous pouvez vous reconnecter au serveur.
-  No_Claims: §7Vos guildes n&#39;a pas de revendications.
+  No_Claims: §7Vos guildes n'a pas de revendications.
   Show_Claim_Wait: §7Vous devez attendre §e {TIME} §7pour afficher toutes les réclamations.
   Change_Rank: '||§7Cliquez pour changer le rang du joueur.'
   Status_Online: §AEn ligne
   Status_Offline: §COffline
   Rank_Yourself: §7Vous ne pouvez pas changer votre rang.
-  Rank_Not_Enough: §7 Votre rang n&#39;est pas suffisant pour cette action.
+  Rank_Not_Enough: §7 Votre rang n'est pas suffisant pour cette action.
   Guild_Rank_Lore: '||§7Votre rang: §f{RANK}'
   Guild_Header_Rank: Changez le rang
   Select_GUI: Type de liste
-  Player_Info_No_Guild: '|| §7Le joueur n&#39;a pas de guilde.'
+  Player_Info_No_Guild: '|| §7Le joueur n'a pas de guilde.'
   Player_Stats: Statistiques du joueur
   Player_Info_Name_1: '§6 Informations sur le Guild:'
   Player_Info_Name_2: '§6 Informations sur le joueur:'
@@ -217,10 +217,10 @@ Messages:
     §f{DMAGIC}'
   Player_Info_3: '||§eVie: §f{HEALTH}/10||||§eFaim: §f{HUNGER}/10||||§eLocalisation:
     §f{LOCATION}'
-  No_Guild_Like_This: §7Aucune guilde n&#39;a été trouvée sous ce nom.
-  No_Player_Like_This: §7Aucun joueur n&#39;a été trouvé avec ce nom.
+  No_Guild_Like_This: §7Aucune guilde n'a été trouvée sous ce nom.
+  No_Player_Like_This: §7Aucun joueur n'a été trouvé avec ce nom.
   Guild_Emblem_GUI: §6 Emblème de la guilde
-  Guild_Emblem_Lore: '|| §7Cliquez pour créer l&#39;emblème de la guilde.'
+  Guild_Emblem_Lore: '|| §7Cliquez pour créer l'emblème de la guilde.'
   See_Stats: '||§7Cliquez pour voir les informations joueur.'
   Rank_Changed: §7Votre rang a été changé en {RANK} §7.
   Ranked_Player: §7 {OLDRANKCHANGEP} {CHANGEP} Le rang de §7 a été changé en {NEWRANKCHANGEP}
@@ -234,10 +234,10 @@ Messages:
   Reloading_1: §7Tous les fichiers sont en cours de rechargement...
   Reloading_2: §7Tous les fichiers sont rechargés.
   Version: §eSUPER GUILDE {VERSION} §7par §bRepublicanSensei§7.
-  Emblem_Saved: §7L&#39;emblème de la guilde a été sauvegardé.
-  Select_Color: §7Vous n&#39;avez pas sélectionné la couleur.
-  Select_Code: §7Vous n&#39;avez pas coché la case.
-  Guild_Emblem_Changed: §7L&#39;emblème de votre guilde a été modifié par §e {JOUEUR}
+  Emblem_Saved: §7L'emblème de la guilde a été sauvegardé.
+  Select_Color: §7Vous n'avez pas sélectionné la couleur.
+  Select_Code: §7Vous n'avez pas coché la case.
+  Guild_Emblem_Changed: §7L'emblème de votre guilde a été modifié par §e {JOUEUR}
     §7.
   Create_Guild_Disabled_World: §7 Vous ne pouvez pas créer de guilde dans votre monde
   Divisions_0: §8Bronze
@@ -283,9 +283,9 @@ Messages:
   Alchemy_Type_4_Name_1: §6 Résistance de niveau I
   Alchemy_Type_4_Name_2: §6 Résistance niveau II
   Alchemy_Type_4_Name_3: §6 Résistance niveau III
-  Bought_Alchemy_Guild: §E {GUILD} §7guild, acheté §6 {TYPE} §7à partir de l&#39;alchimie
+  Bought_Alchemy_Guild: §E {GUILD} §7guild, acheté §6 {TYPE} §7à partir de l'alchimie
     de guilde.
-  Bought_Alchemy_Own: §7 {RANK} {PLAYER} §7, acheté §6 {TYPE} §7 à l&#39;alchimie
+  Bought_Alchemy_Own: §7 {RANK} {PLAYER} §7, acheté §6 {TYPE} §7 à l'alchimie
     de guilde.
   Barrack_Upgrade_Item_1: §7Ensemble en cuir
   Barrack_Upgrade_Item_2: §eEnsemble en or
@@ -321,20 +321,20 @@ Messages:
     vers cette revendication.'
   Click_To_Info: '||§7Chef: §f{LEADER}||||§7Division: §f{LEVEL}||||§eCliquez ici pour
     voir les informations guilde.'
-  ClaimName_Usage: §7Utiliser §e / sg claimname<name> §7pour modifier le nom de l&#39;endroit
+  ClaimName_Usage: §7Utiliser §e / sg claimname §7pour modifier le nom de l'endroit
     où vous êtes au chunk.
   ClaimName_Changed: §7Nom de la réclamation situé au §e {LOC} §7 remplacé par §6
     {NOM} §7par §9 {BY} §7.
   No_Item_Gold: §7Vous n'avez pas §e{NUMBER} lingots d'or §7à donner.
   Arena_Created: '§7Arena a créé: §e {ARENA}'
   Arena_Exists: §7Il existe déjà une arène à ce nom.
-  Enter_Arena_Name: §7Saisissez le nom de l&#39;arène.
-  No_Arena: §7Il n&#39;y a pas une telle arène.
+  Enter_Arena_Name: §7Saisissez le nom de l'arène.
+  No_Arena: §7Il n'y a pas une telle arène.
   Arena_Removed: '§7Arena supprimé: §e {ARENA}'
-  Enter_Setspawn_Type: §7Vous devez entrer le type d&#39;équipe. (1 ou 2)
-  Setspawn_Done: §ETeam- {TYPE} §7 Le point d&#39;apparition de §a {ARENA} §7 a été
+  Enter_Setspawn_Type: §7Vous devez entrer le type d'équipe. (1 ou 2)
+  Setspawn_Done: §ETeam- {TYPE} §7 Le point d'apparition de §a {ARENA} §7 a été
     défini.
-  Lobby_Done: §7 Le lobby a été réglé sur l&#39;endroit où vous êtes à . Les joueurs
+  Lobby_Done: §7 Le lobby a été réglé sur l'endroit où vous êtes à . Les joueurs
     seront téléportés ici après la fin de la partie
   Restart_Kick_restart: §7 Vous avez été expulsé parce que cette arène a été redémarrée.
   Restart_Kick_error: §7 Vous avez été expulsé parce que cette arène a été boguée.
@@ -343,8 +343,8 @@ Messages:
     est {MINIMUM})
   You_War_Minimum: §7Vous avez §e {ONLINE} §7membre (s) en ligne . (le minimum est
     {MINIMUM})
-  Enemy_Leader_Not_Online: §7À l&#39;heure actuelle, personne n&#39;a la permission
-    de répondre à l&#39;invitation dans cette guilde.
+  Enemy_Leader_Not_Online: §7À l'heure actuelle, personne n'a la permission
+    de répondre à l'invitation dans cette guilde.
   Enemy_Guild_In_War: §7Cette guilde est en guerre.
   Your_Guild_In_War: §7Votre guilde est en guerre.
   Cannot_War_Yourself: §7 Vous ne pouvez pas faire la guerre avec vous-même.
@@ -354,7 +354,7 @@ Messages:
   War_InviteC_Accept: §6Accepter et faire la guerre avec §c{GUILD}§6.
   War_InviteC_Reject: §cRejeter et fermer le menu.
   War_Other_Reject: §9 {GUILD} §7 a rejeté votre invitation à la guerre.
-  War_You_Reject: §7Vous avez rejeté l&#39;invitation à la guerre du §9 {GUILD} §7.
+  War_You_Reject: §7Vous avez rejeté l'invitation à la guerre du §9 {GUILD} §7.
   No_Available_Arena: §7Aucune arène disponible trouvée.
   War_Starting_Timer: §9 {GUILD1} §7vs. §c {GUILD2} §7 sera démarré dans §e {SECONDS}
     §7second (s) .
@@ -362,7 +362,7 @@ Messages:
     bonne chance!
   War_Starting: §7Invitation de guerre acceptée, préparez vous pour la guerre!
   War_End_Timer: §7La guerre se terminera dans §e {MINUTES} §7minute (s) .
-  Game_Finished_Time: §7Le temps est fini, personne n&#39;a gagné.
+  Game_Finished_Time: §7Le temps est fini, personne n'a gagné.
   No_Command_War: §7 Vous ne pouvez pas utiliser de commandes pendant que vous êtes
     en guerre.
   War_Death_1: §9{VICTIM} ({VGUILD}) §7tué par §c{ATTACKER} ({AGUILD}) §7et est éliminée
@@ -377,7 +377,7 @@ Messages:
     ✪§7.
   Arena_Debug: §7Arena §a {ARENA} §7 a redémarré.
   No_Arena_Found: §7Aucune arène trouvée.
-  Arena_Guilds: '§7 Guildes d&#39;Arena: §f'
+  Arena_Guilds: '§7 Guildes d'Arena: §f'
   Arena_TimeLeft: '§7Temps restant: §f'
   Status_Text_0: §A§lWAITING
   Status_Text_1: §E§lINGAME
@@ -402,10 +402,10 @@ Messages:
   Death_Broadcast: §3 [{VGUILD}] §9 {VICTIME} §7 tué par §6 [{AGUILD}] §e {ATTAQUEUR}
     §4 [- {GOLD} Or]
   Death_Gold_Gain: Votre guilde gagne §e {GOLD} Or §7 parce que §7 {RANK} {PLAYER}
-    §7 a tué quelqu&#39;un.
+    §7 a tué quelqu'un.
   Death_Gold_Loss: La perte de votre guilde §4- {GOLD} Gold §7 parce que §7 {RANK}
-    {PLAYER} §7 est mort par quelqu&#39;un.
-  Buildings_Broadcast_TNT: §7TNTs n&#39;exploseront pas dans vos terres revendiquées
+    {PLAYER} §7 est mort par quelqu'un.
+  Buildings_Broadcast_TNT: §7TNTs n'exploseront pas dans vos terres revendiquées
   Buildings_Lore_TNT: §7 → TNT n'explosera pas dans vos territoires.
   Guild_Info_4: §6Marché de guilde
   Text_Status: '§7Statuts:'
@@ -414,19 +414,19 @@ Messages:
   Click_To_Teleport: §7Cliquez ici pour vous téléporter.
   Click_To_Select_Color: §FCliquez sur moi pour le sélectionner comme colorant.
   Click_To_Dye_Here: Cliquez-moi pour teindre ici.
-  Save_Emblem_Lore: §FCliquez sur moi pour enregistrer et appliquer l&#39;emblème.
+  Save_Emblem_Lore: §FCliquez sur moi pour enregistrer et appliquer l'emblème.
   Reset_Emblem_Lore: §FCliquez sur moi pour effacer votre brouillon.
-  Use_Emblem_Lore: §FCliquez sur moi pour modifier l&#39;emblème de votre guilde.
+  Use_Emblem_Lore: §FCliquez sur moi pour modifier l'emblème de votre guilde.
   Wilderness_Text: §2§l§nSauvage§r §2§l⚘
-  Wilderness_Msg_1: §7§oJ&#39;aime la nature...
+  Wilderness_Msg_1: §7§oJ'aime la nature...
   Wilderness_Msg_2: §7§oJe me sens libre...
-  Wilderness_Msg_3: §7§oJe suis un homme libre et j&#39;ai besoin de ma liberté.
+  Wilderness_Msg_3: §7§oJe suis un homme libre et j'ai besoin de ma liberté.
   Wilderness_Msg_4: §7§oLe secret du bonheur est la nature.
   Home_Text: §A§l§nAccueil§r §a§l⌂
   Home_Msg_1: §7§oMaison douce maison...
-  Home_Msg_2: §7§oIl n&#39;y a rien de mieux que de rentrer à la maison
+  Home_Msg_2: §7§oIl n'y a rien de mieux que de rentrer à la maison
   Home_Msg_3: §7Vous avez trouvé ce dont vous avez besoin et rentrez chez vous
-  Home_Msg_4: §7La maison d&#39;un homme est son château.
+  Home_Msg_4: §7La maison d'un homme est son château.
   Other_Guild_Text: §4§l§n {GUILDE} §r §4§l☠
   Other_Guild_Msg_1: §7§oSoyez prudent.
   Other_Guild_Msg_2: §7Shh, ils peuvent nous entendre.
@@ -450,7 +450,7 @@ Messages:
   Score_Msg_3: '§c§n{GUILD2}:'
   Score_Msg_2: '§f{PLY2}/{MAX2} '
   Score_Msg_1: '§1 '
-  Player_No_Guild: §7Ce joueur n&#39;a pas de guilde.
+  Player_No_Guild: §7Ce joueur n'a pas de guilde.
   Menu_Donate_GUI: Mettez les ressources ici
   No_Item_Magic: §7Vous n'avez pas §9{NUMBER} diamant(s) §7a donner.
   Store_Name_Magic: §b§nRessource magique
@@ -465,13 +465,13 @@ Messages:
   MOTD_ActionBar: §FMessage du jour par §a {BY} §f. §f ({DATE})
   Enter_Region_Name: §7Saisissez le nom de la région du WorldGuard.
   No_Region: §7Aucune région WorldGuard fondée sous ce nom.
-  Allow_Or_Disallow: §7Utiliser §a &#39;/ sgallow region allow<region> &#39;§7pour
-    donner l&#39;accès créer des guildes sur la région. Pour supprimer cette utilisation
-    §c&#39; / sgadmin region disallow<region> &#39;§7. Pour vérifier les régions,
-    utilisez §e&#39; / sgadmin region list&#39;§7.
+  Allow_Or_Disallow: §7Utiliser §a '/ sgallow region allow '§7pour
+    donner l'accès créer des guildes sur la région. Pour supprimer cette utilisation
+    §c' / sgadmin region disallow '§7. Pour vérifier les régions,
+    utilisez §e' / sgadmin region list'§7.
   Region_Allowed: §7Vous avez autorisé §a {REGION} §7WorldGuard region à donner accès
     pour créer des guildes sur region.
-  Region_Disallowed: §7Vous n&#39;avez pas autorisé §c {REGION} §7WorldGuard region
+  Region_Disallowed: §7Vous n'avez pas autorisé §c {REGION} §7WorldGuard region
     à donner accès à la création de guildes sur region.
   Already_Ally: §7Cette guilde est déjà votre alliée.
   Wait_Ally: §7Vous devez attendre §a{TIME} §7pour ajouter/supprimer un allié.
@@ -491,14 +491,14 @@ Messages:
     enemy {GUILD}'' §7§opour supprimer.'
   No_Allies: §7Votre guilde n'a pas alliés.
   Ally_Yourself: §7Vous ne pouvez pas faire d'alliance avec vous même.
-  Help_Pages_4::Line_1: §E / allié des guildes / trêve / ennemi / neutre<guild> §8-
+  Help_Pages_4::Line_1: §E / allié des guildes / trêve / ennemi / neutre §8-
     §7 Définit la relation avec une guilde.
   Help_Pages_4::Line_2: §E / relations entre guildes §8- §7 Affiche les relations
     de votre guilde.
   Help_Pages_4::Line_3: §e/guilds allies §8- §7Voir les alliés.
   Tournaments_Name: Tournois
   Tournaments_Status_Off_Name: '4'
-  Tournaments_Status_Off_Lore: '|| §7Le tournoi n&#39;est pas actif || §7 pour le
+  Tournaments_Status_Off_Lore: '|| §7Le tournoi n'est pas actif || §7 pour le
     moment et réessayer plus tard.'
   Tournaments_In_Name: §6§n Informations sur le tournoi
   Tournaments_In_Lore: '|| §7 Attendre un adversaire...'
@@ -518,10 +518,10 @@ Messages:
   Tournament_Joins_Closed: §7Les matchs du tournoi ont été définis. Vérifiez-le avec
     le menu du tournoi.
   Your_Guild_Already_Tournament: §7 Votre guilde est déjà dans le tournoi.
-  Tournament_Not_Active: §7Le tournoi n&#39;est pas actif pour le moment.
+  Tournament_Not_Active: §7Le tournoi n'est pas actif pour le moment.
   Cant_Join_Closed: §7Votre guilde ne peut pas rejoindre le tournoi pour le moment.
   Guild_Joined_Tournament: §A {GUILD} §7a rejoint le tournoi. §8 [§e {ALL} rejoint§8]
-  Tournament_Not_Enough: §7Le tournoi est fermé car il n&#39;y avait pas assez d&#39;équipes
+  Tournament_Not_Enough: §7Le tournoi est fermé car il n'y avait pas assez d'équipes
     pour participer au tournoi.
   You_Cant_War_Tournament: §7Désolé, votre guilde ne peut pas faire la guerre tant
     que le tournoi est actif
@@ -539,7 +539,7 @@ Messages:
   Locale_it_IT: §6Italiano
   Locale_ru_RU: §6Руска
   Locale_tr_TR: §6Türkçe
-  No_Region_Found: §7Il n&#39;y a pas de régions autorisées.
+  No_Region_Found: §7Il n'y a pas de régions autorisées.
   Region_List: §A§nListe des régions autorisées
   Top_Guilds: Meilleures Guildes
   War_Top_GUI: §7Cliquez pour consulter la liste des meilleures guildes.
@@ -550,7 +550,7 @@ Messages:
   Guild_Home_Menu_Name: §6Guild Home
   Guild_Home_Menu_Lore: '|| §7Cliquez pour téléporter la maison de votre guilde.'
   Tournament_Cooldown: §7Les correspondances seront définies dans §e {SECOND} §7seconde
-    (s) . §7 Votre guilde peut rejoindre avec la commande &#39;§e / g§7&#39;
+    (s) . §7 Votre guilde peut rejoindre avec la commande '§e / g§7'
   You_Need_More_Resource: §7Vous avez besoin de plus de §f {AMOUNT} §7de {RESSOURCE}
     §r §7pour ce faire.
   Menu_War_Lore_New: '§EGuild; || §7 → Division: §f {NIVEAU} || §7 → Points: §f {POINTS}
@@ -559,13 +559,13 @@ Messages:
   Claim_Name: §7§o (Vous pouvez modifier le nom de cette réclamation || §7§ en utilisant
     §e / g claimname §7§ocommand.)
   Resource_Donate_Lore: §7Cliquez pour faire un don de ressources.
-  SYNC_Enter_File_Type: §7Saisissez le fichier à synchroniser. (/ sg sync<config/locale>
+  SYNC_Enter_File_Type: §7Saisissez le fichier à synchroniser. (/ sg sync
     )
   Building_Status_0: Prêt à évoluer ?
   Building_Status_1: Mise à niveau...
-  Building_Status_2: En attente de l&#39;action terminée...
+  Building_Status_2: En attente de l'action terminée...
   Buildings_Lore: '|| §eBuilding Level: §f {LEVEL} || §eStatus: §f {STATUS} || {TIMESHOW}
-    |||| §7Cliquez pour voir la page d&#39;informations.'
+    |||| §7Cliquez pour voir la page d'informations.'
   Buildings_Time_Remaining: '|| §eTime restant: §f {TIME}'
   Upgrade_Emblem_Button: A l
   Quit_Emblem_Button: 4 l
@@ -598,21 +598,21 @@ Messages:
   Romen_Num_0: ''
   Building_Status_3: Niveau maximal
   Join_Status_Name_0: §C§lPrivé
-  Join_Status_Lore_0: §4§o &quot;Seuls les joueurs invités peuvent rejoindre la guilde.&quot;
+  Join_Status_Lore_0: §4§o "Seuls les joueurs invités peuvent rejoindre la guilde."
   Join_Status_Name_1: §A§lPublic
-  Join_Status_Lore_1: §2§o &#39;Les gens peuvent rejoindre une guilde sans invitation.&#39;
+  Join_Status_Lore_1: §2§o 'Les gens peuvent rejoindre une guilde sans invitation.'
   ChangeJoinStatus_Lore: '|||| §7Cliquez ici pour changer la condition.'
-  This_Guild_Is_Not_Public: §7Cette guilde n&#39;est pas publique, elle doit vous
+  This_Guild_Is_Not_Public: §7Cette guilde n'est pas publique, elle doit vous
     inviter.
-  Resource_Give_Usage: '§7Utilisation: ressource §e / sgadmin<guild><resource><add/remove/set><amount>'
-  Resource_Give_Admin: §7Vous avez ajouté §a {NUMBER} §7to §f {GUILD} §7&#39;s {RESOURCE}
+  Resource_Give_Usage: '§7Utilisation: ressource §e / sgadmin'
+  Resource_Give_Admin: §7Vous avez ajouté §a {NUMBER} §7to §f {GUILD} §7's {RESOURCE}
     §7.
-  Resource_Remove_Admin: §7Vous avez supprimé §c {NUMBER} §7de §f {GUILD} §7&#39;s
+  Resource_Remove_Admin: §7Vous avez supprimé §c {NUMBER} §7de §f {GUILD} §7's
     {RESOURCE} §7.
   Resource_Set_Admin: §7Vous définissez §f {GUILD} §7 {RESOURCE} §7 sur §a {NUMBER}
     §7.
-  Disabled_ChatSpy: §7Vous avez désactivé l&#39;espion de chat de guilde.
-  Enabled_ChatSpy: §7Vous avez activé l&#39;espion de chat de guilde.
+  Disabled_ChatSpy: §7Vous avez désactivé l'espion de chat de guilde.
+  Enabled_ChatSpy: §7Vous avez activé l'espion de chat de guilde.
   Holo_Message_Claim: '§E§l- {GUILD} A RÉCLAMÉ ICI -; §7Claimer: §f {PLAYER}; §7Total
     Chunks: §f {CHUNKS};'
   Holo_Message_Build_New: '§6§l- {CONSTRUCTION} ZONE DE BÂTIMENT -; §7 Guilde des
@@ -630,14 +630,14 @@ Messages:
   PageAPI_NoVariable_2: §C§nAucune guilde trouvée pour la guerre.
   PageAPI_NoVariable_3: §C§nAucun joueur trouvé.
   PageAPI_NoVariable_4: §C§nAucune relation de guilde trouvée.
-  PageAPI_NoVariable_5: §C§nAucune guilde publique n&#39;a été trouvée à rejoindre.
+  PageAPI_NoVariable_5: §C§nAucune guilde publique n'a été trouvée à rejoindre.
   PageAPI_NextPage_Name: §APage suivante
   PageAPI_PreviousPage_Name: §APage précédente
   PageAPI_MainPage_Name: §APage principale
   Menu_PreviousMenu_Name: §CMenu précédent
   RankGUI_PermName_Disband: §F§nDisband Guild
   RankGUI_PermName_Upgrade: §F§nMettre à niveau les bâtiments de guilde
-  RankGUI_PermName_Alchemy: §F§nUtiliser l&#39;alchimie de guilde
+  RankGUI_PermName_Alchemy: §F§nUtiliser l'alchimie de guilde
   RankGUI_PermName_Kick: §F§nKick Guild Membres
   RankGUI_PermName_Rank: §F§nChanger les autorisations des membres de la guilde
   RankGUI_PermName_Condition: §F§nChanger la condition de jointure
@@ -657,7 +657,7 @@ Messages:
     de guilde.'
   Member_Information_Rank: '|||| §7§nLEFT-CLICK to... || §Fmodifier le rang du joueur.'
   Tournament_Started_Broadcast: §7Le tournoi de guilde est activé! Rejoindre avec
-    la commande &#39;§e / g§7 &#39;.
+    la commande '§e / g§7 '.
   Top_Calc_Time_Name: '§A§nTemps restant pour rafraîchir le haut:'
   War_Death_1_New: §F {ATTAQUEUR} ({AGUILD}) §c⚔ §f {VICTIME} ({VGUILD}) §7 [{POINTS}
     ☆]
@@ -669,7 +669,7 @@ Messages:
     → Décès: §f {MORT} || §7 → KDA: §f {KDA } || §eDonated to all; || {DONATEINFO}'
   PlayerStats_3: '|| §eHealth: §f {HEALTH} / 10 || §eHunger: §f {HUNGER} / 10 || §eLocation:
     §f {LOCATION}'
-  PlayerStats_4: '|| §7Le joueur n&#39;est pas en ligne. || §eDernier vu: §f {SEEN}'
+  PlayerStats_4: '|| §7Le joueur n'est pas en ligne. || §eDernier vu: §f {SEEN}'
   RaceSelectGUI_Header: Sélectionner un
   RaceSelectGUI_Select: '|||| §fCliquez ici pour sélectionner cette race.'
   RaceSelectGUI_Select_2: '|||| §fCliquez ici pour changer votre race.'
@@ -691,7 +691,7 @@ Messages:
     §f {RACE} || §eJoin Date: §f {DATE} || §eWar ; || §7 → Kills: §f {WARKILLS} ||
     §7 → Deaths: §f {WARDEATHS} || §eDonated; || {DONATEINFO} |||| §7§nRIGHT-CLICK
     to... || §FVérifier les détails du joueur. {CRANK} {CKICK}'
-  Race_Permission: §7Vous n&#39;êtes pas autorisé à activer / désactiver les effets
+  Race_Permission: §7Vous n'êtes pas autorisé à activer / désactiver les effets
     de race.
   Guild_Chat_Spy_Ops: GC SPY
   Break_Claimed_Areas_Only: §7Vous modifiez uniquement les zones revendiquées par
@@ -714,13 +714,13 @@ Messages:
     pas vous déclarer la guerre || §7 pendant que vous avez le §9war Shield §7enabled.
     |||| § 9Le bouclier de guerre §7expire au §c {TIME} §7.'
   War_Shield_Disable_Name: §CAucun bouclier de guerre
-  War_Shield_Disable_Lore: '|| §7Vous n&#39;avez pas de bouclier de guerre §9§7. ||
+  War_Shield_Disable_Lore: '|| §7Vous n'avez pas de bouclier de guerre §9§7. ||
     §7Ainsi, toute guilde peut vous déclarer une guerre. || §7Si vous perdez, vous
     gagnerez un bouclier de guerre §9§7.'
   Click_To_Info_New2: '|| §7Leader: §f {LEADER} || §7Dernier actif: §f {DERNIER} ||
     §7 Points de guerre: §f {POINTS} ✪ || §7Guerres de guerre: §f {WINS} || §7Division:
     § f {NIVEAU} || §7Membres: §f {JOUEURS} / {MAX} || §7Réclamé: §f {RÉCLAMÉ} ||||
-    {EMBLEME} |||| §eCliquez pour obtenir plus d&#39;informations.'
+    {EMBLEME} |||| §eCliquez pour obtenir plus d'informations.'
   Click_To_War_New: '|| §7Leader: §f {LEADER} || §7 Points de guerre: §f {POINTS}
     ✪ || §7Division: §f {LEVEL} |||| {EMBLEM} |||| §eCliquez pour faire la guerre
     à cette guilde.'
@@ -741,7 +741,7 @@ Messages:
   War_Shield_GUI_Lore_1: §A (Bouclier de guerre activé)
   War_Shield_GUI_Lore_2: §C (Pas de bouclier de guerre)
   No_Guild_Perm: §7 Vous ne pouvez pas faire cela avec vos autorisations.
-  WarShield_Give_Usage: '§7Utilisation: §e / sgadmin warshield<guild name><days (number)>
+  WarShield_Give_Usage: '§7Utilisation: §e / sgadmin warshield
     §7, exemple: §6 / sgadmin warshield Spigot 3'
   WarShield_Set_Admin: §7Vous avez ajouté §a {NUMBER} §7 jours de protection de guerre
     au §b {GUILD} .
@@ -749,7 +749,7 @@ Messages:
   PageAPI_Header_21: 'Trier: pas de bouclier'
   PageAPI_Header_22: 'Trier: en ligne'
   PageAPI_Header_23: 'Trier: Tout'
-  PageAPI_NoVariable_21: §C§nAucune guilde sans bouclier de guerre n&#39;a été trouvée
+  PageAPI_NoVariable_21: §C§nAucune guilde sans bouclier de guerre n'a été trouvée
   PageAPI_NoVariable_22: §C§nAucune guilde en ligne trouvée.
   Attack_GuildMembers: §CVous ne pouvez pas attaquer vos camarades de guilde!
   Wipe_Confirm: §7Est-vous sûr de supprimer les guildes §4 {GUILDS} §7 inactives pendant
@@ -757,65 +757,65 @@ Messages:
   Wipe_Error: §7Vous ne pouvez pas effacer les guildes sous §c3 jours §7inactivité
   Wipe_Happen: §7 Essuyage inactif pendant §c {DAYS} jours§7 guildes...
   Wipe_NoData: §7Aucune guilde trouvée inactive pour cette journée
-  Wipe_Done: §7 L&#39;effacement des guildes est terminé, §a {TOTAL} §7 les guildes
+  Wipe_Done: §7 L'effacement des guildes est terminé, §a {TOTAL} §7 les guildes
     inactives effacées.
-  Wipe_Usage: '§AUsage: §7 / g essuyer<inactive days count>'
+  Wipe_Usage: '§AUsage: §7 / g essuyer'
   Language_Selecting: §7Sélection de cette langue, veuillez patienter...
   RaceInfo_Name_0: §FPas de course
-  No_Perm_Race: §7Vous n&#39;avez pas la permission d&#39;être cette race.
+  No_Perm_Race: §7Vous n'avez pas la permission d'être cette race.
   Friends_MenuItemName: §6Vos amis
   Friends_MenuItemLore: '|| §7Cliquez pour voir vos amis.'
-  FriendsInvitedPlayer: §7Vous avez envoyé une demande d&#39;ami au joueur.
-  FriendsInviteJSON: §9 {PLAYER} §7 vous a envoyé une demande d&#39;ami.
-  FriendsYouHaveReachedMax: §7Vous avez atteint la limite maximale d&#39;amis.
-  FriendsNotInvited: §7Ce joueur ne vous a pas envoyé de demande d&#39;ami
-  FriendAdded: §A {PLAYER} §7a accepté votre demande d&#39;ami.
-  FriendAddedYou: §7Vous avez accepté la demande d&#39;ami de §a {PLAYER} §7.
-  FriendReject: §C {PLAYER} §7a rejeté votre demande d&#39;ami.
-  FriendRejectYou: §7Vous avez rejeté la demande d&#39;ami de §c {PLAYER} §7.
+  FriendsInvitedPlayer: §7Vous avez envoyé une demande d'ami au joueur.
+  FriendsInviteJSON: §9 {PLAYER} §7 vous a envoyé une demande d'ami.
+  FriendsYouHaveReachedMax: §7Vous avez atteint la limite maximale d'amis.
+  FriendsNotInvited: §7Ce joueur ne vous a pas envoyé de demande d'ami
+  FriendAdded: §A {PLAYER} §7a accepté votre demande d'ami.
+  FriendAddedYou: §7Vous avez accepté la demande d'ami de §a {PLAYER} §7.
+  FriendReject: §C {PLAYER} §7a rejeté votre demande d'ami.
+  FriendRejectYou: §7Vous avez rejeté la demande d'ami de §c {PLAYER} §7.
   FriendJSONText: §A§l [ACCEPTER §a✓§a§l] §r
   FriendJSONText2: §C§l [REJETER §c✘§c§l]
   FriendClosedRequests: §7Ce joueur a fermé les invitations.
-  PlayerIsNotOnline: §7Ce joueur n&#39;est pas en ligne actuellement.
+  PlayerIsNotOnline: §7Ce joueur n'est pas en ligne actuellement.
   FriendsYouAlready: §7Vous êtes déjà amis.
-  FriendsNo: §7Vous n&#39;êtes pas ami avec ce joueur.
-  FriendRemoved: §7Vous n&#39;êtes pas ami avec §c {PLAYER} §7now.
+  FriendsNo: §7Vous n'êtes pas ami avec ce joueur.
+  FriendRemoved: §7Vous n'êtes pas ami avec §c {PLAYER} §7now.
   EnterPlayerName: §7Veuillez entrer le nom du joueur
   NoYourself: §7 Vous ne pouvez pas faire ça à vous-même
   PageAPI_Header_6: Vos partenaires
-  PageAPI_NoVariable_6: §C§nVous n&#39;avez pas d&#39;amis.
+  PageAPI_NoVariable_6: §C§nVous n'avez pas d'amis.
   Click_To_Friend: '|| §7Status: §f {STATUS} || §7Guild: §f {GUILD} || §7First Add:
     §f {FIRST} || §7Dernière connexion: §f {LASTLOGIN} |||| §7§nRIGHT -CLIQUEZ sur...
-    || §Fvérifier les stats de l&#39;ami. {GLORE} |||| §7§nLEFT-CLICK avec SHIFT to...
+    || §Fvérifier les stats de l'ami. {GLORE} |||| §7§nLEFT-CLICK avec SHIFT to...
     || §Supprimer un ami de la liste.'
   Click_To_InviteGuild: '|||| §7§nClic-droit avec SHIFT to... || §Finvite ami dans
     votre guilde.'
   GuildSelectGUI_Header: Sélectionner un
   GuildSelectGUIName_1: §6 Rejoindre une guilde
-  GuildSelectGUIName_2: §6Obtenir de l&#39;aide sur les guildes
-  GuildSelectGUILore_1: '|| §7Cliquez pour rejoindre l&#39;une des guildes publiques.'
-  GuildSelectGUILore_2: '|| §7Cliquez pour obtenir de l&#39;aide sur la création de
+  GuildSelectGUIName_2: §6Obtenir de l'aide sur les guildes
+  GuildSelectGUILore_1: '|| §7Cliquez pour rejoindre l'une des guildes publiques.'
+  GuildSelectGUILore_2: '|| §7Cliquez pour obtenir de l'aide sur la création de
     guild.'
   WarShield_SetRemove_Admin: §7Vous avez supprimé §c {NUMBER} §7days of war protection
     to §b {GUILD} .
-  Resource_Fill_Admin: §7Vous avez rempli §b {GUILD} §7guild&#39;s all resources.
-  Instant_Build_Usage: '§EUsage: / sgadmin buildinstant<guild><building>'
+  Resource_Fill_Admin: §7Vous avez rempli §b {GUILD} §7guild's all resources.
+  Instant_Build_Usage: '§EUsage: / sgadmin buildinstant'
   Instant_Build_Must_Start: §7 Cette guilde doit commencer la construction de la construction
     en premier.
   Instant_Build_Okay: §7Fait! Cette guilde peut terminer la construction du bâtiment
     maintenant sans attendre
-  Friends_Make_Some_Friends: '|| §f§o / amis ajouter<player> §7§pour ajouter des amis.'
+  Friends_Make_Some_Friends: '|| §f§o / amis ajouter §7§pour ajouter des amis.'
   Connected_Chunks: §7Vos réclamations doivent être liées les unes aux autres.
   Tournament_Disabled: §7Le tournoi de guilde a été désactivé.
-  RaceRightsAdmin_1: '§7Utilisation: §e / sgadmin setracerights<player><number>'
+  RaceRightsAdmin_1: '§7Utilisation: §e / sgadmin setracerights'
   RaceRightsAdmin_2: §7Vous définissez les droits de changement de race de §a {PLAYER}
     §7 sur §e {NUMBER} §7.
-  Done_Set_Location: '{RANK} {PLAYER} §7a changé l&#39;emplacement de §e {BUILD} §7building.'
+  Done_Set_Location: '{RANK} {PLAYER} §7a changé l'emplacement de §e {BUILD} §7building.'
   Buildings_Locations_Lore: '|| §eBuilding Level: §f {LEVEL} || §eStatus: §f {STATUS}
-    |||| §7Cliquez pour définir l&#39;emplacement de || §7ce bâtiment comme votre
+    |||| §7Cliquez pour définir l'emplacement de || §7ce bâtiment comme votre
     position.'
-  Building_Location_Max_1: §7Vous devez construire ce bâtiment avant d&#39;en changer
-    d&#39;emplacement.
+  Building_Location_Max_1: §7Vous devez construire ce bâtiment avant d'en changer
+    d'emplacement.
   Building_Location_Header: Changer de lieu
   GuildJoin_Wait: §7Vous devez attendre §e {TIME} §7 pour rejoindre une nouvelle guilde.
   GuildRankHelper_1: §7⇧ Rangs prédéfinis
@@ -824,9 +824,9 @@ Messages:
   RankGUI_ChangePermission_2: '|| §7Cliquez pour supprimer cette autorisation.'
   PageAPI_Header_51: 'Trier: en ligne'
   PageAPI_NoVariable_51: §C§nAucune guilde publique en ligne trouvée.
-  BuildAdminToggle_1: §7L&#39;équipe du personnel §cc ne peut pas §7 construire /
+  BuildAdminToggle_1: §7L'équipe du personnel §cc ne peut pas §7 construire /
     interrompre les zones revendiquées maintenant.
-  BuildAdminToggle_2: §7L&#39;équipe du staff §acan §7build / break dans les zones
+  BuildAdminToggle_2: §7L'équipe du staff §acan §7build / break dans les zones
     revendiquées maintenant.
   You_ForceJoined_Guild: §7Vous forcez à rejoindre le §e {GUILD} §7guild. Vous avez
     toutes les autorisations de chef.
@@ -835,13 +835,13 @@ Messages:
     §e {GUILD} §7guild. {GOLD}
   You_ResetClaim_Guild_2: §E {GOLD} §7La ressource en or a été ajoutée.
   No_Guild_Invite: §7Cette guilde ne vous a pas invité.
-  Guild_Invite_Time_Expired: §7Le temps d&#39;invitation est expiré. Ils doivent vous
+  Guild_Invite_Time_Expired: §7Le temps d'invitation est expiré. Ils doivent vous
     inviter à nouveau.
   InviteBook_Header: §0§l§n Invitation de guilde
   InviteBook_Text1: 8 0
   InviteBook_Subtext1: §6 {GUILD} §7guild vous a envoyé une invitation à rejoindre.
   InviteBook_Subtext2: §7Ils ont §f {MEMBERS} / {MAX} §7membres.
-  InviteBook_Subtext3: §ECliquez pour obtenir plus d&#39;informations
+  InviteBook_Subtext3: §ECliquez pour obtenir plus d'informations
   InviteBook_Logo_Accept: §2§l [§2✔§2§l] §r
   InviteBook_Logo_Reject: §4§l [§4✘§4§l]
   InviteBook_Logo_Invites: §0§l [§0✂§0§l]
@@ -856,11 +856,11 @@ Messages:
   Sentinels_ItemLore: '|| §7Les sentinelles de guilde sont des PNJ qui gardent ||
     §7et attaque les ennemis avec vous. || §7Vous pouvez les acheter ou les améliorer.
     |||| §7Cliquez pour voir les sentinelles de guilde.'
-  RelationGUI_Type_Ally: Invitation d&#39;allié
+  RelationGUI_Type_Ally: Invitation d'allié
   RelationGUI_Type_Truce: Invitation de trêve
   RelationGUI_Accept_Ally: §FAccepter et être §2Ally §f avec §e {GUILD} §f.
   RelationGUI_Accept_Truce: §FAccepter et signer §ea Trêve §f avec §e {GUILD} §f.
-  RelationGUI_Accept_Lore_Ally: '|| §7Les Alliés ne peuvent pas s&#39;attaquer les
+  RelationGUI_Accept_Lore_Ally: '|| §7Les Alliés ne peuvent pas s'attaquer les
     uns les autres. || §7et peuvent construire et ouvrir || §7conteneurs sur leur
     territoire.'
   RelationGUI_Accept_Lore_Truce: '|| §7Les tirs amis sont bloqués || §7pour les membres
@@ -878,7 +878,7 @@ Messages:
   RelationGUI_Add_Enemy_2: §7 (Les guildes ennemies peuvent combattre dans chaque
     zone.)
   RelationGUI_Reject_Message: §9 {GUILD} §7 a rejeté votre invitation.
-  RelationGUI_Reject_Message_2: §7Vous avez rejeté l&#39;invitation du §9 {GUILD}
+  RelationGUI_Reject_Message_2: §7Vous avez rejeté l'invitation du §9 {GUILD}
     §7.
   Already_Truce: §7Vous avez déjà signé une trêve avec cette guilde.
   Already_Enemy: §7Cette guilde est déjà votre ennemi.
@@ -888,8 +888,8 @@ Messages:
   Cannot_War_Relation: §7 Vous ne pouvez pas vous battre avec vos alliés / guildes
     éliminées
   Relation_Yourself: §7 Vous ne pouvez pas établir de relation avec vous-même.
-  Sent_Ally_Request: §7Vous avez envoyé une demande d&#39;allié au §e {GUILD} §7.
-  Sent_Truce_Request: §7Vous avez envoyé une demande d&#39;allié au §e {GUILD} §7.
+  Sent_Ally_Request: §7Vous avez envoyé une demande d'allié au §e {GUILD} §7.
+  Sent_Truce_Request: §7Vous avez envoyé une demande d'allié au §e {GUILD} §7.
   Relation_TypeName_Ally: §2Ally
   Relation_TypeName_Truce: §ETruce
   Relation_TypeName_Enemy: §4Ennemi
@@ -909,7 +909,7 @@ Messages:
   SentinelGUI_SentinelRespawn: §ECliquez pour réapparaître la sentinelle.
   SentinelGUI_SentinelRespawnWait: §7Attendez §c {T} §7pour réapparaître la sentinelle.
   SentinelGUI_SentinelName_0: §CPas de sentinelle
-  SentinelGUI_SentinelLore_No: '|| §7Vous n&#39;avez aucune sentinelle à activer.
+  SentinelGUI_SentinelLore_No: '|| §7Vous n'avez aucune sentinelle à activer.
     || §7Acheter des §osentinels §7pour rendre votre guilde plus forte.'
   SentinelGUI_SentinelName_1: '§EDead: §f {PNJ}'
   SentinelGUI_SentinelLore_1: '|| §7 Votre sentinelle de guilde est morte ou absente.
@@ -935,18 +935,18 @@ Messages:
   SentinelStar_1: §7✩§r
   SentinelStar_2: §F§l✰ ✰§r
   SentinelStar_3: §6§l✪ ✪ ✪§r
-  SentinelNPC_SystemError_1: §7Erreur, le système n&#39;a pas pu créer le PNJ! (Afficher
+  SentinelNPC_SystemError_1: §7Erreur, le système n'a pas pu créer le PNJ! (Afficher
     ce message aux administrateurs du serveur.)
   SentinelGUI_Header: Sentinelle de guilde
   SentinelShopGUI_Header: Boutique sentinelle
   SentinelGUI_InventoryName: §6 Armée sentinelle
   SentinelGUI_InventoryLore: '|| §7Cliquez pour voir toutes vos sentinelles.'
   SentinelGUI_ShopName: §6Sentine Boutique
-  SentinelGUI_ShopLore: '|| §7Cliquez pour voir d&#39;autres sentinelles.'
-  You_Dont_Have_Sentinels: §7Vous n&#39;avez pas de sentinelles. Vous pouvez les acheter
+  SentinelGUI_ShopLore: '|| §7Cliquez pour voir d'autres sentinelles.'
+  You_Dont_Have_Sentinels: §7Vous n'avez pas de sentinelles. Vous pouvez les acheter
     sur shop.
   SentinelGUI_ArmyHeader: Armée des sentinelles
-  SentinelNPC_SystemError_2: Le système n&#39;a pas pu trouver le PNJ!
+  SentinelNPC_SystemError_2: Le système n'a pas pu trouver le PNJ!
   SentinelGUI_SentinelTPWait: §7Attendez §c {T} §7 pour vous téléporter la sentinelle.
   SentinelGUI_Max_Level: §5Niveau maximum
   Cant_Edit_Nexus: §7Vous ne pouvez pas modifier le lien de guilde.
@@ -957,12 +957,12 @@ Messages:
   Guild_Nexus_Alert_2: §7Défendez votre lien §fguild §7droite maintenant!
   Nexus_ItemName: '§4❤ Nexus Health: §f {HP} / {MAX}'
   Nexus_ItemLore: '|| §7Le Nexus est dans votre §3Townhall §7building. |||| §7Si §fHP
-    du Nexus §7 passe §c§ sous zéro§7, §7 || §7 et vous n&#39;avez pas le §6a nexus
+    du Nexus §7 passe §c§ sous zéro§7, §7 || §7 et vous n'avez pas le §6a nexus
     shield§7 , || §7votre guilde perdra §4 -% {AMOUNT} §7 des ressources de guilde.
-    |||| §7 (Si votre guilde n&#39;est pas active pendant §f {DAYS} jours§7, || §7
+    |||| §7 (Si votre guilde n'est pas active pendant §f {DAYS} jours§7, || §7
     votre guilde sera dissous.) |||| §f {STATUS}'
-  Guild_Nexus_No_Shield: §C§nVous n&#39;avez pas de bouclier nexus!
-  Guild_Nexus_Shield_Active: '§7Vous êtes protégé du raid jusqu&#39;au: || §a {DATE}'
+  Guild_Nexus_No_Shield: §C§nVous n'avez pas de bouclier nexus!
+  Guild_Nexus_Shield_Active: '§7Vous êtes protégé du raid jusqu'au: || §a {DATE}'
   Guild_Nexus_Dead_Alert_2: §7 Votre lien de guilde est rompu!
   Guild_Nexus_Dead_Alert: §C§nVous avez perdu certaines de vos ressources! §R§c (/
     stockage de guilde)
@@ -981,9 +981,9 @@ Messages:
   Raiding_Ends_Soon_2: §7Raid se termine dans §e {SECONDS} §7s. Téléportation pour
     attaquer la terre avec §a / g raid§7.
   Raiding_End_Title: §2§lRAID FAIT!
-  Raiding_Cant_Break: §7 Vous ne pouvez pas casser des coffres lors d&#39;un raid.
-  Raiding_Cant_Place: §7 Vous ne pouvez pas placer de TNT lors d&#39;un raid.
-  Raiding_Now_Enemy: §7 Vous ne pouvez pas faire la guerre à cette guilde parce qu&#39;elle
+  Raiding_Cant_Break: §7 Vous ne pouvez pas casser des coffres lors d'un raid.
+  Raiding_Cant_Place: §7 Vous ne pouvez pas placer de TNT lors d'un raid.
+  Raiding_Now_Enemy: §7 Vous ne pouvez pas faire la guerre à cette guilde parce qu'elle
     est en raid
   Raiding_Now_You: §7 Vous ne pouvez pas faire la guerre à cette guilde parce que
     vous êtes en raid
@@ -1010,16 +1010,16 @@ Messages:
     perdrez un terrain.
   WarInviteGUI_Header: Invitation de guerre
   WarInviteGUI_Selection_1_Name: §AAccepter
-  WarInviteGUI_Selection_1_Lore: '|| §7Accepter l&#39;invitation à la guerre et ||
+  WarInviteGUI_Selection_1_Lore: '|| §7Accepter l'invitation à la guerre et ||
     §7 se battre contre §c {GUILD} §7guild.'
   WarInviteGUI_Selection_2_Name: §CRejeter
-  WarInviteGUI_Selection_2_Lore: '|| §7Reclinez l&#39;invitation à la guerre et ||
+  WarInviteGUI_Selection_2_Lore: '|| §7Reclinez l'invitation à la guerre et ||
     §7Fermez ce menu.'
   WarInviteGUI_Selection_3_Name: '§6 Terre cible:'
   WarInviteGUI_Selection_3_Lore: '|| §7Ils sont dans votre pays et essaient || §7de
     capturer des terres à: || §f {LOCATION} |||| §7Si vous gagnez, ils perdront §3x2
     points de guerre§7, || §7si vous perdre, ils prendront le contrôle §9cette terre§7.'
-  Error_1746: §7Aucune arène disponible ou cette guilde n&#39;existe pas.
+  Error_1746: §7Aucune arène disponible ou cette guilde n'existe pas.
   Chunk_Unclaimed_Forced: §7Vous avez été vaincu contre §c {GUILD} et vous avez perdu
     le terrain au §f {LAND} §7.
   Guild_Management_SeePlayerInfo: '|| §fCliquez pour voir les statistiques du joueur.'
@@ -1051,7 +1051,7 @@ Messages:
   Building_Desc_Barrack: Barracks vous équipe de meilleurs objets sur Guild Wars.
   Building_Desc_Storage: Le stockage contient les ressources de la guilde, améliorez-le
     pour obtenir plus de capacité
-  Building_Desc_Alchemy: L&#39;alchimie donne la possibilité d&#39;atteindre des effets
+  Building_Desc_Alchemy: L'alchimie donne la possibilité d'atteindre des effets
     plus efficaces
   Alchemy_Type_1_Name_0: §6Force
   Alchemy_Type_2_Name_0: §6 Cheval
@@ -1081,6 +1081,6 @@ Messages:
   BG_Intro_Book_List_1: ▶ a (n) §0§l {N} §r.
   BG_Intro_Book_List_2: ▶ a (n) §0§l {N} §r.
   BG_Intro_Book_Button_1: §8Continuer ▶
-  BG_No_Perm_Kit: §7Vous n&#39;avez pas l&#39;autorisation de sélectionner ce kit.
+  BG_No_Perm_Kit: §7Vous n'avez pas l'autorisation de sélectionner ce kit.
   BG_Kit_Selected_Already: §7Vous ne pouvez pas choisir un autre kit.
   BG_Kit_Selected: §7 Votre inventaire a été mis à jour.
