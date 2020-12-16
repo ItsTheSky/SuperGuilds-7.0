@@ -281,6 +281,8 @@ Messages:
   Save_Emblem_Button: §2§l[§2✓§2§l]§r
   Reset_Emblem_Button: §4§l[§4✘§4§l]
   Use_Emblem_Button: §0§l[§0✎§0§l]
+  Import_Emblem_Button: §3§l[§3⤓§3§l]
+  Export_Emblem_Button: §b§l[§b⤒§b§l]
   Player_No_Guild: §7This player does not have a guild.
   Menu_Donate_GUI: Put Resources To Here
   Enter_MOTD: §7Enter the message of the day.
